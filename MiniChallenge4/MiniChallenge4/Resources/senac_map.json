@@ -1,0 +1,566 @@
+[
+    {
+        "nome": "Acadêmico 2",
+        "alas": [
+            {
+                "corredor": "G",
+                "salas": [
+                    {
+                        "nome": "g301",
+                        "andar": "Térreo"
+                    },
+                    {
+                        "nome": "g303",
+                        "andar": "Térreo",
+                        "descricao": "Padrão EMED"
+                    },
+                    {
+                        "nome": "g305",
+                        "andar": "Térreo",
+                        "descricao": "Padrão EMED"
+                    },
+                    {
+                        "nome": "g306",
+                        "andar": "Térreo",
+                        "descricao": "Padrão EMED"
+                    },
+                    {
+                        "nome": "g307",
+                        "andar": "Térreo",
+                        "descricao": "Padrão EMED"
+                    },
+                    {
+                        "nome": "g308",
+                        "andar": "Térreo",
+                        "descricao": "Padrão EMED"
+                    },
+                    {
+                        "nome": "g309",
+                        "andar": "Térreo",
+                        "descricao": "Padrão EMED"
+                    },
+                    {
+                        "nome": "g311",
+                        "andar": "Térreo",
+                        "descricao": "Laboratório de Morfo - Funcional 1"
+                    },
+                    {
+                        "nome": "g313",
+                        "andar": "Térreo",
+                        "descricao": "Laboratório de Avaliação Nutricional"
+                    },
+                    {
+                        "nome": "g314",
+                        "andar": "Térreo"
+                    },
+                    {
+                        "nome": "g315",
+                        "andar": "Térreo",
+                        "descricao": "Laboratório de Estética 1"
+                    },
+                    {
+                        "nome": "g316",
+                        "andar": "Térreo",
+                        "descricao": "Padrão EMED"
+                    },
+                    {
+                        "nome": "g317",
+                        "andar": "Térreo",
+                        "descricao": "Laboratório de Estética 2"
+                    },
+                    {
+                        "nome": "g401",
+                        "andar": "Primeiro andar",
+                        "descricao": "Atelier de Desenho"
+                    },
+                    {
+                        "nome": "g403",
+                        "andar": "Primeiro andar",
+                        "descricao": "Laboratório Mac - Computação Gráfica"
+                    },
+                    {
+                        "nome": "g405",
+                        "andar": "Primeiro andar",
+                        "descricao": "Laboratório Mac - Computação Gráfica"
+                    },
+                    {
+                        "nome": "g407",
+                        "andar": "Primeiro andar",
+                        "descricao": "Laboratório Mac - Computação Gráfica"
+                    },
+                    {
+                        "nome": "g408",
+                        "andar": "Primeiro andar",
+                        "descricao": "Laboratório Conforto Ambiental"
+                    },
+                    {
+                        "nome": "g409",
+                        "andar": "Primeiro andar",
+                        "descricao": "Sala de Aula com Prancheta"
+                    },
+                    {
+                        "nome": "g410",
+                        "andar": "Primeiro andar",
+                        "descricao": "Laboratório de Animação"
+                    },
+                    {
+                        "nome": "g411",
+                        "andar": "Primeiro andar",
+                        "descricao": "Sala de Aula com Prancheta"
+                    },
+                    {
+                        "nome": "g412",
+                        "andar": "Primeiro andar",
+                        "descricao": "Apoio Logístico"
+                    },
+                    {
+                        "nome": "g413",
+                        "andar": "Primeiro andar"
+                    },
+                    {
+                        "nome": "g414",
+                        "andar": "Primeiro andar"
+                    },
+                    {
+                        "nome": "g415",
+                        "andar": "Primeiro andar",
+                        "descricao": "Laboratório de Habilidades e Simulação"
+                    },
+                    {
+                        "nome": "g416",
+                        "andar": "Primeiro andar"
+                    },
+                    {
+                        "nome": "g417",
+                        "andar": "Primeiro andar"
+                    },
+                    {
+                        "nome": "g418",
+                        "andar": "Primeiro andar"
+                    },
+                    {
+                        "nome": "g419",
+                        "andar": "Primeiro andar",
+                        "descricao": "Laboratório de Avaliação Metabólica e Composição Corporal"
+                    },
+                    {
+                        "nome": "g420",
+                        "andar": "Primeiro andar"
+                    },
+                    {
+                        "nome": "g423",
+                        "andar": "Primeiro andar",
+                        "descricao": "Laboratório de Telecom Panduit/Cisco"
+                    },
+                    {
+                        "nome": "g425",
+                        "andar": "Primeiro andar"
+                    }
+                ]
+            },
+            {
+                "corredor": "K",
+                "salas": [
+                    {
+                        "nome": "k352",
+                        "andar": "Térreo"
+                    },
+                    {
+                        "nome": "k354",
+                        "andar": "Térreo"
+                    },
+                    {
+                        "nome": "k356",
+                        "andar": "Térreo"
+                    },
+                    {
+                        "nome": "k358",
+                        "andar": "Térreo"
+                    },
+                    {
+                        "nome": "k363",
+                        "andar": "Térreo"
+                    },
+                    {
+                        "nome": "k361",
+                        "andar": "Térreo"
+                    },
+                    {
+                        "nome": "k359",
+                        "andar": "Térreo"
+                    },
+                    {
+                        "nome": "k357",
+                        "andar": "Térreo"
+                    },
+                    {
+                        "nome": "k478",
+                        "andar": "Primeiro andar",
+                        "descricao": "Sala de Projeção 1"
+                    },
+                    {
+                        "nome": "k480",
+                        "andar": "Primeiro andar",
+                        "descricao": "Estúdio de Mixagem"
+                    },
+                    {
+                        "nome": "k482",
+                        "andar": "Primeiro andar",
+                        "descricao": "Sala de Projeção 2"
+                    },
+                    {
+                        "nome": "k487",
+                        "andar": "Primeiro andar",
+                        "descricao": "Auditório de Audiovisual"
+                    },
+                    {
+                        "nome": "k485",
+                        "andar": "Primeiro andar",
+                        "descricao": "Laboratório PC de Informática"
+                    },
+                    {
+                        "nome": "k483",
+                        "andar": "Primeiro andar",
+                        "descricao": "Laboratório de Informática PC"
+                    }
+                ]
+            },
+            {
+                "corredor": "J",
+                "salas": [
+                    {
+                        "nome": "j355",
+                        "andar": "Térreo",
+                        "descricao": "Coordenação Ensino Médio"
+                    },
+                    {
+                        "nome": "j353",
+                        "andar": "Térreo",
+                        "descricao": "UNI Sala dos Professores - Ensino Médio"
+                    },
+                    {
+                        "nome": "j351",
+                        "andar": "Térreo",
+                        "descricao": "Central de Atendimento"
+                    },
+                    {
+                        "nome": "j349",
+                        "andar": "Térreo",
+                        "descricao": "Sala de Reunião iOS"
+                    },
+                    {
+                        "nome": "j481",
+                        "andar": "Primeiro andar",
+                        "descricao": "Laboratório PC de Informática 2"
+                    },
+                    {
+                        "nome": "j479",
+                        "andar": "Primeiro andar",
+                        "descricao": "Laboratório PC de Informática 1"
+                    },
+                    {
+                        "nome": "j477",
+                        "andar": "Primeiro andar",
+                        "descricao": "Laboratório PC CISCO 1"
+                    },
+                    {
+                        "nome": "j475",
+                        "andar": "Primeiro andar",
+                        "descricao": "Laboratório PC CISCO 2"
+                    },
+                    {
+                        "nome": "j473",
+                        "andar": "Primeiro andar",
+                        "descricao": "Projetos Interativos"
+                    },
+                    {
+                        "nome": "j471",
+                        "andar": "Primeiro andar",
+                        "descricao": "Projetos Interativos"
+                    }
+                ]
+            },
+            {
+                 "corredor": "H",
+                 "salas": [
+                     {
+                         "nome": "h319",
+                         "andar": "Térreo",
+                         "descrição": "Lab. Visagismo"
+                     },
+                     {
+                         "nome": "h318",
+                         "andar": "Térreo",
+                         "descrição": "Lab. Pesq. Amb. Interativos"
+                     },
+                     {
+                         "nome": "h321",
+                         "andar": "Térreo",
+                         "descrição": "40 Universitárias"
+                     },
+                     {
+                         "nome": "h320",
+                         "andar": "Térreo",
+                         "descrição": "Lab. de Pesq. Aplicada"
+                     },
+                     {
+                         "nome": "h322",
+                         "andar": "Térreo",
+                         "descrição": "Lab. de Projetos de Extensão Universitária"
+                     },
+                     {
+                         "nome": "h323",
+                         "andar": "Térreo",
+                         "descrição": "40 Universitárias"
+                     },
+                     {
+                         "nome": "h324",
+                         "andar": "Térreo",
+                         "descrição": "100 Mesas"
+                     },
+                     {
+                         "nome": "h325",
+                         "andar": "Térreo",
+                         "descrição": "ADM Central de Atendimento"
+                     },
+                     {
+                         "nome": "h427",
+                         "andar": "primeiro andar",
+                         "descrição": "32 Mesas"
+                     },
+                     {
+                         "nome": "h426",
+                         "andar": "primeiro andar",
+                         "descrição": "Lab. Agência de Publicidade"
+                     },
+                     {
+                         "nome": "h428",
+                         "andar": "primeiro andar",
+                         "descrição": "Lab. Agência de Publicidade"
+                     },
+                     {
+                         "nome": "h429",
+                         "andar": "primeiro andar",
+                         "descrição": "36 Universitárias"
+                     },
+                     {
+                         "nome": "h430",
+                         "andar": "primeiro andar",
+                         "descrição": "Lab. PC de Redação Criativa"
+                     },
+                     {
+                         "nome": "h431",
+                         "andar": "primeiro andar",
+                         "descrição": "36 Mesas"
+                     },
+                     {
+                         "nome": "h433",
+                         "andar": "primeiro andar",
+                         "descrição": "36 Universitárias"
+                     },
+                     {
+                         "nome": "h435",
+                         "andar": "primeiro andar",
+                         "descrição": "32 Mesas"
+                     },
+                     {
+                         "nome": "h437",
+                         "andar": "primeiro andar",
+                         "descrição": "36 Universitárias"
+                     }
+                 ]
+             },
+             {
+                 "corredor": "I",
+                 "salas": [
+                     {
+                         "nome": "i347",
+                         "andar": "Térreo",
+                         "descrição": "Centro iOS"
+                     },
+                     {
+                         "nome": "i345",
+                         "andar": "Térreo",
+                         "descrição": "Inovação 30 Seats"
+                     },
+                     {
+                         "nome": "i343",
+                         "andar": "Térreo",
+                         "descrição": "Padrão EMED"
+                     },
+                     {
+                         "nome": "i342",
+                         "andar": "Térreo",
+                         "descrição": "30 Mesas"
+                     },
+                     {
+                         "nome": "i341",
+                         "andar": "Térreo",
+                         "descrição": "Sala Multifuncional"
+                     },
+                     {
+                         "nome": "i340",
+                         "andar": "Térreo",
+                         "descrição": "30 Universitárias"
+                     },
+                     {
+                         "nome": "i339",
+                         "andar": "Térreo",
+                         "descrição": "Sala Multifuncional"
+                     },
+                     {
+                         "nome": "i338",
+                         "andar": "Térreo",
+                         "descrição": "30 Universitárias"
+                     },
+                     {
+                         "nome": "i337",
+                         "andar": "Térreo",
+                         "descrição": "Sala Multifuncional"
+                     },
+                     {
+                         "nome": "i336",
+                         "andar": "Térreo",
+                         "descrição": "30 Mesas"
+                     },
+                     {
+                         "nome": "i335",
+                         "andar": "Térreo",
+                         "descrição": "Padrão EMED"
+                     },
+                     {
+                         "nome": "i333",
+                         "andar": "Térreo",
+                         "descrição": "Padrão EMED"
+                     },
+                     {
+                         "nome": "i331",
+                         "andar": "Térreo",
+                         "descrição": "Lab. PC 50 Seats"
+                     },
+                     {
+                         "nome": "i330",
+                         "andar": "Térreo",
+                         "descrição": "38 Mesas"
+                     },
+                     {
+                         "nome": "i328",
+                         "andar": "Térreo",
+                         "descrição": "100 Universitárias"
+                     },
+                     {
+                         "nome": "i329",
+                         "andar": "Térreo",
+                         "descrição": "70 Mesas"
+                     },
+                     {
+                         "nome": "i327",
+                         "andar": "Térreo",
+                         "descrição": "Lab. PC 50 Seats"
+                     },
+                     {
+                         "nome": "i469",
+                         "andar": "primeiro andar",
+                         "descrição": "Projetos Interativos 3 Arquitetura"
+                     },
+                     {
+                         "nome": "i439",
+                         "andar": "primeiro andar",
+                         "descrição": "Lab. de Interação e Usabilidade"
+                     },
+                     {
+                         "nome": "i440",
+                         "andar": "primeiro andar",
+                         "descrição": "Estúdio de Video Som e Imagem"
+                     },
+                     {
+                         "nome": "i441",
+                         "andar": "primeiro andar",
+                         "descrição": "Lab. Mac 5 Pesquisa Digital/Foto/Jornalismo/Publicidade"
+                     },
+                     {
+                         "nome": "i442",
+                         "andar": "primeiro andar",
+                         "descrição": "Estúdio de Gravação"
+                     },
+                     {
+                         "nome": "i443",
+                         "andar": "primeiro andar",
+                         "descrição": "Lab. Mac 4 Pesquisa Digital/Foto/Jornalismo/Publicidade"
+                     },
+                     {
+                         "nome": "i444",
+                         "andar": "primeiro andar",
+                         "descrição": "Estúdio de TV e Expressão Vocal"
+                     },
+                     {
+                         "nome": "i445",
+                         "andar": "primeiro andar",
+                         "descrição": "Lab. de Impressão"
+                     },
+                     {
+                         "nome": "i447",
+                         "andar": "primeiro andar",
+                         "descrição": "Animação 3D e Renderização 25 Seats"
+                     },
+                     {
+                         "nome": "i449",
+                         "andar": "primeiro andar",
+                         "descrição": "Lab. PC 28 Seats"
+                     },
+                     {
+                         "nome": "i451",
+                         "andar": "primeiro andar",
+                         "descrição": "Estúdio Fotográfico"
+                     },
+                     {
+                         "nome": "i452",
+                         "andar": "primeiro andar",
+                         "descrição": "Lab. Processos Históricos"
+                     },
+                     {
+                         "nome": "i453",
+                         "andar": "primeiro andar",
+                         "descrição": "Estúdio Fotográfico"
+                     },
+                     {
+                         "nome": "i454",
+                         "andar": "primeiro andar",
+                         "descrição": "Lab. Conservação e Restauro"
+                     },
+                     {
+                         "nome": "i455",
+                         "andar": "primeiro andar",
+                         "descrição": "Pesquisa Digital Fotojornalismo Publicidade"
+                     },
+                     {
+                         "nome": "i457",
+                         "andar": "primeiro andar",
+                         "descrição": "Apoio Fotográfico"
+                     },
+                     {
+                         "nome": "i459",
+                         "andar": "primeiro andar",
+                         "descrição": "Almoxarifado de Fotografia e AudioVisual"
+                     },
+                     {
+                         "nome": "i463",
+                         "andar": "primeiro andar",
+                         "descrição": "Lab. Montagem"
+                     },
+                     {
+                         "nome": "i465",
+                         "andar": "primeiro andar",
+                         "descrição": "Estúdio Fotográfico"
+                     },
+                     {
+                         "nome": "i467",
+                         "andar": "primeiro andar",
+                         "descrição": "Estúdio Fotográfico"
+                     }
+                 ]
+             }
+        ]
+    }
+]
+

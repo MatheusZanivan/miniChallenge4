@@ -44,6 +44,7 @@
 		BB66B8942AF03F4B00840E90 /* MiniChallenge4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniChallenge4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB66B8982AF03F4B00840E90 /* MiniChallenge4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniChallenge4UITests.swift; sourceTree = "<group>"; };
 		BB66B89A2AF03F4B00840E90 /* MiniChallenge4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniChallenge4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB66B8B12AF17EE200840E90 /* senac_map.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = senac_map.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				BB66B8812AF03F4B00840E90 /* Assets.xcassets */,
+				BB66B8B12AF17EE200840E90 /* senac_map.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
