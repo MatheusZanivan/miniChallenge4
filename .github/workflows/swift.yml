@@ -5,9 +5,9 @@ name: Swift
 
 on:
   push:
-    branches: [ "develop" ]
+    branches: [ "choosing_destiny_epic" ]
   pull_request:
-    branches: [ "develop" ]
+    branches: [ "choosing_destiny_epic" ]
 
 jobs:
   build:
