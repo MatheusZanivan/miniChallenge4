@@ -17,7 +17,7 @@ final class DecodingSenacJsonMap: XCTestCase {
         senacMapViewModel
             .$senacMap
             .sink(receiveValue: { newSenacMap in
-                XCTAssertNil(newSenacMap)
+                XCTAssertNotNil(newSenacMap)
             })
             .store(in: &cancellables)
     }
