@@ -34,7 +34,7 @@ struct BestWayView: View {
 //                        .padding()
 //                    
                     Button {
-                        steps = bestWayViewModel.achaMelhorCaminho(noOrigem: startingNode, noDestino: arrivalNode)
+                        steps = bestWayViewModel.findBestWay(startingNode: startingNode, arrivalNode: arrivalNode)
                         if steps.isEmpty {
                             invalidData = true
                         }

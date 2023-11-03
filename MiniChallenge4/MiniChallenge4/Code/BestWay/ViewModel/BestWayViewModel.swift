@@ -13,9 +13,9 @@ class BestWayViewModel: ObservableObject {
     
     init() {}
     
-    func achaMelhorCaminho(noOrigem: String, noDestino: String) -> [String] {
+    func findBestWay(startingNode: String, arrivalNode: String) -> [String] {
         graph?.way = [String]()
-        graph?.dfsR(startingNode: noOrigem, arrivalNode: noDestino)
+        graph?.dfsR(startingNode: startingNode, arrivalNode: arrivalNode)
         print("melhor caminho = \n\(graph?.way ?? [String]())")
         graph?.generateGraphAlgorithm()
         return graph?.way ?? [String]()
