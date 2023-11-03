@@ -1,0 +1,4430 @@
+[
+    {
+        "pesoAcao": 1,
+        "acao": "vire no corredor j",
+        "no": {
+            "nome": "i347",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "nome": "j349",
+            "andar": "terreo"
+        }
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "j349"
+        },
+        "noConexao": {
+            "nome": "i347",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "acao": "vire no corredor i"
+    },
+    {
+        "noConexao": {
+            "nome": "i345",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "no": {
+            "nome": "i347",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "nome": "i347",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "i345"
+        }
+    },
+    {
+        "no": {
+            "nome": "i343",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "nome": "i345",
+            "andar": "terreo"
+        }
+    },
+    {
+        "no": {
+            "nome": "i345",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "nome": "i343",
+            "andar": "terreo"
+        }
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i341"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "i343"
+        }
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "nome": "i343",
+            "andar": "terreo"
+        },
+        "no": {
+            "nome": "i341",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "i343",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i342"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i340"
+        },
+        "no": {
+            "nome": "i341",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "i342"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "nome": "i343",
+            "andar": "terreo"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "i340"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i341"
+        }
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "i341"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i339"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "no": {
+            "nome": "i339",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "nome": "i341",
+            "andar": "terreo"
+        },
+        "acao": "reto"
+    },
+    {
+        "no": {
+            "nome": "i339",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i337"
+        },
+        "pesoAcao": 1,
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "i337"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i339"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "i335",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "andar": "terreo",
+            "nome": "i337"
+        },
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "i337",
+            "andar": "terreo"
+        },
+        "no": {
+            "nome": "i335",
+            "andar": "terreo"
+        },
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "no": {
+            "nome": "i335",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i333"
+        },
+        "acao": "reto"
+    },
+    {
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i335"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "i333"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i331"
+        },
+        "no": {
+            "nome": "i333",
+            "andar": "terreo"
+        }
+    },
+    {
+        "no": {
+            "nome": "i331",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i333"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "i329",
+            "andar": "terreo"
+        },
+        "no": {
+            "nome": "i331",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "i329"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i331"
+        }
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "nome": "i329",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "nome": "i327",
+            "andar": "terreo"
+        }
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i329"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "andar": "terreo",
+            "nome": "i327"
+        }
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "nome": "i330",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "nome": "i335",
+            "andar": "terreo"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "i335",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "andar": "terreo",
+            "nome": "i330"
+        },
+        "acao": "reto"
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "andar": "terreo",
+            "nome": "i333"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i328"
+        }
+    },
+    {
+        "no": {
+            "nome": "i328",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i333"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i340"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "i342"
+        },
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "i342",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "no": {
+            "nome": "i340",
+            "andar": "terreo"
+        }
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i338"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "andar": "terreo",
+            "nome": "i340"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "i340",
+            "andar": "terreo"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "i338"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "no": {
+            "nome": "i338",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "i336",
+            "andar": "terreo"
+        }
+    },
+    {
+        "no": {
+            "nome": "i336",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i338"
+        },
+        "acao": "reto"
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "i328",
+            "andar": "terreo"
+        },
+        "no": {
+            "nome": "i330",
+            "andar": "terreo"
+        }
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "i330",
+            "andar": "terreo"
+        },
+        "no": {
+            "nome": "i328",
+            "andar": "terreo"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "H324"
+        },
+        "acao": "vire no corredor h",
+        "no": {
+            "nome": "i328",
+            "andar": "terreo"
+        }
+    },
+    {
+        "acao": "vire no corredor h",
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "h325",
+            "andar": "terreo"
+        },
+        "no": {
+            "nome": "i327",
+            "andar": "terreo"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "nome": "j351",
+            "andar": "terreo"
+        },
+        "no": {
+            "nome": "j349",
+            "andar": "terreo"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "j349",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "no": {
+            "nome": "j351",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "j351"
+        },
+        "acao": "reto",
+        "noConexao": {
+            "nome": "j353",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "j351"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "j353"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "pesoAcao": 1,
+        "no": {
+            "andar": "terreo",
+            "nome": "j353"
+        },
+        "noConexao": {
+            "nome": "j355",
+            "andar": "terreo"
+        },
+        "acao": "reto"
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "j355",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "j353"
+        }
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "nome": "j473",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "j471"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "j471",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro",
+            "nome": "j473"
+        }
+    },
+    {
+        "no": {
+            "nome": "j471",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "i469",
+            "andar": "primeiro andar"
+        },
+        "acao": "vire no corredor i"
+    },
+    {
+        "no": {
+            "nome": "i469",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "acao": "vire no corredor j",
+        "noConexao": {
+            "nome": "j471",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "no": {
+            "nome": "i469",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i467"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i469"
+        },
+        "acao": "reto",
+        "no": {
+            "nome": "i467",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i465"
+        },
+        "no": {
+            "nome": "i467",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "acao": "reto"
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "i467",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "i465",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i465"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i463"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i463"
+        },
+        "noConexao": {
+            "nome": "i465",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "no": {
+            "nome": "i463",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i459"
+        },
+        "acao": "reto"
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i459"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i457"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i457"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "i455",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i457"
+        },
+        "no": {
+            "nome": "i455",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto"
+    },
+    {
+        "noConexao": {
+            "nome": "i455",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i453"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "i453",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i455"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i451"
+        },
+        "no": {
+            "nome": "i453",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "nome": "i453",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "i451",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "nome": "i449",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i451"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i449"
+        },
+        "acao": "reto",
+        "noConexao": {
+            "nome": "i451",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i447"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i449"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "no": {
+            "nome": "i447",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "nome": "i449",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "no": {
+            "nome": "i447",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i445"
+        }
+    },
+    {
+        "no": {
+            "nome": "i445",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i447"
+        }
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "i445",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i442"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "i442",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i445"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "nome": "i445",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "nome": "i443",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "i443",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "nome": "i445",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "no": {
+            "nome": "i443",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i441"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "pesoAcao": 1,
+        "no": {
+            "nome": "i441",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "noConexao": {
+            "nome": "i443",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "nome": "i441",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "nome": "i439",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "i441",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "no": {
+            "nome": "i439",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i463"
+        },
+        "acao": "reto",
+        "noConexao": {
+            "nome": "i454",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i454"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i463"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i452"
+        },
+        "noConexao": {
+            "nome": "i459",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i444"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i449"
+        },
+        "pesoAcao": 1,
+        "acao": "reto"
+    },
+    {
+        "noConexao": {
+            "nome": "i449",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i444"
+        },
+        "pesoAcao": 1,
+        "acao": "reto"
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i442"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "nome": "i447",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "i442",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i447"
+        }
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i440"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i445"
+        }
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i445"
+        },
+        "no": {
+            "nome": "i440",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "j475"
+        },
+        "acao": "reto",
+        "no": {
+            "nome": "j473",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "j475"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "j473",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "j475"
+        },
+        "noConexao": {
+            "nome": "j477",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "no": {
+            "nome": "j477",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "j475"
+        },
+        "acao": "reto"
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "j477"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "j479"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "j477"
+        },
+        "no": {
+            "nome": "j479",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "j479",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "nome": "j481",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "j481",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "nome": "j479",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "pesoAcao": 2,
+        "no": {
+            "nome": "j481",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "G401"
+        },
+        "acao": "vire no corredor g"
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "nome": "i443",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "nome": "i440",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "nome": "i440",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "nome": "i443",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "vire no corredor k",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "k482"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "nome": "i452",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "i452",
+            "andar": "primeiro andar"
+        },
+        "acao": "vire no corredor i",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "k482"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "k482",
+            "andar": "primeiro andar"
+        },
+        "acao": "vire no corredor k",
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i455"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "i455",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "nome": "k482",
+            "andar": "primeiro andar"
+        },
+        "acao": "vire no corredor i"
+    },
+    {
+        "acao": "vire no corredor k",
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i444"
+        },
+        "noConexao": {
+            "nome": "k487",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "k487"
+        },
+        "acao": "vire no corredor i",
+        "noConexao": {
+            "nome": "i444",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "no": {
+            "nome": "i449",
+            "andar": "primeiro andar"
+        },
+        "acao": "vire no corredor k",
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "k487"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "vire no corredor i",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i449"
+        },
+        "no": {
+            "nome": "k487",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "vire no corredor h",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i440"
+        },
+        "noConexao": {
+            "nome": "h430",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "h430"
+        },
+        "acao": "vire no corredor i",
+        "no": {
+            "nome": "i443",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i443"
+        },
+        "no": {
+            "nome": "h430",
+            "andar": "primeiro andar"
+        },
+        "acao": "vire no corredor h"
+    },
+    {
+        "no": {
+            "nome": "i439",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "nome": "h437",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "acao": "vire no corredor h"
+    },
+    {
+        "no": {
+            "nome": "k482",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "nome": "k487",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "k487"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "k482"
+        }
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "k480"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "k482"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "k480"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "k482",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto"
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "k480"
+        },
+        "noConexao": {
+            "nome": "k478",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "nome": "k480",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "k478",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "k480"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "k485",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "no": {
+            "nome": "k485",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "k480",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "vire no corredor g",
+        "noConexao": {
+            "nome": "g411",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "k478",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 2
+    },
+    {
+        "acao": "vire no corredor k",
+        "noConexao": {
+            "nome": "k478",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "g411",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 2
+    },
+    {
+        "no": {
+            "nome": "k478",
+            "andar": "primeiro andar"
+        },
+        "acao": "vire no corredor g",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g410"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "k487"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "k485"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "k487"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "k485"
+        }
+    },
+    {
+        "no": {
+            "nome": "k485",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "k483",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "k483"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "k485"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "g412",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "k483"
+        },
+        "acao": "vire no corredor g"
+    },
+    {
+        "acao": "vire no corredor g",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "k483"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "g413",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "vire no corredor k",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g413"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "k483",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "j355"
+        },
+        "pesoAcao": 2,
+        "acao": "vire no corredor g",
+        "noConexao": {
+            "nome": "g301",
+            "andar": "terreo"
+        }
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "g301"
+        },
+        "acao": "vire no corredor j",
+        "pesoAcao": 2,
+        "noConexao": {
+            "nome": "j355",
+            "andar": "terreo"
+        }
+    },
+    {
+        "no": {
+            "nome": "g301",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "nome": "g303",
+            "andar": "terreo"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g301"
+        },
+        "acao": "reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "g303"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "g303"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g305"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "g303",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "nome": "g305",
+            "andar": "terreo"
+        },
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "nome": "g305",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "nome": "g306",
+            "andar": "terreo"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "g307",
+            "andar": "terreo"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "g305"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "nome": "g305",
+            "andar": "terreo"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "g307"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "nome": "g305",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "andar": "terreo",
+            "nome": "g306"
+        }
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "g306",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "g307",
+            "andar": "terreo"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "g308",
+            "andar": "terreo"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "g306"
+        },
+        "pesoAcao": 1,
+        "acao": "reto"
+    },
+    {
+        "no": {
+            "nome": "g307",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g306"
+        },
+        "pesoAcao": 1,
+        "acao": "reto"
+    },
+    {
+        "noConexao": {
+            "nome": "g309",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "g307"
+        }
+    },
+    {
+        "no": {
+            "nome": "g308",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g306"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "g308",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "g309",
+            "andar": "terreo"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "k352",
+            "andar": "terreo"
+        },
+        "acao": "vire no corredor k",
+        "pesoAcao": 2,
+        "no": {
+            "andar": "terreo",
+            "nome": "g308"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "nome": "g309",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "nome": "g307",
+            "andar": "terreo"
+        }
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "g309"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "g308",
+            "andar": "terreo"
+        }
+    },
+    {
+        "no": {
+            "nome": "g309",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "noConexao": {
+            "nome": "g311",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g309"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "g311"
+        },
+        "acao": "reto"
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g313"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "g311"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "nome": "g311",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "andar": "terreo",
+            "nome": "g313"
+        }
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "g313",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "nome": "g314",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g315"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "nome": "g313",
+            "andar": "terreo"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g313"
+        },
+        "no": {
+            "nome": "g314",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "acao": "reto"
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "g315",
+            "andar": "terreo"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "g314"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g316"
+        },
+        "acao": "reto",
+        "no": {
+            "nome": "g314",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "no": {
+            "nome": "g314",
+            "andar": "terreo"
+        },
+        "acao": "vire no corredor k",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k357"
+        },
+        "pesoAcao": 2
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "g315"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "nome": "g313",
+            "andar": "terreo"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g314"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "nome": "g315",
+            "andar": "terreo"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g316"
+        },
+        "acao": "reto",
+        "no": {
+            "nome": "g315",
+            "andar": "terreo"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "no": {
+            "nome": "g315",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g317"
+        },
+        "acao": "reto"
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "andar": "terreo",
+            "nome": "g316"
+        },
+        "noConexao": {
+            "nome": "g314",
+            "andar": "terreo"
+        }
+    },
+    {
+        "no": {
+            "nome": "g316",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g315"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "acao": "vire no corredor h",
+        "noConexao": {
+            "nome": "h318",
+            "andar": "terreo"
+        },
+        "pesoAcao": 2,
+        "no": {
+            "andar": "terreo",
+            "nome": "g316"
+        }
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "andar": "terreo",
+            "nome": "g317"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g315"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "h318"
+        },
+        "pesoAcao": 2,
+        "acao": "vire no corredor h",
+        "no": {
+            "nome": "g317",
+            "andar": "terreo"
+        }
+    },
+    {
+        "acao": "vire no corredor h",
+        "pesoAcao": 2,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "h319"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "g317"
+        }
+    },
+    {
+        "pesoAcao": 2,
+        "no": {
+            "andar": "terreo",
+            "nome": "h318"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g316"
+        },
+        "acao": "vire no corredor g"
+    },
+    {
+        "no": {
+            "nome": "h318",
+            "andar": "terreo"
+        },
+        "acao": "vire no corredor g",
+        "pesoAcao": 2,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g317"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "no": {
+            "andar": "terreo",
+            "nome": "h318"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "h320"
+        },
+        "acao": "reto"
+    },
+    {
+        "acao": "vire no corredor g",
+        "pesoAcao": 2,
+        "no": {
+            "nome": "h319",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "nome": "g317",
+            "andar": "terreo"
+        }
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "h321"
+        },
+        "no": {
+            "nome": "h319",
+            "andar": "terreo"
+        }
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "nome": "h320",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "h318"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "h320"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "h322"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "h319",
+            "andar": "terreo"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "h321"
+        },
+        "pesoAcao": 1,
+        "acao": "reto"
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "h321"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "h323"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "h320",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "h322"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "h324"
+        },
+        "acao": "reto",
+        "no": {
+            "nome": "h322",
+            "andar": "terreo"
+        }
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "h323"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "h321",
+            "andar": "terreo"
+        }
+    },
+    {
+        "no": {
+            "nome": "h323",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "h325"
+        }
+    },
+    {
+        "no": {
+            "nome": "h324",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "h322"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i328"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "h324"
+        },
+        "pesoAcao": 2,
+        "acao": "vire no corredor i"
+    },
+    {
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "h324"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "i328"
+        },
+        "pesoAcao": 2,
+        "acao": "vire no corredor h"
+    },
+    {
+        "noConexao": {
+            "nome": "h323",
+            "andar": "terreo"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "h325"
+        },
+        "pesoAcao": 1,
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 2,
+        "acao": "vire no corredor i",
+        "noConexao": {
+            "nome": "i327",
+            "andar": "terreo"
+        },
+        "no": {
+            "nome": "h325",
+            "andar": "terreo"
+        }
+    },
+    {
+        "acao": "vire no corredor g",
+        "no": {
+            "nome": "k352",
+            "andar": "terreo"
+        },
+        "pesoAcao": 2,
+        "noConexao": {
+            "nome": "g308",
+            "andar": "terreo"
+        }
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "k352"
+        },
+        "noConexao": {
+            "nome": "k354",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "nome": "k352",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k357"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "k352",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "nome": "k354",
+            "andar": "terreo"
+        },
+        "acao": "reto"
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k356"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "k354"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "no": {
+            "nome": "k354",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "k359",
+            "andar": "terreo"
+        }
+    },
+    {
+        "no": {
+            "nome": "k356",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "k354",
+            "andar": "terreo"
+        },
+        "acao": "reto"
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k358"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "nome": "k356",
+            "andar": "terreo"
+        }
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k361"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "andar": "terreo",
+            "nome": "k356"
+        }
+    },
+    {
+        "no": {
+            "nome": "k358",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "nome": "k356",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "nome": "k363",
+            "andar": "terreo"
+        },
+        "no": {
+            "nome": "k358",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "k358"
+        },
+        "noConexao": {
+            "nome": "i336",
+            "andar": "terreo"
+        },
+        "acao": "vire no corredor i",
+        "pesoAcao": 2
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "i336"
+        },
+        "noConexao": {
+            "nome": "k358",
+            "andar": "terreo"
+        },
+        "acao": "vire no corredor k",
+        "pesoAcao": 2
+    },
+    {
+        "acao": "vire no corredor g",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g314"
+        },
+        "pesoAcao": 2,
+        "no": {
+            "andar": "terreo",
+            "nome": "k357"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k352"
+        },
+        "no": {
+            "nome": "k357",
+            "andar": "terreo"
+        },
+        "acao": "reto"
+    },
+    {
+        "noConexao": {
+            "nome": "k359",
+            "andar": "terreo"
+        },
+        "no": {
+            "nome": "k357",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "pesoAcao": 1,
+        "no": {
+            "andar": "terreo",
+            "nome": "k359"
+        },
+        "noConexao": {
+            "nome": "k357",
+            "andar": "terreo"
+        },
+        "acao": "reto"
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "k359"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k361"
+        },
+        "pesoAcao": 1,
+        "acao": "reto"
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "k359"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "k354",
+            "andar": "terreo"
+        },
+        "acao": "reto"
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "k361"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k359"
+        }
+    },
+    {
+        "no": {
+            "nome": "k361",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "k363",
+            "andar": "terreo"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k356"
+        },
+        "acao": "reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "k361"
+        }
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "k363",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "nome": "k361",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "andar": "terreo",
+            "nome": "k363"
+        },
+        "noConexao": {
+            "nome": "k358",
+            "andar": "terreo"
+        }
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "k363"
+        },
+        "acao": "vire no corredor i",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i330"
+        },
+        "pesoAcao": 2
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "i330"
+        },
+        "acao": "vire no corredor k",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k363"
+        },
+        "pesoAcao": 2
+    },
+    {
+        "acao": "vire no corredor j",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "j481"
+        },
+        "no": {
+            "nome": "g401",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 2
+    },
+    {
+        "acao": "vire no corredor g",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g401"
+        },
+        "no": {
+            "nome": "j481",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 2
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g403"
+        },
+        "no": {
+            "nome": "g401",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g401"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g403"
+        }
+    },
+    {
+        "no": {
+            "nome": "g403",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "nome": "g405",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g405"
+        },
+        "acao": "reto",
+        "noConexao": {
+            "nome": "g403",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g407"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "nome": "g405",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "no": {
+            "nome": "g407",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "g405",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "g408",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "g407",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "nome": "g407",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g409"
+        }
+    },
+    {
+        "no": {
+            "nome": "g408",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g407"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "nome": "g408",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "nome": "g409",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "nome": "g408",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "nome": "g410",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "g409",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "g407",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g409"
+        },
+        "acao": "reto",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g408"
+        }
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g409"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g410"
+        },
+        "acao": "reto"
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g411"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g409"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "no": {
+            "nome": "g410",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g408"
+        }
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "nome": "g409",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g410"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g410"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "nome": "g411",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "k478",
+            "andar": "primeiro andar"
+        },
+        "acao": "vire no corredor k",
+        "pesoAcao": 2,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g410"
+        }
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g411"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g409"
+        }
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "g411",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g410"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "nome": "g413",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g411"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g411"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g413"
+        },
+        "pesoAcao": 1,
+        "acao": "reto"
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "g413",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "nome": "g415",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "nome": "g412",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "nome": "g413",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "g413",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "no": {
+            "nome": "g415",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g412"
+        },
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g415"
+        }
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "g414",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "g415",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "g415",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "g417",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g413"
+        },
+        "acao": "reto",
+        "no": {
+            "nome": "g412",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g412"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g415"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "g414",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "g412",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto"
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g412"
+        },
+        "pesoAcao": 2,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "k483"
+        },
+        "acao": "vire no corredor k"
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g414"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g412"
+        },
+        "pesoAcao": 1,
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g415"
+        },
+        "no": {
+            "nome": "g414",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g414"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "g416",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "g417",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g414"
+        },
+        "acao": "reto"
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "g416",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "nome": "g414",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "nome": "g417",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "g416",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "no": {
+            "nome": "g416",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "g418",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "nome": "g416",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g419"
+        }
+    },
+    {
+        "no": {
+            "nome": "g416",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "nome": "g415",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "no": {
+            "nome": "g415",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "nome": "g416",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "g415",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "g417",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g417"
+        },
+        "noConexao": {
+            "nome": "g414",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "g416",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g417"
+        },
+        "acao": "reto"
+    },
+    {
+        "noConexao": {
+            "nome": "g418",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g417"
+        },
+        "acao": "reto"
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g419"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g417"
+        }
+    },
+    {
+        "no": {
+            "nome": "g418",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g416"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "no": {
+            "nome": "g418",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g417"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g419"
+        },
+        "no": {
+            "nome": "g418",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g421"
+        },
+        "acao": "reto",
+        "no": {
+            "nome": "g418",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "pesoAcao": 2,
+        "noConexao": {
+            "nome": "h426",
+            "andar": "primeiro andar"
+        },
+        "acao": "vire no corredor h",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g418"
+        }
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "g417",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g419"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "g416",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "g419",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g418"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "nome": "g419",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto"
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "g419",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "g421",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "g421",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "g418",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "no": {
+            "nome": "g421",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "noConexao": {
+            "nome": "g419",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g423"
+        },
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g421"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g421"
+        },
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g423"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "nome": "g423",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "nome": "g425",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "vire no corredor h",
+        "pesoAcao": 2,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "h427"
+        },
+        "no": {
+            "nome": "g423",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g425"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "g423",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "vire no corredor h",
+        "noConexao": {
+            "nome": "h427",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g425"
+        },
+        "pesoAcao": 2
+    },
+    {
+        "no": {
+            "nome": "h426",
+            "andar": "primeiro andar"
+        },
+        "acao": "vire no corredor g",
+        "noConexao": {
+            "nome": "g418",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 2
+    },
+    {
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "h426"
+        },
+        "noConexao": {
+            "nome": "h428",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto"
+    },
+    {
+        "acao": "reto",
+        "noConexao": {
+            "nome": "h426",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "h428"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "h430"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "h428"
+        }
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "h430"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "h428"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i440"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "h430"
+        },
+        "acao": "vire no corredor i",
+        "pesoAcao": 2
+    },
+    {
+        "pesoAcao": 2,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "h427"
+        },
+        "acao": "vire no corredor g",
+        "noConexao": {
+            "nome": "g423",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "vire no corredor g",
+        "no": {
+            "nome": "h427",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 2,
+        "noConexao": {
+            "nome": "g425",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "no": {
+            "nome": "h427",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "h429"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "nome": "h427",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "h429",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "h431"
+        },
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "h429"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "no": {
+            "nome": "h431",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "h429"
+        },
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "h431"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "h433"
+        },
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "nome": "h431",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "h433",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "h435"
+        },
+        "no": {
+            "nome": "h433",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "h435"
+        },
+        "acao": "reto",
+        "noConexao": {
+            "nome": "h433",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "h437"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "h435"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "h435"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "nome": "h437",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "pesoAcao": 2,
+        "noConexao": {
+            "nome": "i439",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "h437",
+            "andar": "primeiro andar"
+        },
+        "acao": "vire no corredor i"
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "g307"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g308"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "nome": "g307",
+            "andar": "terreo"
+        },
+        "no": {
+            "nome": "g308",
+            "andar": "terreo"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "k359",
+            "andar": "terreo"
+        },
+        "no": {
+            "nome": "k352",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "no": {
+            "nome": "k354",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "noConexao": {
+            "nome": "k357",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "k354",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "k361",
+            "andar": "terreo"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "nome": "k356",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "nome": "k359",
+            "andar": "terreo"
+        }
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "k356"
+        },
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "k363",
+            "andar": "terreo"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k361"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "k358"
+        },
+        "pesoAcao": 1,
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "k357"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k354"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "k352",
+            "andar": "terreo"
+        },
+        "pesoAcao": 1,
+        "no": {
+            "andar": "terreo",
+            "nome": "k359"
+        },
+        "acao": "reto"
+    },
+    {
+        "noConexao": {
+            "nome": "k356",
+            "andar": "terreo"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "k359"
+        },
+        "pesoAcao": 1,
+        "acao": "reto"
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "andar": "terreo",
+            "nome": "k361"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k354"
+        }
+    },
+    {
+        "no": {
+            "nome": "k361",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "nome": "k358",
+            "andar": "terreo"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k356"
+        },
+        "no": {
+            "nome": "k363",
+            "andar": "terreo"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "i465",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 3,
+        "no": {
+            "andar": "terreo",
+            "nome": "i345"
+        },
+        "acao": "suba a escada e vire a esquerda"
+    },
+    {
+        "noConexao": {
+            "nome": "i345",
+            "andar": "terreo"
+        },
+        "pesoAcao": 3,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i465"
+        },
+        "acao": "desca a escada e vire a direita"
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i454"
+        },
+        "pesoAcao": 3,
+        "no": {
+            "andar": "terreo",
+            "nome": "i345"
+        },
+        "acao": "suba a escada e siga reto"
+    },
+    {
+        "no": {
+            "nome": "i454",
+            "andar": "primeiro andar"
+        },
+        "acao": "desca a escada e vire a direita",
+        "pesoAcao": 3,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i345"
+        }
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "k358"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i453"
+        },
+        "acao": "suba a escada e vire a direita",
+        "pesoAcao": 3
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i453"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k358"
+        },
+        "acao": "desca a escada e vire a direita",
+        "pesoAcao": 3
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i452"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k358"
+        },
+        "acao": "desca a escada e vire a direita",
+        "pesoAcao": 3
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "k358"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i452"
+        },
+        "acao": "suba a escada e siga reto",
+        "pesoAcao": 3
+    },
+    {
+        "noConexao": {
+            "nome": "i339",
+            "andar": "terreo"
+        },
+        "pesoAcao": 3,
+        "acao": "desca a escada e vire a esquerda",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i453"
+        }
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i455"
+        },
+        "pesoAcao": 3,
+        "noConexao": {
+            "nome": "i339",
+            "andar": "terreo"
+        },
+        "acao": "desca a escada e vire a esquerda"
+    },
+    {
+        "acao": "desca a escada e vire a esquerda",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i339"
+        },
+        "pesoAcao": 3,
+        "no": {
+            "nome": "i452",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "suba a escada e vire a direita",
+        "pesoAcao": 3,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i455"
+        },
+        "no": {
+            "nome": "i339",
+            "andar": "terreo"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i453"
+        },
+        "acao": "suba a escada e vire a direita",
+        "no": {
+            "nome": "i339",
+            "andar": "terreo"
+        },
+        "pesoAcao": 3
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i452"
+        },
+        "acao": "suba a escada e siga reto",
+        "no": {
+            "nome": "i339",
+            "andar": "terreo"
+        },
+        "pesoAcao": 3
+    },
+    {
+        "noConexao": {
+            "nome": "i444",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 3,
+        "acao": "suba a escada e siga reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "i337"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i449"
+        },
+        "no": {
+            "nome": "i337",
+            "andar": "terreo"
+        },
+        "acao": "suba a escada e vire a esquerda",
+        "pesoAcao": 3
+    },
+    {
+        "no": {
+            "nome": "i449",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 3,
+        "noConexao": {
+            "nome": "i337",
+            "andar": "terreo"
+        },
+        "acao": "desca a escada e vire a direita"
+    },
+    {
+        "acao": "desca a escada e vire a direita",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i444"
+        },
+        "pesoAcao": 3,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i337"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i444"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "k363"
+        },
+        "acao": "suba a escada e siga reto",
+        "pesoAcao": 3
+    },
+    {
+        "pesoAcao": 3,
+        "acao": "suba a escada e vire a esquerda",
+        "no": {
+            "nome": "k363",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "nome": "i449",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k363"
+        },
+        "acao": "desca a escada e vire a esquerda",
+        "no": {
+            "nome": "i449",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 3
+    },
+    {
+        "acao": "desca a escada e vire a esquerda",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k363"
+        },
+        "pesoAcao": 3,
+        "no": {
+            "nome": "i444",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "pesoAcao": 3,
+        "noConexao": {
+            "nome": "i440",
+            "andar": "primeiro andar"
+        },
+        "acao": "suba a escada e siga reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "i329"
+        }
+    },
+    {
+        "pesoAcao": 3,
+        "no": {
+            "nome": "i329",
+            "andar": "terreo"
+        },
+        "acao": "suba a escada e vire a direita",
+        "noConexao": {
+            "nome": "i443",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "desca a escada e vire a esquerda",
+        "noConexao": {
+            "nome": "i329",
+            "andar": "terreo"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i443"
+        },
+        "pesoAcao": 3
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i440"
+        },
+        "pesoAcao": 3,
+        "acao": "desca a escada e vire a esquerda",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "i329"
+        }
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i440"
+        },
+        "pesoAcao": 3,
+        "no": {
+            "nome": "h324",
+            "andar": "terreo"
+        },
+        "acao": "suba a escada e siga reto"
+    },
+    {
+        "noConexao": {
+            "nome": "i443",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "h324",
+            "andar": "terreo"
+        },
+        "pesoAcao": 3,
+        "acao": "suba a escada e vire a direita"
+    },
+    {
+        "no": {
+            "nome": "i440",
+            "andar": "primeiro andar"
+        },
+        "acao": "desca a escada e vire a direita",
+        "noConexao": {
+            "nome": "h324",
+            "andar": "terreo"
+        },
+        "pesoAcao": 3
+    },
+    {
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "h324"
+        },
+        "no": {
+            "nome": "i443",
+            "andar": "primeiro andar"
+        },
+        "acao": "desca a escada e vire a direita",
+        "pesoAcao": 3
+    },
+    {
+        "pesoAcao": 3,
+        "acao": "suba a escada e siga reto",
+        "no": {
+            "andar": "terreo",
+            "nome": "g317"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g418"
+        }
+    },
+    {
+        "no": {
+            "nome": "g317",
+            "andar": "terreo"
+        },
+        "pesoAcao": 3,
+        "acao": "suba a escada e vire a esquerda",
+        "noConexao": {
+            "nome": "g421",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "pesoAcao": 3,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g418"
+        },
+        "acao": "desca a escada e vire a direita",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g317"
+        }
+    },
+    {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g421"
+        },
+        "pesoAcao": 3,
+        "acao": "desca a escada e vire a direita",
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "g317"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "g418",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "h318",
+            "andar": "terreo"
+        },
+        "acao": "suba a escada e siga reto",
+        "pesoAcao": 3
+    },
+    {
+        "noConexao": {
+            "nome": "g421",
+            "andar": "primeiro andar"
+        },
+        "acao": "suba a escada e vire a esquerda",
+        "pesoAcao": 3,
+        "no": {
+            "andar": "terreo",
+            "nome": "h318"
+        }
+    },
+    {
+        "acao": "desca a escada e vire a esquerda",
+        "pesoAcao": 3,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "h318"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g421"
+        }
+    },
+    {
+        "noConexao": {
+            "nome": "h318",
+            "andar": "terreo"
+        },
+        "pesoAcao": 3,
+        "acao": "desca a escada e vire a esquerda",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g418"
+        }
+    },
+    {
+        "no": {
+            "nome": "g313",
+            "andar": "terreo"
+        },
+        "acao": "suba a escada e siga reto",
+        "noConexao": {
+            "nome": "g412",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 3
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g413"
+        },
+        "no": {
+            "nome": "g313",
+            "andar": "terreo"
+        },
+        "pesoAcao": 3,
+        "acao": "suba a escada e vire a direita"
+    },
+    {
+        "acao": "desca a escada e vire a esquerda",
+        "pesoAcao": 3,
+        "noConexao": {
+            "nome": "g313",
+            "andar": "terreo"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g412"
+        }
+    },
+    {
+        "no": {
+            "nome": "g413",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "nome": "g313",
+            "andar": "terreo"
+        },
+        "pesoAcao": 3,
+        "acao": "desca a escada e vire a esquerda"
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "k357"
+        },
+        "pesoAcao": 3,
+        "acao": "suba a escada e siga reto",
+        "noConexao": {
+            "nome": "g412",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "pesoAcao": 3,
+        "acao": "suba a escada e vire a direita",
+        "noConexao": {
+            "nome": "g413",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "k357",
+            "andar": "terreo"
+        }
+    },
+    {
+        "acao": "desca a escada e vire a direita",
+        "noConexao": {
+            "nome": "k357",
+            "andar": "terreo"
+        },
+        "no": {
+            "nome": "g412",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 3
+    },
+    {
+        "pesoAcao": 3,
+        "acao": "desca a escada e vire a direita",
+        "noConexao": {
+            "nome": "k357",
+            "andar": "terreo"
+        },
+        "no": {
+            "nome": "g413",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "no": {
+            "andar": "terreo",
+            "nome": "g311"
+        },
+        "pesoAcao": 3,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g410"
+        },
+        "acao": "suba a escada e siga reto"
+    },
+    {
+        "no": {
+            "nome": "g311",
+            "andar": "terreo"
+        },
+        "pesoAcao": 3,
+        "acao": "suba a escada e vire a esquerda",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "g411"
+        }
+    },
+    {
+        "acao": "desca a escada e vire a direita",
+        "noConexao": {
+            "nome": "g311",
+            "andar": "terreo"
+        },
+        "pesoAcao": 3,
+        "no": {
+            "nome": "g410",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "desca a escada e vire a direita",
+        "pesoAcao": 3,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "g411"
+        },
+        "noConexao": {
+            "nome": "g311",
+            "andar": "terreo"
+        }
+    },
+    {
+        "no": {
+            "nome": "k352",
+            "andar": "terreo"
+        },
+        "pesoAcao": 3,
+        "acao": "suba a escada e siga reto",
+        "noConexao": {
+            "nome": "g410",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "pesoAcao": 3,
+        "noConexao": {
+            "nome": "g411",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "andar": "terreo",
+            "nome": "k352"
+        },
+        "acao": "suba a escada e vire a esquerda"
+    },
+    {
+        "noConexao": {
+            "nome": "k352",
+            "andar": "terreo"
+        },
+        "no": {
+            "nome": "g410",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 3,
+        "acao": "desca a escada e vire a esquerda"
+    },
+    {
+        "acao": "desca a escada e vire a esquerda",
+        "no": {
+            "nome": "g411",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "k352"
+        },
+        "pesoAcao": 3
+    },
+    {
+        "pesoAcao": 3,
+        "no": {
+            "nome": "g303",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "nome": "g408",
+            "andar": "primeiro andar"
+        },
+        "acao": "suba a escada e siga reto"
+    },
+    {
+        "acao": "suba a escada e vire a direita",
+        "pesoAcao": 3,
+        "no": {
+            "nome": "g303",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "nome": "g407",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "no": {
+            "nome": "g408",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "nome": "g303",
+            "andar": "terreo"
+        },
+        "acao": "desca a escada e vire a esquerda",
+        "pesoAcao": 3
+    },
+    {
+        "acao": "desca a escada e vire a esquerda",
+        "noConexao": {
+            "nome": "g303",
+            "andar": "terreo"
+        },
+        "no": {
+            "nome": "g407",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 3
+    }
+]

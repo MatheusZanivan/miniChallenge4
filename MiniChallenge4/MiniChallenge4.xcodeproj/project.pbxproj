@@ -14,6 +14,16 @@
 		BB66B88F2AF03F4B00840E90 /* MiniChallenge4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B88E2AF03F4B00840E90 /* MiniChallenge4Tests.swift */; };
 		BB66B8992AF03F4B00840E90 /* MiniChallenge4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8982AF03F4B00840E90 /* MiniChallenge4UITests.swift */; };
 		BB66B89B2AF03F4B00840E90 /* MiniChallenge4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B89A2AF03F4B00840E90 /* MiniChallenge4UITestsLaunchTests.swift */; };
+		BB66B8D92AF2D44000840E90 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8D82AF2D44000840E90 /* Graph.swift */; };
+		BB66B8DB2AF2D46600840E90 /* NodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8DA2AF2D46600840E90 /* NodeModel.swift */; };
+		BB66B8E02AF2D52400840E90 /* ClassroomNodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8DF2AF2D52400840E90 /* ClassroomNodeModel.swift */; };
+		BB66B8E22AF2D58400840E90 /* NodeJSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8E12AF2D58400840E90 /* NodeJSONModel.swift */; };
+		BB66B8E52AF2D8AC00840E90 /* NodeRelationshipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8E42AF2D8AC00840E90 /* NodeRelationshipModel.swift */; };
+		BB66B8E72AF2DF3000840E90 /* GraphDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8E62AF2DF3000840E90 /* GraphDataLoader.swift */; };
+		BB66B8E92AF2DFF700840E90 /* graph.json in Resources */ = {isa = PBXBuildFile; fileRef = BB66B8E82AF2DFF700840E90 /* graph.json */; };
+		BB66B8EC2AF2F0D400840E90 /* BestWayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8EB2AF2F0D400840E90 /* BestWayView.swift */; };
+		BB66B8EF2AF318AF00840E90 /* BestWayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8EE2AF318AF00840E90 /* BestWayViewModel.swift */; };
+		BB66B8F22AF44B6500840E90 /* StepsComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8F12AF44B6500840E90 /* StepsComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		BB66B8942AF03F4B00840E90 /* MiniChallenge4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniChallenge4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB66B8982AF03F4B00840E90 /* MiniChallenge4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniChallenge4UITests.swift; sourceTree = "<group>"; };
 		BB66B89A2AF03F4B00840E90 /* MiniChallenge4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniChallenge4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB66B8D82AF2D44000840E90 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		BB66B8DA2AF2D46600840E90 /* NodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeModel.swift; sourceTree = "<group>"; };
+		BB66B8DF2AF2D52400840E90 /* ClassroomNodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomNodeModel.swift; sourceTree = "<group>"; };
+		BB66B8E12AF2D58400840E90 /* NodeJSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeJSONModel.swift; sourceTree = "<group>"; };
+		BB66B8E42AF2D8AC00840E90 /* NodeRelationshipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeRelationshipModel.swift; sourceTree = "<group>"; };
+		BB66B8E62AF2DF3000840E90 /* GraphDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphDataLoader.swift; sourceTree = "<group>"; };
+		BB66B8E82AF2DFF700840E90 /* graph.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = graph.json; sourceTree = "<group>"; };
+		BB66B8EB2AF2F0D400840E90 /* BestWayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestWayView.swift; sourceTree = "<group>"; };
+		BB66B8EE2AF318AF00840E90 /* BestWayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestWayViewModel.swift; sourceTree = "<group>"; };
+		BB66B8F12AF44B6500840E90 /* StepsComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +150,7 @@
 		BB66B8A72AF0417600840E90 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				BB66B8D42AF2D35700840E90 /* BestWay */,
 				BB66B87F2AF03F4A00840E90 /* ContentView.swift */,
 				BB66B8AA2AF0419F00840E90 /* Features */,
 				BB66B8AB2AF041AB00840E90 /* Utils */,
@@ -140,6 +161,7 @@
 		BB66B8A82AF0417D00840E90 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BB66B8E82AF2DFF700840E90 /* graph.json */,
 				BB66B8812AF03F4B00840E90 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -165,6 +187,62 @@
 			children = (
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		BB66B8D42AF2D35700840E90 /* BestWay */ = {
+			isa = PBXGroup;
+			children = (
+				BB66B8F02AF44B5800840E90 /* Components */,
+				BB66B8D72AF2D42F00840E90 /* Helper */,
+				BB66B8D52AF2D3B000840E90 /* Model */,
+				BB66B8EA2AF2F0C000840E90 /* View */,
+				BB66B8ED2AF3189D00840E90 /* ViewModel */,
+			);
+			path = BestWay;
+			sourceTree = "<group>";
+		};
+		BB66B8D52AF2D3B000840E90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB66B8DA2AF2D46600840E90 /* NodeModel.swift */,
+				BB66B8DF2AF2D52400840E90 /* ClassroomNodeModel.swift */,
+				BB66B8E12AF2D58400840E90 /* NodeJSONModel.swift */,
+				BB66B8E42AF2D8AC00840E90 /* NodeRelationshipModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB66B8D72AF2D42F00840E90 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BB66B8E62AF2DF3000840E90 /* GraphDataLoader.swift */,
+				BB66B8D82AF2D44000840E90 /* Graph.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		BB66B8EA2AF2F0C000840E90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB66B8EB2AF2F0D400840E90 /* BestWayView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB66B8ED2AF3189D00840E90 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BB66B8EE2AF318AF00840E90 /* BestWayViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BB66B8F02AF44B5800840E90 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BB66B8F12AF44B6500840E90 /* StepsComponent.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +349,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB66B8E92AF2DFF700840E90 /* graph.json in Resources */,
 				BB66B8852AF03F4B00840E90 /* Preview Assets.xcassets in Resources */,
 				BB66B8822AF03F4B00840E90 /* Assets.xcassets in Resources */,
 			);
@@ -297,8 +376,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB66B8D92AF2D44000840E90 /* Graph.swift in Sources */,
+				BB66B8E02AF2D52400840E90 /* ClassroomNodeModel.swift in Sources */,
 				BB66B8802AF03F4A00840E90 /* ContentView.swift in Sources */,
+				BB66B8E72AF2DF3000840E90 /* GraphDataLoader.swift in Sources */,
+				BB66B8EF2AF318AF00840E90 /* BestWayViewModel.swift in Sources */,
+				BB66B8E22AF2D58400840E90 /* NodeJSONModel.swift in Sources */,
 				BB66B87E2AF03F4A00840E90 /* MiniChallenge4App.swift in Sources */,
+				BB66B8E52AF2D8AC00840E90 /* NodeRelationshipModel.swift in Sources */,
+				BB66B8F22AF44B6500840E90 /* StepsComponent.swift in Sources */,
+				BB66B8DB2AF2D46600840E90 /* NodeModel.swift in Sources */,
+				BB66B8EC2AF2F0D400840E90 /* BestWayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
