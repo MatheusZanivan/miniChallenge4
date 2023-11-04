@@ -9,12 +9,12 @@ import SwiftUI
 
 struct RouteView: View {
     let classRoomSenac: [ClassroomModel]
-    @State private var destino: String
-    @State private var suaLocalizacao = String()
+    @State private var destiny: String
+    @State private var location = String()
     
     init(classRoomSenac: [ClassroomModel]) {
         self.classRoomSenac = classRoomSenac
-        self.destino = classRoomSenac[0].nome
+        self.destiny = classRoomSenac[0].nome
     }
     
     var body: some View {
@@ -23,12 +23,12 @@ struct RouteView: View {
                 .foregroundStyle(.white)
             Spacer()
             Form {
-                Picker("Selecione seu destino", selection: $destino){
+                Picker("Selecione seu destino", selection: $destiny){
                     ForEach(classRoomSenac, id: \.nome){ classRoom in
                         Text(classRoom.nome)
                     }
                 }
-                TextField("Indique uma sala próxima", text: $suaLocalizacao)
+                TextField("Indique uma sala próxima", text: $location)
             }
             .frame(minHeight: 150, idealHeight: 150, maxHeight: 150)
             .scrollContentBackground(.hidden)
