@@ -30,4 +30,25 @@ class SenacMapViewModel: ObservableObject {
             print("Could not find senac map file.")
         }
     }
+    
+    func filterWard(from placeSelected: String)->[WardModel]?{
+        if senacMap.isEmpty {return nil}
+        for senacPlace in senacMap {
+            if senacPlace.nome == placeSelected {
+                return senacPlace.alas
+            }
+        }
+        return nil
+    }
+    
+    func filterLab(from placeSelected: String)->[WardModel]?{
+        if senacMap.isEmpty {return nil}
+        for senacPlace in senacMap {
+            if senacPlace.nome == placeSelected {
+                
+                return senacPlace.alas
+            }
+        }
+        return nil
+    }
 }

@@ -21,4 +21,12 @@ final class DecodingSenacJsonMap: XCTestCase {
             })
             .store(in: &cancellables)
     }
+    
+    func testFilterWard() {
+        let senacMapViewModel = SenacMapViewModel()
+        let expectedOutput = "G"
+        let resposta = senacMapViewModel.filterWard(from: "Acadêmico 2")
+        XCTAssertEqual(resposta![0].corredor, expectedOutput)
+        
+    }
 }
