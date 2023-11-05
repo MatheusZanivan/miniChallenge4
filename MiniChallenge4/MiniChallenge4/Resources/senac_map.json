@@ -561,6 +561,30 @@
                  ]
              }
         ]
+    },
+    {
+        "nome": "Acadêmico 1",
+        "alas":[]
+    },
+    {
+        "nome": "Portaria 1",
+        "alas":[]
+    },
+    {
+        "nome": "Portaria 2",
+        "alas":[]
+    },
+    {
+        "nome": "Portaria 3",
+        "alas":[]
+    },
+    {
+        "nome": "Quadras",
+        "alas":[]
+    },
+    {
+        "nome": "Coordenação",
+        "alas":[]
     }
 ]
 
