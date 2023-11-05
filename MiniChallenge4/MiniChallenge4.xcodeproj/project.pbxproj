@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BB66B87E2AF03F4A00840E90 /* MiniChallenge4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B87D2AF03F4A00840E90 /* MiniChallenge4App.swift */; };
-		BB66B8802AF03F4A00840E90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B87F2AF03F4A00840E90 /* ContentView.swift */; };
 		BB66B8822AF03F4B00840E90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB66B8812AF03F4B00840E90 /* Assets.xcassets */; };
 		BB66B8852AF03F4B00840E90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB66B8842AF03F4B00840E90 /* Preview Assets.xcassets */; };
 		BB66B8D92AF2D44000840E90 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8D82AF2D44000840E90 /* Graph.swift */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		BB66B87A2AF03F4A00840E90 /* MiniChallenge4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniChallenge4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB66B87D2AF03F4A00840E90 /* MiniChallenge4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniChallenge4App.swift; sourceTree = "<group>"; };
-		BB66B87F2AF03F4A00840E90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB66B8812AF03F4B00840E90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB66B8842AF03F4B00840E90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB66B88A2AF03F4B00840E90 /* MiniChallenge4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniChallenge4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,8 +118,6 @@
 		BB66B8A72AF0417600840E90 /* Code */ = {
 			isa = PBXGroup;
 			children = (
-				BB66B8D42AF2D35700840E90 /* BestWay */,
-				BB66B87F2AF03F4A00840E90 /* ContentView.swift */,
 				BB66B8AA2AF0419F00840E90 /* Features */,
 				BB66B8AB2AF041AB00840E90 /* Utils */,
 			);
@@ -148,6 +144,7 @@
 		BB66B8AA2AF0419F00840E90 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				BB66B8D42AF2D35700840E90 /* BestWay */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -318,7 +315,6 @@
 			files = (
 				BB66B8D92AF2D44000840E90 /* Graph.swift in Sources */,
 				BB66B8E02AF2D52400840E90 /* ClassroomNodeModel.swift in Sources */,
-				BB66B8802AF03F4A00840E90 /* ContentView.swift in Sources */,
 				BB66B8E72AF2DF3000840E90 /* GraphDataLoader.swift in Sources */,
 				BB66B8EF2AF318AF00840E90 /* BestWayViewModel.swift in Sources */,
 				BB66B8E22AF2D58400840E90 /* NodeJSONModel.swift in Sources */,
