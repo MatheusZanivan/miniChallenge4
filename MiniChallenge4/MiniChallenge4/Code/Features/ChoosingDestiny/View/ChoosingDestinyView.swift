@@ -65,6 +65,16 @@ struct ChoosingDestinyView: View {
                     }
                 })
                 
+                HStack {
+                    RoundButton(action: {
+                        print("rota")
+                    }, imageButton: Image(uiImage: UIImage(named: "Regular-S")!))
+                    Spacer()
+                    RoundButton(action: {
+                        print("imagem")
+                    }, imageButton: Image(uiImage: UIImage(named: "Image")!))
+                }.padding()
+                
                 
             }.background(Color.gray)
         }
