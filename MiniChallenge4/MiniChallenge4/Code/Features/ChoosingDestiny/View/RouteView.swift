@@ -21,7 +21,7 @@ struct RouteView: View {
         VStack(content: {
 //            Text("A rota do destino pode aparecer aqui")
 //                .foregroundStyle(.white)
-            BestWayView(startingNode: .constant("i339"), arrivalNode: $destiny)
+            BestWayView(startingNode: .constant("i347"), arrivalNode: $destiny)
             Spacer()
             Text("Por padrão você está no laboratório i347 (Laboratório Apple)")
             Form {
