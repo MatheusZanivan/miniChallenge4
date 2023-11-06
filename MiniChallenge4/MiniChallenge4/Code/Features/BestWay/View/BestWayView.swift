@@ -20,34 +20,22 @@ struct BestWayView: View {
         ScrollView {
             VStack {
                 if graphDidLoad {
-//                    TextField("Sala origem", text: $startingNode)
-//                        .textInputAutocapitalization(.never)
-//                        .padding()
-//                        .background()
-//                        .cornerRadius(10)
-//                        .padding()
-//                    TextField("Sala destino", text: $arrivalNode)
-//                        .textInputAutocapitalization(.never)
-//                        .padding()
-//                        .background()
-//                        .cornerRadius(10)
-//                        .padding()
-//                    
                     Button {
-                        steps = bestWayViewModel.findBestWay(startingNode: startingNode, arrivalNode: arrivalNode)
+                        steps = bestWayViewModel.findBestWay(startingNode: startingNode.lowercased(), arrivalNode: arrivalNode.lowercased())
                         if steps.isEmpty {
                             invalidData = true
                         }
                     } label: {
                         Text("Calcular menor caminho")
                             .padding()
-                            .background(.white)
-                            .foregroundColor(.black)
-                            .cornerRadius(10)
+                            .foregroundStyle(Color.white)
+                            .background(.green)
+                            .cornerRadius(16)
                     }
                     .alert(isPresented: $invalidData) {
                         Alert(title: Text("Alerta"), message: Text("Dados inseridos são inválidos."))
                     }
+                    .padding(.bottom)
                     
                     if !steps.isEmpty {
                         StepsComponent(steps: $steps)

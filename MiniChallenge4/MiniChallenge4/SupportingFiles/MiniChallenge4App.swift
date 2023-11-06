@@ -11,7 +11,9 @@ import SwiftUI
 struct MiniChallenge4App: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
+//            BestWayView(startingNode: .constant("i347"), arrivalNode: .constant("j475"))
+         
+            ChoosingDestinyView()
         }
     }
 }

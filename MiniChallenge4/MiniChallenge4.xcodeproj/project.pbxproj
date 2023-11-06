@@ -7,20 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		883F7C5E2AF2D40B00691669 /* ChoosingDestinyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F7C5D2AF2D40B00691669 /* ChoosingDestinyView.swift */; };
+		883F7C612AF31A7700691669 /* DropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F7C602AF31A7700691669 /* DropdownMenu.swift */; };
+		884136782AF428EF00EE603E /* DropdownMenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884136772AF428EF00EE603E /* DropdownMenuList.swift */; };
+		8841367A2AF429A500EE603E /* DropdownMenuListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884136792AF429A500EE603E /* DropdownMenuListRow.swift */; };
+		88A9DB912AF6DD18002AC071 /* RouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A9DB902AF6DD18002AC071 /* RouteView.swift */; };
+		BB3E49D62AF8550000D4421B /* graph.json in Resources */ = {isa = PBXBuildFile; fileRef = BB3E49D52AF8550000D4421B /* graph.json */; };
+		BB3E49DC2AF858EF00D4421B /* StepsComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E49DB2AF858EF00D4421B /* StepsComponent.swift */; };
+		BB3E49DF2AF8590600D4421B /* BestWayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E49DE2AF8590600D4421B /* BestWayViewModel.swift */; };
+		BB3E49E22AF8591800D4421B /* BestWayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E49E12AF8591800D4421B /* BestWayView.swift */; };
+		BB3E49E82AF8592A00D4421B /* ClassroomNodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E49E42AF8592900D4421B /* ClassroomNodeModel.swift */; };
+		BB3E49E92AF8592A00D4421B /* NodeJSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E49E52AF8592900D4421B /* NodeJSONModel.swift */; };
+		BB3E49EA2AF8592A00D4421B /* NodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E49E62AF8592A00D4421B /* NodeModel.swift */; };
+		BB3E49EB2AF8592A00D4421B /* NodeRelationshipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E49E72AF8592A00D4421B /* NodeRelationshipModel.swift */; };
+		BB3E49EF2AF8593A00D4421B /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E49ED2AF8593A00D4421B /* Graph.swift */; };
+		BB3E49F02AF8593A00D4421B /* GraphDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E49EE2AF8593A00D4421B /* GraphDataLoader.swift */; };
 		BB66B87E2AF03F4A00840E90 /* MiniChallenge4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B87D2AF03F4A00840E90 /* MiniChallenge4App.swift */; };
+		BB66B8802AF03F4A00840E90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B87F2AF03F4A00840E90 /* ContentView.swift */; };
 		BB66B8822AF03F4B00840E90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB66B8812AF03F4B00840E90 /* Assets.xcassets */; };
 		BB66B8852AF03F4B00840E90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB66B8842AF03F4B00840E90 /* Preview Assets.xcassets */; };
-		BB66B8D92AF2D44000840E90 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8D82AF2D44000840E90 /* Graph.swift */; };
-		BB66B8DB2AF2D46600840E90 /* NodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8DA2AF2D46600840E90 /* NodeModel.swift */; };
-		BB66B8E02AF2D52400840E90 /* ClassroomNodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8DF2AF2D52400840E90 /* ClassroomNodeModel.swift */; };
-		BB66B8E22AF2D58400840E90 /* NodeJSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8E12AF2D58400840E90 /* NodeJSONModel.swift */; };
-		BB66B8E52AF2D8AC00840E90 /* NodeRelationshipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8E42AF2D8AC00840E90 /* NodeRelationshipModel.swift */; };
-		BB66B8E72AF2DF3000840E90 /* GraphDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8E62AF2DF3000840E90 /* GraphDataLoader.swift */; };
-		BB66B8E92AF2DFF700840E90 /* graph.json in Resources */ = {isa = PBXBuildFile; fileRef = BB66B8E82AF2DFF700840E90 /* graph.json */; };
-		BB66B8EC2AF2F0D400840E90 /* BestWayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8EB2AF2F0D400840E90 /* BestWayView.swift */; };
-		BB66B8EF2AF318AF00840E90 /* BestWayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8EE2AF318AF00840E90 /* BestWayViewModel.swift */; };
-		BB66B8F22AF44B6500840E90 /* StepsComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8F12AF44B6500840E90 /* StepsComponent.swift */; };
-		BB66B8F42AF532C200840E90 /* GraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8F32AF532C200840E90 /* GraphTests.swift */; };
+		BB66B8C62AF1BC5500840E90 /* SenacPlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8C52AF1BC5500840E90 /* SenacPlaceModel.swift */; };
+		BB66B8C82AF1BC5C00840E90 /* WardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8C72AF1BC5C00840E90 /* WardModel.swift */; };
+		BB66B8CA2AF1BC6300840E90 /* ClassroomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8C92AF1BC6300840E90 /* ClassroomModel.swift */; };
+		BB66B8CC2AF1BD0C00840E90 /* SenacMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8CB2AF1BD0C00840E90 /* SenacMapViewModel.swift */; };
+		BB66B8D02AF1BF2C00840E90 /* senac_map.json in Resources */ = {isa = PBXBuildFile; fileRef = BB66B8CF2AF1BF2C00840E90 /* senac_map.json */; };
+		BB66B8D32AF1C03600840E90 /* DecodingSenacJsonMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8D22AF1C03600840E90 /* DecodingSenacJsonMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,22 +45,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		883F7C5D2AF2D40B00691669 /* ChoosingDestinyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosingDestinyView.swift; sourceTree = "<group>"; };
+		883F7C602AF31A7700691669 /* DropdownMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenu.swift; sourceTree = "<group>"; };
+		884136772AF428EF00EE603E /* DropdownMenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenuList.swift; sourceTree = "<group>"; };
+		884136792AF429A500EE603E /* DropdownMenuListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenuListRow.swift; sourceTree = "<group>"; };
+		88A9DB902AF6DD18002AC071 /* RouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
+		BB3E49D52AF8550000D4421B /* graph.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = graph.json; sourceTree = "<group>"; };
+		BB3E49DB2AF858EF00D4421B /* StepsComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepsComponent.swift; sourceTree = "<group>"; };
+		BB3E49DE2AF8590600D4421B /* BestWayViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestWayViewModel.swift; sourceTree = "<group>"; };
+		BB3E49E12AF8591800D4421B /* BestWayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestWayView.swift; sourceTree = "<group>"; };
+		BB3E49E42AF8592900D4421B /* ClassroomNodeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassroomNodeModel.swift; sourceTree = "<group>"; };
+		BB3E49E52AF8592900D4421B /* NodeJSONModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeJSONModel.swift; sourceTree = "<group>"; };
+		BB3E49E62AF8592A00D4421B /* NodeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeModel.swift; sourceTree = "<group>"; };
+		BB3E49E72AF8592A00D4421B /* NodeRelationshipModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeRelationshipModel.swift; sourceTree = "<group>"; };
+		BB3E49ED2AF8593A00D4421B /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		BB3E49EE2AF8593A00D4421B /* GraphDataLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphDataLoader.swift; sourceTree = "<group>"; };
 		BB66B87A2AF03F4A00840E90 /* MiniChallenge4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniChallenge4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB66B87D2AF03F4A00840E90 /* MiniChallenge4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniChallenge4App.swift; sourceTree = "<group>"; };
+		BB66B87F2AF03F4A00840E90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB66B8812AF03F4B00840E90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB66B8842AF03F4B00840E90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB66B88A2AF03F4B00840E90 /* MiniChallenge4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniChallenge4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB66B8D82AF2D44000840E90 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
-		BB66B8DA2AF2D46600840E90 /* NodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeModel.swift; sourceTree = "<group>"; };
-		BB66B8DF2AF2D52400840E90 /* ClassroomNodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomNodeModel.swift; sourceTree = "<group>"; };
-		BB66B8E12AF2D58400840E90 /* NodeJSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeJSONModel.swift; sourceTree = "<group>"; };
-		BB66B8E42AF2D8AC00840E90 /* NodeRelationshipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeRelationshipModel.swift; sourceTree = "<group>"; };
-		BB66B8E62AF2DF3000840E90 /* GraphDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphDataLoader.swift; sourceTree = "<group>"; };
-		BB66B8E82AF2DFF700840E90 /* graph.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = graph.json; sourceTree = "<group>"; };
-		BB66B8EB2AF2F0D400840E90 /* BestWayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestWayView.swift; sourceTree = "<group>"; };
-		BB66B8EE2AF318AF00840E90 /* BestWayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestWayViewModel.swift; sourceTree = "<group>"; };
-		BB66B8F12AF44B6500840E90 /* StepsComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsComponent.swift; sourceTree = "<group>"; };
-		BB66B8F32AF532C200840E90 /* GraphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphTests.swift; sourceTree = "<group>"; };
+		BB66B8C52AF1BC5500840E90 /* SenacPlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenacPlaceModel.swift; sourceTree = "<group>"; };
+		BB66B8C72AF1BC5C00840E90 /* WardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WardModel.swift; sourceTree = "<group>"; };
+		BB66B8C92AF1BC6300840E90 /* ClassroomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomModel.swift; sourceTree = "<group>"; };
+		BB66B8CB2AF1BD0C00840E90 /* SenacMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenacMapViewModel.swift; sourceTree = "<group>"; };
+		BB66B8CF2AF1BF2C00840E90 /* senac_map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = senac_map.json; sourceTree = "<group>"; };
+		BB66B8D22AF1C03600840E90 /* DecodingSenacJsonMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodingSenacJsonMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +92,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		883F7C5F2AF31A3200691669 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				883F7C602AF31A7700691669 /* DropdownMenu.swift */,
+				884136772AF428EF00EE603E /* DropdownMenuList.swift */,
+				884136792AF429A500EE603E /* DropdownMenuListRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BB3E49D92AF858CC00D4421B /* BestWay */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E49DA2AF858E100D4421B /* Components */,
+				BB3E49EC2AF8593200D4421B /* Helper */,
+				BB3E49E32AF8591F00D4421B /* Model */,
+				BB3E49E02AF8590E00D4421B /* View */,
+				BB3E49DD2AF858FB00D4421B /* ViewModel */,
+			);
+			path = BestWay;
+			sourceTree = "<group>";
+		};
+		BB3E49DA2AF858E100D4421B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E49DB2AF858EF00D4421B /* StepsComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BB3E49DD2AF858FB00D4421B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E49DE2AF8590600D4421B /* BestWayViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BB3E49E02AF8590E00D4421B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E49E12AF8591800D4421B /* BestWayView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB3E49E32AF8591F00D4421B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E49E42AF8592900D4421B /* ClassroomNodeModel.swift */,
+				BB3E49E52AF8592900D4421B /* NodeJSONModel.swift */,
+				BB3E49E62AF8592A00D4421B /* NodeModel.swift */,
+				BB3E49E72AF8592A00D4421B /* NodeRelationshipModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB3E49EC2AF8593200D4421B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E49ED2AF8593A00D4421B /* Graph.swift */,
+				BB3E49EE2AF8593A00D4421B /* GraphDataLoader.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		BB66B8712AF03F4A00840E90 = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +198,7 @@
 		BB66B88D2AF03F4B00840E90 /* MiniChallenge4Tests */ = {
 			isa = PBXGroup;
 			children = (
-				BB66B8F32AF532C200840E90 /* GraphTests.swift */,
+				BB66B8D22AF1C03600840E90 /* DecodingSenacJsonMap.swift */,
 			);
 			path = MiniChallenge4Tests;
 			sourceTree = "<group>";
@@ -127,7 +215,8 @@
 		BB66B8A82AF0417D00840E90 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BB66B8E82AF2DFF700840E90 /* graph.json */,
+				BB3E49D52AF8550000D4421B /* graph.json */,
+				BB66B8CF2AF1BF2C00840E90 /* senac_map.json */,
 				BB66B8812AF03F4B00840E90 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -144,7 +233,9 @@
 		BB66B8AA2AF0419F00840E90 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				BB66B8D42AF2D35700840E90 /* BestWay */,
+				BB66B8CD2AF1BE8700840E90 /* Common */,
+				BB3E49D92AF858CC00D4421B /* BestWay */,
+				BB66B8C22AF1BC3200840E90 /* ChoosingDestiny */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -156,60 +247,58 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		BB66B8D42AF2D35700840E90 /* BestWay */ = {
+		BB66B8C22AF1BC3200840E90 /* ChoosingDestiny */ = {
 			isa = PBXGroup;
 			children = (
-				BB66B8F02AF44B5800840E90 /* Components */,
-				BB66B8D72AF2D42F00840E90 /* Helper */,
-				BB66B8D52AF2D3B000840E90 /* Model */,
-				BB66B8EA2AF2F0C000840E90 /* View */,
-				BB66B8ED2AF3189D00840E90 /* ViewModel */,
+				883F7C5F2AF31A3200691669 /* Components */,
+				BB66B8C42AF1BC4600840E90 /* Model */,
+				BB66B8D12AF1BF6F00840E90 /* View */,
+				BB66B8C32AF1BC4100840E90 /* ViewModel */,
 			);
-			path = BestWay;
+			path = ChoosingDestiny;
 			sourceTree = "<group>";
 		};
-		BB66B8D52AF2D3B000840E90 /* Model */ = {
+		BB66B8C32AF1BC4100840E90 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				BB66B8DA2AF2D46600840E90 /* NodeModel.swift */,
-				BB66B8DF2AF2D52400840E90 /* ClassroomNodeModel.swift */,
-				BB66B8E12AF2D58400840E90 /* NodeJSONModel.swift */,
-				BB66B8E42AF2D8AC00840E90 /* NodeRelationshipModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		BB66B8D72AF2D42F00840E90 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				BB66B8E62AF2DF3000840E90 /* GraphDataLoader.swift */,
-				BB66B8D82AF2D44000840E90 /* Graph.swift */,
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
-		BB66B8EA2AF2F0C000840E90 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				BB66B8EB2AF2F0D400840E90 /* BestWayView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		BB66B8ED2AF3189D00840E90 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				BB66B8EE2AF318AF00840E90 /* BestWayViewModel.swift */,
+				BB66B8CB2AF1BD0C00840E90 /* SenacMapViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		BB66B8F02AF44B5800840E90 /* Components */ = {
+		BB66B8C42AF1BC4600840E90 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BB66B8F12AF44B6500840E90 /* StepsComponent.swift */,
+				BB66B8C52AF1BC5500840E90 /* SenacPlaceModel.swift */,
+				BB66B8C72AF1BC5C00840E90 /* WardModel.swift */,
+				BB66B8C92AF1BC6300840E90 /* ClassroomModel.swift */,
 			);
-			path = Components;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB66B8CD2AF1BE8700840E90 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BB66B8CE2AF1BE8C00840E90 /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BB66B8CE2AF1BE8C00840E90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB66B87F2AF03F4A00840E90 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB66B8D12AF1BF6F00840E90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88A9DB902AF6DD18002AC071 /* RouteView.swift */,
+				883F7C5D2AF2D40B00691669 /* ChoosingDestinyView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +382,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB66B8E92AF2DFF700840E90 /* graph.json in Resources */,
+				BB3E49D62AF8550000D4421B /* graph.json in Resources */,
+				BB66B8D02AF1BF2C00840E90 /* senac_map.json in Resources */,
 				BB66B8852AF03F4B00840E90 /* Preview Assets.xcassets in Resources */,
 				BB66B8822AF03F4B00840E90 /* Assets.xcassets in Resources */,
 			);
@@ -313,16 +403,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB66B8D92AF2D44000840E90 /* Graph.swift in Sources */,
-				BB66B8E02AF2D52400840E90 /* ClassroomNodeModel.swift in Sources */,
-				BB66B8E72AF2DF3000840E90 /* GraphDataLoader.swift in Sources */,
-				BB66B8EF2AF318AF00840E90 /* BestWayViewModel.swift in Sources */,
-				BB66B8E22AF2D58400840E90 /* NodeJSONModel.swift in Sources */,
+				BB3E49EA2AF8592A00D4421B /* NodeModel.swift in Sources */,
+				88A9DB912AF6DD18002AC071 /* RouteView.swift in Sources */,
+				BB3E49E82AF8592A00D4421B /* ClassroomNodeModel.swift in Sources */,
+				BB66B8802AF03F4A00840E90 /* ContentView.swift in Sources */,
+				883F7C5E2AF2D40B00691669 /* ChoosingDestinyView.swift in Sources */,
+				BB66B8C82AF1BC5C00840E90 /* WardModel.swift in Sources */,
 				BB66B87E2AF03F4A00840E90 /* MiniChallenge4App.swift in Sources */,
-				BB66B8E52AF2D8AC00840E90 /* NodeRelationshipModel.swift in Sources */,
-				BB66B8F22AF44B6500840E90 /* StepsComponent.swift in Sources */,
-				BB66B8DB2AF2D46600840E90 /* NodeModel.swift in Sources */,
-				BB66B8EC2AF2F0D400840E90 /* BestWayView.swift in Sources */,
+				BB3E49EB2AF8592A00D4421B /* NodeRelationshipModel.swift in Sources */,
+				884136782AF428EF00EE603E /* DropdownMenuList.swift in Sources */,
+				BB66B8C62AF1BC5500840E90 /* SenacPlaceModel.swift in Sources */,
+				BB66B8CC2AF1BD0C00840E90 /* SenacMapViewModel.swift in Sources */,
+				BB66B8CA2AF1BC6300840E90 /* ClassroomModel.swift in Sources */,
+				BB3E49DC2AF858EF00D4421B /* StepsComponent.swift in Sources */,
+				BB3E49DF2AF8590600D4421B /* BestWayViewModel.swift in Sources */,
+				8841367A2AF429A500EE603E /* DropdownMenuListRow.swift in Sources */,
+				BB3E49E22AF8591800D4421B /* BestWayView.swift in Sources */,
+				883F7C612AF31A7700691669 /* DropdownMenu.swift in Sources */,
+				BB3E49EF2AF8593A00D4421B /* Graph.swift in Sources */,
+				BB3E49E92AF8592A00D4421B /* NodeJSONModel.swift in Sources */,
+				BB3E49F02AF8593A00D4421B /* GraphDataLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB66B8F42AF532C200840E90 /* GraphTests.swift in Sources */,
+				BB66B8D32AF1C03600840E90 /* DecodingSenacJsonMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,8 +578,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -487,9 +587,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phsouza.MiniChallenge4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -507,8 +609,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -516,9 +618,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.phsouza.MiniChallenge4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -529,7 +633,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UFS93RKF34;
+				DEVELOPMENT_TEAM = Z2T622XX3F;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
@@ -549,7 +653,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UFS93RKF34;
+				DEVELOPMENT_TEAM = Z2T622XX3F;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
