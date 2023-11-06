@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var senacMapViewModel = SenacMapViewModel()
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -15,6 +16,9 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Hello, world!")
         }
+        .onReceive(senacMapViewModel.$senacMap, perform: { _ in
+            print("\(senacMapViewModel.senacMap)")
+        })
         .padding()
     }
 }
