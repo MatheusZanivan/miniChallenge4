@@ -32,6 +32,7 @@
 		BB66B8CC2AF1BD0C00840E90 /* SenacMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8CB2AF1BD0C00840E90 /* SenacMapViewModel.swift */; };
 		BB66B8D02AF1BF2C00840E90 /* senac_map.json in Resources */ = {isa = PBXBuildFile; fileRef = BB66B8CF2AF1BF2C00840E90 /* senac_map.json */; };
 		BB66B8D32AF1C03600840E90 /* DecodingSenacJsonMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8D22AF1C03600840E90 /* DecodingSenacJsonMap.swift */; };
+		BBCF60E82AFC0BC400FF8952 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCF60E72AFC0BC400FF8952 /* ViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		BB66B8CB2AF1BD0C00840E90 /* SenacMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenacMapViewModel.swift; sourceTree = "<group>"; };
 		BB66B8CF2AF1BF2C00840E90 /* senac_map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = senac_map.json; sourceTree = "<group>"; };
 		BB66B8D22AF1C03600840E90 /* DecodingSenacJsonMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodingSenacJsonMap.swift; sourceTree = "<group>"; };
+		BBCF60E72AFC0BC400FF8952 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +245,7 @@
 		BB66B8AB2AF041AB00840E90 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				BBCF60E72AFC0BC400FF8952 /* ViewExtension.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				BB3E49EA2AF8592A00D4421B /* NodeModel.swift in Sources */,
 				88A9DB912AF6DD18002AC071 /* RouteView.swift in Sources */,
 				BB3E49E82AF8592A00D4421B /* ClassroomNodeModel.swift in Sources */,
+				BBCF60E82AFC0BC400FF8952 /* ViewExtension.swift in Sources */,
 				BB66B8802AF03F4A00840E90 /* ContentView.swift in Sources */,
 				883F7C5E2AF2D40B00691669 /* ChoosingDestinyView.swift in Sources */,
 				BB66B8C82AF1BC5C00840E90 /* WardModel.swift in Sources */,
@@ -580,6 +584,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -611,6 +616,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
