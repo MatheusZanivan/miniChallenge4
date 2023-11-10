@@ -564,7 +564,323 @@
     },
     {
         "nome": "Acadêmico 1",
-        "alas":[]
+        "alas":[
+            {
+                "corredor": "A",
+                "salas": [
+                    {
+                        "nome": "a101",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 50 Seats"
+                    },
+                    {
+                        "nome": "a102",
+                        "andar": "Térreo",
+                        "descrição": "Lab. MAC 50 Seats"
+                    },
+                    {
+                        "nome": "a103",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 50 Seats"
+                    },
+                    {
+                        "nome": "a104",
+                        "andar": "Térreo",
+                        "descrição": "Lab. MAC 40 Seats"
+                    },
+                    {
+                        "nome": "a105",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 50 Seats"
+                    },
+                    {
+                        "nome": "a106",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 50 Seats"
+                    },
+                    {
+                        "nome": "a107",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 50 Seats"
+                    },
+                    {
+                        "nome": "a109",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 40 Seats"
+                    },
+                    {
+                        "nome": "a110",
+                        "andar": "Térreo",
+                        "descrição": "Lab. Geral NASA"
+                    },
+                    {
+                        "nome": "a111",
+                        "andar": "Térreo",
+                        "descrição": "Sala de Produção Audiovisual 30 Seats"
+                    },
+                    {
+                        "nome": "a112",
+                        "andar": "Térreo",
+                        "descrição": "Apoio Logístico"
+                    },
+                    {
+                        "nome": "a113",
+                        "andar": "Térreo",
+                        "descrição": "Ilha de Edição MAC 35 Seats"
+                    },
+                    {
+                        "nome": "a114",
+                        "andar": "Térreo",
+                        "descrição": "Lab. Gravura 25 Seats"
+                    },
+                    {
+                        "nome": "a115",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 50 Seats"
+                    },
+                    {
+                        "nome": "a116",
+                        "andar": "Térreo",
+                        "descrição": "Tipografia 50 Seats"
+                    },
+                    {
+                        "nome": "a117",
+                        "andar": "Térreo",
+                        "descrição": "Redes Telecom CISCO 36 Seats"
+                    },
+                    {
+                        "nome": "a118",
+                        "andar": "Térreo",
+                        "descrição": "Ateliê 35 Seats"
+                    },
+                    {
+                        "nome": "a119",
+                        "andar": "Térreo",
+                        "descrição": "30 Univer."
+                    },
+                    {
+                        "nome": "a120",
+                        "andar": "Térreo",
+                        "descrição": "65 Univer."
+                    },
+                    {
+                        "nome": "a121",
+                        "andar": "Térreo",
+                        "descrição": "30 Univer."
+                    },
+                    {
+                        "nome": "a123",
+                        "andar": "Térreo",
+                        "descrição": "Laboratório de Hospedagem 50 Seats"
+                    },
+                    {
+                        "nome": "a125",
+                        "andar": "Térreo",
+                        "descrição": "100 Universitárias"
+                    },
+                ]
+            },
+            {
+                "corredor": "B",
+                "salas": [
+                    {
+                        "nome": "b126",
+                        "andar": "Térreo",
+                        "descrição": "Lab. MAC 50 Seats"
+                    },
+                    {
+                        "nome": "b127",
+                        "andar": "Térreo",
+                        "descrição": "Estudio de Som 9 Seats"
+                    },
+                    {
+                        "nome": "b128",
+                        "andar": "Térreo",
+                        "descrição": "Estudio de Vídeo"
+                    },
+                    {
+                        "nome": "b129",
+                        "andar": "Térreo",
+                        "descrição": "30 Univer."
+                    },
+                    {
+                        "nome": "b130",
+                        "andar": "Térreo",
+                        "descrição": "Ilha de Edição Não Linear 30 Lugares"
+                    },
+                ]
+            },
+            {
+                "corredor": "C",
+                "salas": [
+                    {
+                        "nome": "c131",
+                        "andar": "Térreo",
+                        "descrição": "Análise Sensorial 50 Seats"
+                    },
+                    {
+                        "nome": "c132",
+                        "andar": "Térreo",
+                        "descrição": "Microbiologia 50 Seats"
+                    },
+                    {
+                        "nome": "c133",
+                        "andar": "Térreo",
+                        "descrição": "Lab.Multifuncional 32 Seats"
+                    },
+                    {
+                        "nome": "c134",
+                        "andar": "Térreo",
+                        "descrição": "Ateliê 35 Seats"
+                    },
+                    {
+                        "nome": "c135",
+                        "andar": "Térreo",
+                        "descrição": "Química 32 Seats"
+                    },
+                    {
+                        "nome": "c136",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 70 Seats"
+                    },
+                    {
+                        "nome": "c137",
+                        "andar": "Térreo",
+                        "descrição": "Sala Auditório Audiovisual 80 Seats"
+                    },
+                    {
+                        "nome": "c138",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 45 Seats"
+                    },
+                    {
+                        "nome": "c139",
+                        "andar": "Térreo",
+                        "descrição": "Sala Auditório Audiovisual 60 Seats"
+                    },
+                    {
+                        "nome": "c140",
+                        "andar": "Térreo",
+                        "descrição": "Depósito ADM"
+                    },
+                    {
+                        "nome": "c141",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 50 Seats"
+                    },
+                    {
+                        "nome": "c143",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 45 Seats"
+                    },
+                    {
+                        "nome": "c145",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 50 Seats"
+                    },
+                    {
+                        "nome": "c146",
+                        "andar": "Térreo",
+                        "descrição": "Lab. MAC 40 Seats"
+                    },
+                    {
+                        "nome": "c147",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC CISCO 45 Seats"
+                    },
+                    {
+                        "nome": "c148",
+                        "andar": "Térreo",
+                        "descrição": "Lab. MAC 40 Seats"
+                    },
+                    {
+                        "nome": "c149",
+                        "andar": "Térreo",
+                        "descrição": "Lab. MAC 50 Seats"
+                    },
+                    {
+                        "nome": "c150",
+                        "andar": "Térreo",
+                        "descrição": "Lab. MAC 40 Seats"
+                    },
+                    {
+                        "nome": "c151",
+                        "andar": "Térreo",
+                        "descrição": "CIT"
+                    },
+                ]
+            },
+            {
+                "corredor": "D",
+                "salas": [
+                    {
+                        "nome": "d154",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 40 Seats"
+                    },
+                    {
+                        "nome": "d155",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 50 Seats"
+                    },
+                    {
+                        "nome": "d156",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 75 Seats"
+                    },
+                    {
+                        "nome": "d157",
+                        "andar": "Térreo",
+                        "descrição": "26 Carteiras"
+                    },
+                    {
+                        "nome": "d158",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 25 Seats"
+                    },
+                    {
+                        "nome": "d159",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 48 Seats"
+                    },
+                    {
+                        "nome": "d160",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 70 Seats"
+                    },
+                    {
+                        "nome": "d163",
+                        "andar": "Térreo",
+                        "descrição": "Central de Atendimento"
+                    },
+                ]
+            },
+            {
+                "corredor": "E",
+                "salas": [
+                    {
+                        "nome": "e166",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 40 Seats"
+                    },
+                    {
+                        "nome": "e167",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 40 Seats"
+                    },
+                    {
+                        "nome": "e168",
+                        "andar": "Térreo",
+                        "descrição": "27 Universitárias"
+                    },
+                    {
+                        "nome": "e169",
+                        "andar": "Térreo",
+                        "descrição": "Lab. PC 50 Seats"
+                    },
+                ]
+            }
+        ]
     },
     {
         "nome": "Portaria 1",
