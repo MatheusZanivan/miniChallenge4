@@ -7,7 +7,7 @@
 
 import Foundation
 
-class SenacMapViewModel: ObservableObject {
+final class SenacMapViewModel: ObservableObject {
     @Published var senacMap = [SenacPlaceModel]()
     
     init() {
