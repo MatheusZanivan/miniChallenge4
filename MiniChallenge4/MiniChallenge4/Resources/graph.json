@@ -11014,5 +11014,2058 @@
          "andar":"terreo",
          "nome":"g314"
       }
-   }
+   },
+   {
+      "acao":"saia do Acadêmico 2 e siga reto até o Laboratório de Design",
+      "pesoAcao":5,
+      "noConexao":{
+         "nome":"sala tecnicos",
+         "andar":"terreo"
+      },
+      "no":{
+         "andar":"terreo",
+         "nome":"i336"
+      }
+   },
+   {
+      "acao":"saia do Laboratório de Design e siga reto até o Acadêmico 2",
+      "pesoAcao":5,
+      "noConexao":{
+         "nome":"i336",
+         "andar":"terreo"
+      },
+      "no":{
+         "andar":"terreo",
+         "nome":"sala tecnicos"
+      }
+   },
+   {
+      "no":{
+         "nome":"sala tecnicos",
+         "andar":"terreo"
+      },
+      "pesoAcao":1,
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"laboratorio de automacao e robotica "
+      },
+      "acao":"vire a direita"
+   },
+   {
+      "no":{
+         "andar":"terreo",
+         "nome":"sala tecnicos "
+      },
+      "acao":"vire a esquerda",
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"laboratorio fabricacao digital",
+         "andar":"terreo"
+      }
+   },
+   {
+      "pesoAcao":1,
+      "acao":"vire a esquerda",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"sala tecnicos "
+      },
+      "no":{
+         "nome":"laboratorio de automacao e robotica ",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"reto",
+      "no":{
+         "nome":"laboratorio de automacao e robotica ",
+         "andar":"terreo"
+      },
+      "pesoAcao":1,
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"laboratorio de fabricacao digital "
+      }
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"laboratorio de ciencias e tecnologia dos materiais "
+      },
+      "no":{
+         "nome":"laboratorio de automacao e robotica ",
+         "andar":"terreo"
+      },
+      "acao":"reto",
+      "pesoAcao":1
+   },
+   {
+      "no":{
+         "andar":"terreo",
+         "nome":"laboratorio de ciencias e tecnologia dos materiais "
+      },
+      "acao":"reto",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"laboratorio de automacao e robotica "
+      },
+      "pesoAcao":1
+   },
+   {
+      "noConexao":{
+         "nome":"laboratorio de fenomenos de transporte",
+         "andar":"terreo"
+      },
+      "no":{
+         "andar":"terreo",
+         "nome":"laboratorio de ciencias e tecnologia dos materiais "
+      },
+      "acao":"reto",
+      "pesoAcao":1
+   },
+   {
+      "pesoAcao":1,
+      "no":{
+         "nome":"laboratorio de fenomenos de transporte ",
+         "andar":"terreo"
+      },
+      "noConexao":{
+         "nome":"laboratorio de ciencias e tecnologia dos materiais ",
+         "andar":"terreo"
+      },
+      "acao":"reto"
+   },
+   {
+      "no":{
+         "nome":"laboratorio fabricacao digital ",
+         "andar":"terreo"
+      },
+      "acao":"vire a direita",
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"sala tecnicos ",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"reto",
+      "pesoAcao":1,
+      "no":{
+         "nome":"laboratorio fabricacao digital ",
+         "andar":"terreo"
+      },
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"laboratorio de automacao e robotica "
+      }
+   },
+   {
+      "pesoAcao":1,
+      "no":{
+         "andar":"terreo",
+         "nome":"laboratorio fabricacao digital "
+      },
+      "acao":"reto",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"laboratorio de eletroeletronica "
+      }
+   },
+   {
+      "pesoAcao":1,
+      "acao":"reto",
+      "no":{
+         "nome":"laboratorio de eletroeletronica ",
+         "andar":"terreo"
+      },
+      "noConexao":{
+         "nome":"laboratorio fabricacao digital ",
+         "andar":"terreo"
+      }
+   },
+   {
+      "noConexao":{
+         "nome":"atelie modelagem ",
+         "andar":"terreo"
+      },
+      "acao":"reto",
+      "pesoAcao":1,
+      "no":{
+         "andar":"terreo",
+         "nome":"laboratorio de eletroeletronica "
+      }
+   },
+   {
+      "acao":"vire a direita",
+      "no":{
+         "nome":"laboratorio de eletroeletronica ",
+         "andar":"terreo"
+      },
+      "noConexao":{
+         "nome":"almoxarifado ",
+         "andar":"terreo"
+      },
+      "pesoAcao":1
+   },
+   {
+      "no":{
+         "nome":"atelie modelagem ",
+         "andar":"terreo"
+      },
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"laboratorio de eletroeletronica "
+      },
+      "pesoAcao":1,
+      "acao":"reto"
+   },
+   {
+      "noConexao":{
+         "nome":"almoxarifado",
+         "andar":"terreo"
+      },
+      "pesoAcao":1,
+      "no":{
+         "nome":"atelie modelagem ",
+         "andar":"terreo"
+      },
+      "acao":"reto"
+   },
+   {
+      "acao":"reto",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"cpd"
+      },
+      "no":{
+         "andar":"terreo",
+         "nome":"atelie modelagem "
+      },
+      "pesoAcao":1
+   },
+   {
+      "no":{
+         "andar":"terreo",
+         "nome":"cpd"
+      },
+      "noConexao":{
+         "nome":"copa",
+         "andar":"terreo"
+      },
+      "acao":"reto",
+      "pesoAcao":1
+   },
+   {
+      "pesoAcao":1,
+      "acao":"reto",
+      "no":{
+         "andar":"terreo",
+         "nome":"cpd"
+      },
+      "noConexao":{
+         "nome":"atelie modelagem ",
+         "andar":"terreo"
+      }
+   },
+   {
+      "no":{
+         "nome":"copa",
+         "andar":"terreo"
+      },
+      "acao":"reto",
+      "pesoAcao":1,
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"cpd"
+      }
+   },
+   {
+      "noConexao":{
+         "nome":"atelie modelagem ",
+         "andar":"terreo"
+      },
+      "pesoAcao":1,
+      "acao":"reto",
+      "no":{
+         "andar":"terreo",
+         "nome":"almoxarifado "
+      }
+   },
+   {
+      "acao":"vire a esquerda",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"laboratorio de eletroeletronica "
+      },
+      "pesoAcao":1,
+      "no":{
+         "andar":"terreo",
+         "nome":"almoxarifado "
+      }
+   },
+   {
+      "noConexao":{
+         "nome":"hall",
+         "andar":"terreo"
+      },
+      "acao":"reto",
+      "no":{
+         "andar":"terreo",
+         "nome":"almoxarifado "
+      },
+      "pesoAcao":1
+   },
+   {
+      "pesoAcao":1,
+      "no":{
+         "nome":"hall",
+         "andar":"terreo"
+      },
+      "acao":"reto",
+      "noConexao":{
+         "nome":"deposito controlado ",
+         "andar":"terreo"
+      }
+   },
+   {
+      "no":{
+         "nome":"hall",
+         "andar":"terreo"
+      },
+      "acao":"reto",
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"setor de ensaios tecnologicos ",
+         "andar":"terreo"
+      }
+   },
+   {
+      "pesoAcao":1,
+      "no":{
+         "nome":"deposito controlado",
+         "andar":"terreo"
+      },
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"hall"
+      },
+      "acao":"reto"
+   },
+   {
+      "no":{
+         "nome":"deposito controlado",
+         "andar":"terreo"
+      },
+      "pesoAcao":1,
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"laboratorio de eletrotecnica "
+      },
+      "acao":"reto"
+   },
+   {
+      "noConexao":{
+         "nome":"deposito controlado ",
+         "andar":"terreo"
+      },
+      "no":{
+         "nome":"laboratorio de eletrotecnica ",
+         "andar":"terreo"
+      },
+      "acao":"reto",
+      "pesoAcao":1
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"hall"
+      },
+      "acao":"reto",
+      "no":{
+         "andar":"terreo",
+         "nome":"setor de ensaios tecnologicos "
+      },
+      "pesoAcao":1
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"setor de marcenaria "
+      },
+      "pesoAcao":1,
+      "acao":"reto",
+      "no":{
+         "andar":"terreo",
+         "nome":"setor de ensaios tecnologicos "
+      }
+   },
+   {
+      "pesoAcao":1,
+      "no":{
+         "andar":"terreo",
+         "nome":"setor de marcenaria "
+      },
+      "noConexao":{
+         "nome":"setor de ensaios tecnologicos ",
+         "andar":"terreo"
+      },
+      "acao":"reto"
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"setor de metalurgia "
+      },
+      "no":{
+         "andar":"terreo",
+         "nome":"setor de marcenaria "
+      },
+      "acao":"reto",
+      "pesoAcao":1
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"setor de marcenaria "
+      },
+      "acao":"reto",
+      "pesoAcao":1,
+      "no":{
+         "nome":"setor de metalurgia ",
+         "andar":"terreo"
+      }
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"setor de acabamento e pintura "
+      },
+      "pesoAcao":1,
+      "acao":"reto",
+      "no":{
+         "andar":"terreo",
+         "nome":"setor de metalurgia "
+      }
+   },
+   {
+      "acao":"reto",
+      "noConexao":{
+         "nome":"setor de metalurgia ",
+         "andar":"terreo"
+      },
+      "no":{
+         "nome":"setor de acabamento e pintura ",
+         "andar":"terreo"
+      },
+      "pesoAcao":1
+   },
+   {
+      "no":{
+         "nome":"restaurante ",
+         "andar":"primeiro andar"
+      },
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"distribuicao "
+      },
+      "pesoAcao":1,
+      "acao":"reto"
+   },
+   {
+      "no":{
+         "nome":"restaurante ",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1,
+      "acao":"reto",
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"higienizacao "
+      }
+   },
+   {
+      "noConexao":{
+         "nome":"cozinha 1",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1,
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"restaurante "
+      },
+      "acao":"reto"
+   },
+   {
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"cozinha fria",
+         "andar":"primeiro andar"
+      },
+      "no":{
+         "nome":"restaurante ",
+         "andar":"primeiro andar"
+      },
+      "acao":"reto"
+   },
+   {
+      "acao":"reto",
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"distribuicao "
+      },
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"restaurante "
+      },
+      "pesoAcao":1
+   },
+   {
+      "noConexao":{
+         "nome":"apoio cozinha ",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1,
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"distribuicao "
+      },
+      "acao":"reto"
+   },
+   {
+      "noConexao":{
+         "nome":"distribuicao ",
+         "andar":"primeiro andar"
+      },
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"apoio cozinha "
+      },
+      "pesoAcao":1,
+      "acao":"reto"
+   },
+   {
+      "acao":"reto",
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"higienizacao ",
+         "andar":"primeiro andar"
+      },
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"apoio cozinha "
+      }
+   },
+   {
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"restaurante "
+      },
+      "acao":"reto",
+      "pesoAcao":1,
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"higienizacao "
+      }
+   },
+   {
+      "acao":"reto",
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"higienizacao "
+      },
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"apoio cozinha ",
+         "andar":"primeiro andar"
+      }
+   },
+   {
+      "pesoAcao":1,
+      "acao":"reto",
+      "noConexao":{
+         "nome":"enologia ",
+         "andar":"primeiro andar"
+      },
+      "no":{
+         "nome":"higienizacao ",
+         "andar":"primeiro andar"
+      }
+   },
+   {
+      "acao":"reto",
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"restaurante "
+      },
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"cozinha 1"
+      },
+      "pesoAcao":1
+   },
+   {
+      "noConexao":{
+         "nome":"cozinha fria ",
+         "andar":"primeiro andar"
+      },
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"cozinha 1"
+      },
+      "pesoAcao":1,
+      "acao":"reto"
+   },
+   {
+      "acao":"reto",
+      "noConexao":{
+         "nome":"cozinha 2",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1,
+      "no":{
+         "nome":"cozinha 1",
+         "andar":"primeiro andar"
+      }
+   },
+   {
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"cozinha 2"
+      },
+      "pesoAcao":1,
+      "acao":"reto",
+      "noConexao":{
+         "nome":"cozinha 1",
+         "andar":"primeiro andar"
+      }
+   },
+   {
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"pré-preparo carnes",
+         "andar":"primeiro andar"
+      },
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"cozinha 2"
+      },
+      "acao":"reto"
+   },
+   {
+      "noConexao":{
+         "nome":"deposito de utensilios ",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1,
+      "acao":"reto",
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"cozinha 2"
+      }
+   },
+   {
+      "noConexao":{
+         "nome":"sala de demonstracao 2",
+         "andar":"primeiro andar"
+      },
+      "acao":"reto",
+      "no":{
+         "nome":"sala de demonstracao 1",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1
+   },
+   {
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"sala de demonstracao 1",
+         "andar":"primeiro andar"
+      },
+      "no":{
+         "nome":"sala de demonstracao 2",
+         "andar":"primeiro andar"
+      },
+      "acao":"reto"
+   },
+   {
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"deposito de utensilios",
+         "andar":"primeiro andar"
+      },
+      "no":{
+         "nome":"sala de demonstracao 2",
+         "andar":"primeiro andar"
+      },
+      "acao":"reto"
+   },
+   {
+      "acao":"vire a esquerda",
+      "pesoAcao":1,
+      "no":{
+         "nome":"sala de demonstracao 2",
+         "andar":"primeiro andar"
+      },
+      "noConexao":{
+         "nome":"cozinha 2",
+         "andar":"primeiro andar"
+      }
+   },
+   {
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"sala de demonstracao 2"
+      },
+      "acao":"vire a direita",
+      "no":{
+         "nome":"cozinha 2 ",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1
+   },
+   {
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"sala de demonstracao 2",
+         "andar":"primeiro andar"
+      },
+      "acao":"reto",
+      "no":{
+         "nome":"deposito de utensilios ",
+         "andar":"primeiro andar"
+      }
+   },
+   {
+      "no":{
+         "nome":"deposito de utensilios ",
+         "andar":"primeiro andar"
+      },
+      "noConexao":{
+         "nome":"cozinha 2",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1,
+      "acao":"reto"
+   },
+   {
+      "acao":"vire a esquerda",
+      "no":{
+         "nome":"deposito de utensilios ",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1,
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"limpeza"
+      }
+   },
+   {
+      "pesoAcao":1,
+      "no":{
+         "nome":"pre-preparo carnes",
+         "andar":"primeiro andar"
+      },
+      "acao":"reto",
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"cozinha 2"
+      }
+   },
+   {
+      "pesoAcao":1,
+      "no":{
+         "nome":"pre-preparo carnes",
+         "andar":"primeiro andar"
+      },
+      "acao":"reto",
+      "noConexao":{
+         "nome":"sala demonstracao 3",
+         "andar":"primeiro andar"
+      }
+   },
+   {
+      "pesoAcao":1,
+      "no":{
+         "nome":"pre-preparo carnes",
+         "andar":"primeiro andar"
+      },
+      "noConexao":{
+         "nome":"professores e monitores ",
+         "andar":"primeiro andar"
+      },
+      "acao":"reto"
+   },
+   {
+      "acao":"reto",
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"enologia "
+      },
+      "no":{
+         "nome":"cozinha fria",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1
+   },
+   {
+      "pesoAcao":1,
+      "acao":"reto",
+      "no":{
+         "nome":"cozinha fria",
+         "andar":"primeiro andar"
+      },
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"cozinha 1"
+      }
+   },
+   {
+      "pesoAcao":1,
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"pre-preparo carnes"
+      },
+      "acao":"reto",
+      "noConexao":{
+         "nome":"padaria ",
+         "andar":"primeiro andar"
+      }
+   },
+   {
+      "pesoAcao":1,
+      "acao":"reto",
+      "no":{
+         "nome":"enologia ",
+         "andar":"primeiro andar"
+      },
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"cozinha fria"
+      }
+   },
+   {
+      "acao":"vire a direita",
+      "no":{
+         "nome":"enologia ",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1,
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"laboratorio restaurante e bar"
+      }
+   },
+   {
+      "acao":"reto",
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"sala demonstracao 3",
+         "andar":"primeiro andar"
+      },
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"cozinha fria"
+      }
+   },
+   {
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"sala demonstracao 3"
+      },
+      "noConexao":{
+         "nome":"cozinha fria",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1,
+      "acao":"reto"
+   },
+   {
+      "acao":"reto",
+      "noConexao":{
+         "nome":"pre-preparo carnes ",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1,
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"sala demonstracao 3"
+      }
+   },
+   {
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"professores e monitores "
+      },
+      "pesoAcao":1,
+      "acao":"vire a esquerda",
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"sala demonstracao 3"
+      }
+   },
+   {
+      "no":{
+         "nome":"sala demonstracao 3 ",
+         "andar":"primeiro andar"
+      },
+      "noConexao":{
+         "nome":"padaria ",
+         "andar":"primeiro andar"
+      },
+      "acao":"vire a esquerda",
+      "pesoAcao":1
+   },
+   {
+      "pesoAcao":1,
+      "acao":"reto",
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"limpeza"
+      },
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"sala demonstracao 3"
+      }
+   },
+   {
+      "no":{
+         "nome":"pre-preparo carnes",
+         "andar":"primeiro andar"
+      },
+      "acao":"reto",
+      "pesoAcao":1,
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"limpeza"
+      }
+   },
+   {
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"deposito de utensilios ",
+         "andar":"primeiro andar"
+      },
+      "acao":"vire a direita",
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"limpeza"
+      }
+   },
+   {
+      "pesoAcao":1,
+      "no":{
+         "nome":"limpeza",
+         "andar":"primeiro andar"
+      },
+      "acao":"reto",
+      "noConexao":{
+         "nome":"pre-preparo carnes",
+         "andar":"primeiro andar"
+      }
+   },
+   {
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"limpeza"
+      },
+      "noConexao":{
+         "nome":"sala demonstracao 3",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1,
+      "acao":"reto"
+   },
+   {
+      "acao":"vire a direita",
+      "pesoAcao":1,
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"professores e monitores "
+      },
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"limpeza"
+      }
+   },
+   {
+      "no":{
+         "nome":"limpeza",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"padaria ",
+         "andar":"primeiro andar"
+      },
+      "acao":"vire a direita"
+   },
+   {
+      "no":{
+         "nome":"laboratorio restaurante e bar",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1,
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"enologia "
+      },
+      "acao":"vire a esquerda"
+   },
+   {
+      "pesoAcao":1,
+      "no":{
+         "nome":"padaria",
+         "andar":"primeiro andar"
+      },
+      "acao":"reto",
+      "noConexao":{
+         "nome":"confeitaria ",
+         "andar":"primeiro andar"
+      }
+   },
+   {
+      "no":{
+         "nome":"padaria ",
+         "andar":"primeiro andar"
+      },
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"camara fria"
+      },
+      "acao":"reto",
+      "pesoAcao":1
+   },
+   {
+      "acao":"reto",
+      "noConexao":{
+         "nome":"professores e monitores ",
+         "andar":"primeiro andar"
+      },
+      "no":{
+         "nome":"padaria",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1
+   },
+   {
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"pre-preparo carnes"
+      },
+      "pesoAcao":1,
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"padaria"
+      },
+      "acao":"reto"
+   },
+   {
+      "no":{
+         "nome":"padaria ",
+         "andar":"primeiro andar"
+      },
+      "acao":"vire a direita",
+      "pesoAcao":1,
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"sala demonstracao 3"
+      }
+   },
+   {
+      "pesoAcao":1,
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"padaria "
+      },
+      "acao":"vire a esquerda",
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"limpeza"
+      }
+   },
+   {
+      "no":{
+         "nome":"confeitaria",
+         "andar":"primeiro andar"
+      },
+      "noConexao":{
+         "nome":"padaria ",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1,
+      "acao":"reto"
+   },
+   {
+      "no":{
+         "nome":"confeitaria ",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1,
+      "acao":"reto",
+      "noConexao":{
+         "nome":"camara fria",
+         "andar":"primeiro andar"
+      }
+   },
+   {
+      "noConexao":{
+         "nome":"confeitaria ",
+         "andar":"primeiro andar"
+      },
+      "acao":"reto",
+      "pesoAcao":1,
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"camara fria"
+      }
+   },
+   {
+      "no":{
+         "nome":"camara fria",
+         "andar":"primeiro andar"
+      },
+      "acao":"reto",
+      "pesoAcao":1,
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"padaria "
+      }
+   },
+   {
+      "acao":"reto",
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"professores e monitores "
+      },
+      "noConexao":{
+         "nome":"padaria ",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1
+   },
+   {
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"pre-preparo carnes",
+         "andar":"primeiro andar"
+      },
+      "no":{
+         "nome":"professores e monitores ",
+         "andar":"primeiro andar"
+      },
+      "acao":"reto"
+   },
+   {
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"sala de demonstracao 3",
+         "andar":"primeiro andar"
+      },
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"professores e monitores "
+      },
+      "acao":"vire a direita"
+   },
+   {
+      "no":{
+         "andar":"primeiro andar",
+         "nome":"professores e monitores "
+      },
+      "acao":"vire a esquerda",
+      "noConexao":{
+         "nome":"limpeza ",
+         "andar":"primeiro andar"
+      },
+      "pesoAcao":1
+   },
+   {
+      "pesoAcao":1,
+      "acao":"reto",
+      "noConexao":{
+         "nome":"grafica ",
+         "andar":"terreo"
+      },
+      "no":{
+         "andar":"terreo",
+         "nome":"ambulatório "
+      }
+   },
+   {
+      "pesoAcao":1,
+      "no":{
+         "nome":"grafica",
+         "andar":"terreo"
+      },
+      "acao":"reto",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"ambulatorio "
+      }
+   },
+   {
+      "acao":"reto",
+      "pesoAcao":1,
+      "no":{
+         "andar":"terreo",
+         "nome":"grafica "
+      },
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"papelaria"
+      }
+   },
+   {
+      "noConexao":{
+         "nome":"grafica",
+         "andar":"terreo"
+      },
+      "no":{
+         "nome":"papelaria",
+         "andar":"terreo"
+      },
+      "pesoAcao":1,
+      "acao":"reto"
+   },
+   {
+      "no":{
+         "nome":"papelaria",
+         "andar":"terreo"
+      },
+      "pesoAcao":1,
+      "acao":"reto",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"santander "
+      }
+   },
+   {
+      "no":{
+         "nome":"santander",
+         "andar":"terreo"
+      },
+      "acao":"reto",
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"papelaria",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"vire a direita",
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"casa do pao de queijo ",
+         "andar":"terreo"
+      },
+      "no":{
+         "andar":"terreo",
+         "nome":"santander"
+      }
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"santander"
+      },
+      "acao":"vire a direita",
+      "pesoAcao":1,
+      "no":{
+         "nome":"casa do pao de queijo ",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"reto",
+      "no":{
+         "nome":"casa do pao de queijo ",
+         "andar":"terreo"
+      },
+      "pesoAcao":1,
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"campus pasta grill "
+      }
+   },
+   {
+      "noConexao":{
+         "nome":"casa do pao de queijo",
+         "andar":"terreo"
+      },
+      "pesoAcao":1,
+      "no":{
+         "nome":"campus pasta grill",
+         "andar":"terreo"
+      },
+      "acao":"reto"
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"burger mais"
+      },
+      "pesoAcao":1,
+      "acao":"reto",
+      "no":{
+         "nome":"campus pasta grill",
+         "andar":"terreo"
+      }
+   },
+   {
+      "pesoAcao":1,
+      "no":{
+         "nome":"burger mais",
+         "andar":"terreo"
+      },
+      "acao":"reto",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"campus pasta grill "
+      }
+   },
+   {
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"kitchen club",
+         "andar":"terreo"
+      },
+      "acao":"reto",
+      "no":{
+         "andar":"terreo",
+         "nome":"burger mais"
+      }
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"burger mais"
+      },
+      "no":{
+         "nome":"kitchen club",
+         "andar":"terreo"
+      },
+      "acao":"reto",
+      "pesoAcao":1
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"casa do pao de queijo"
+      },
+      "no":{
+         "nome":"d163",
+         "andar":"terreo"
+      },
+      "acao":"saia do Acadêmico 1 e siga reto até a Praça de Alimentação 1",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"d163"
+      },
+      "no":{
+         "nome":"casa do pao de queijo",
+         "andar":"terreo"
+      },
+      "acao":"saia da Praça de Alimentação 1 e siga reto até o Acadêmico 1",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"reitoria"
+      },
+      "no":{
+         "nome":"kitchen club",
+         "andar":"terreo"
+      },
+      "acao":"saia da Praça de Alimentação 1 e siga reto até o prédio da Reitoria",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"kitchen club"
+      },
+      "no":{
+         "nome":"reitoria",
+         "andar":"terreo"
+      },
+      "acao":"saia do prédio da Reitoria e siga reto até a Praça de alimentação 1",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"biblioteca"
+      },
+      "no":{
+         "nome":"reitoria",
+         "andar":"terreo"
+      },
+      "acao":"saia do prédio da Reitoria e siga reto até a Biblioteca",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"reitoria"
+      },
+      "no":{
+         "nome":"biblioteca",
+         "andar":"terreo"
+      },
+      "acao":"saia da Biblioteca e siga reto até o prédio da Reitoria",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"d163"
+      },
+      "no":{
+         "nome":"biblioteca",
+         "andar":"terreo"
+      },
+      "acao":"saia da Biblioteca e siga reto até o Acadêmico 1",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"biblioteca"
+      },
+      "no":{
+         "nome":"d163",
+         "andar":"terreo"
+      },
+      "acao":"saia do Acadêmico 1 e siga reto até a Biblioteca",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"a101"
+      },
+      "no":{
+         "nome":"biblioteca",
+         "andar":"terreo"
+      },
+      "acao":"saia da Biblioteca e siga reto até o Acadêmico 1",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"biblioteca"
+      },
+      "no":{
+         "nome":"a101",
+         "andar":"terreo"
+      },
+      "acao":"saia do Acadêmico 1 e siga reto até a Biblioteca",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"praca de alimentacao 2"
+      },
+      "no":{
+         "nome":"b130",
+         "andar":"terreo"
+      },
+      "acao":"saia do Acadêmico 1 e siga reto até a Praça de Alimentação 2",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"b130"
+      },
+      "no":{
+         "nome":"praca de alimentacao 2",
+         "andar":"terreo"
+      },
+      "acao":"saia da Praça de Alimentação 2 e siga reto até o Acadêmico 1",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"praca de alimentacao 2"
+      },
+      "no":{
+         "nome":"b131",
+         "andar":"terreo"
+      },
+      "acao":"saia do Acadêmico 1 e siga reto até a Praça de Alimentação 2",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"b131"
+      },
+      "no":{
+         "nome":"praca de alimentacao 2",
+         "andar":"terreo"
+      },
+      "acao":"saia da Praça de Alimentação 2 e siga reto até o Acadêmico 1",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"academia"
+      },
+      "no":{
+         "nome":"praca de alimentacao 2",
+         "andar":"terreo"
+      },
+      "acao":"saia da Praça de Alimentação 2 e siga reto até a Academia",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"praca de alimentacao 2"
+      },
+      "no":{
+         "nome":"academia",
+         "andar":"terreo"
+      },
+      "acao":"saia da Academia e siga reto até a Praça de Alimentação 2",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"editora senac"
+      },
+      "no":{
+         "nome":"academia",
+         "andar":"terreo"
+      },
+      "acao":"saia da Academia e siga reto até a Editora Senac",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"academia"
+      },
+      "no":{
+         "nome":"editora senac",
+         "andar":"terreo"
+      },
+      "acao":"saia da Editora Senac e siga reto até a Academia",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"centro de convencoes"
+      },
+      "no":{
+         "nome":"a125",
+         "andar":"terreo"
+      },
+      "acao":"saia do Acadêmico 1 e siga reto até o Centro de Convenções",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"a125"
+      },
+      "no":{
+         "nome":"centro de convencoes",
+         "andar":"terreo"
+      },
+      "acao":"saia do Centro de Convenções e siga reto até o Acadêmico 1",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"centro de convencoes"
+      },
+      "no":{
+         "nome":"a126",
+         "andar":"terreo"
+      },
+      "acao":"saia do Acadêmico 1 e siga reto até o Centro de Convenções",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"a126"
+      },
+      "no":{
+         "nome":"centro de convencoes",
+         "andar":"terreo"
+      },
+      "acao":"saia do Centro de Convenções e siga reto até o Acadêmico 1",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"museoh "
+      },
+      "no":{
+         "andar":"terreo",
+         "nome":"jua "
+      },
+      "pesoAcao":1,
+      "acao":"reto"
+   },
+   {
+      "no":{
+         "nome":"museoh",
+         "andar":"terreo"
+      },
+      "pesoAcao":1,
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"jua"
+      },
+      "acao":"reto"
+   },
+   {
+      "pesoAcao":1,
+      "no":{
+         "nome":"museoh",
+         "andar":"terreo"
+      },
+      "noConexao":{
+         "nome":"menu",
+         "andar":"terreo"
+      },
+      "acao":"reto"
+   },
+   {
+      "acao":"reto",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"museoh"
+      },
+      "pesoAcao":1,
+      "no":{
+         "nome":"menu",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Acadêmico 2 e siga reto até a Praça de Alimentação 3",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"menu"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"i328",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia da Praça de Alimentação 3 e siga reto até o Acadêmico 2",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"i328"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"menu",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Acadêmico 2 e siga reto até a Praça de Alimentação 3",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"menu"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"i331",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia da Praça de Alimentação 3 e siga reto até o Acadêmico 2",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"i331"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"menu",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia da Praça de Alimentação 3 e siga reto até o Centro Esportivo",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"centro esportivo"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"jua",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Centro Esportivo e siga reto até a Praça de Alimentação 3",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"jua"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"centro esportivo",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Acadêmico 2 e siga reto até o Centro Esportivo",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"centro esportivo"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"i327",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Centro Esportivo e siga reto até o Acadêmico 2",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"i327"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"centro esportivo",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Academico 2 e siga reto até o Prédio das Coordenações",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"predio das coordenacoes"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"g301",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Prédio das Coordenações e siga reto até o Acadêmico 2",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"g301"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"predio das coordenacoes",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Academico 1 e siga reto até o Prédio das Coordenações",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"predio das coordenacoes"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"c150",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Prédio das Coordenações e siga reto até o Acadêmico 1",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"c150"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"predio das coordenacoes",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Academico 1 e siga reto até o Prédio das Coordenações",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"predio das coordenacoes"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"c151",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Prédio das Coordenações e siga reto até o Acadêmico 1",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"c151"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"predio das coordenacoes",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Academico 2 e siga reto até o Prédio das Coordenações",
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"predio das coordenacoes"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"g401",
+         "andar":"primeiro andar"
+      }
+   },
+   {
+      "acao":"saia do Prédio das Coordenações e siga reto até o Acadêmico 2",
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"g401"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"predio das coordenacoes",
+         "andar":"primeiro andar"
+      }
+   },
+   {
+      "acao":"saia do Academico 1 e siga reto até o Prédio das Coordenações",
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"predio das coordenacoes"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"d258",
+         "andar":"primeiro andar"
+      }
+   },
+   {
+      "acao":"saia do Prédio das Coordenações e siga reto até o Acadêmico 1",
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"d258"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"predio das coordenacoes",
+         "andar":"primeiro andar"
+      }
+   },
+   {
+      "acao":"saia da Portaria Principal e siga reto até o Acadêmico 1",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"a101"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"portaria principal",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Acadêmico 1 e siga reto até a Portaria Principal",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"portaria principal"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"a101",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia da Portaria Principal e siga reto até o Acadêmico 1",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"d163"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"portaria principal",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Acadêmico 1 e siga reto até a Portaria Principal",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"portaria principal"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"d163",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia da Portaria Principal e siga reto até a Biblioteca",
+      "noConexao":{
+         "andar":"biblioteca",
+         "nome":"d163"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"portaria principal",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia da Biblioteca e siga reto até a Portaria Principal",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"portaria principal"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"biblioteca",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia da Portaria 2 e siga reto até a Prédio da Manutenção",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"predio da manutencao"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"portaria 2",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia da Portaria 2 e siga reto até a Prédio da Manutenção",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"predio da manutencao"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"portaria 2",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia da Portaria 2 e passe pelas quadras até o Centro Esportivo",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"centro esportivo"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"portaria 2",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Centro Esportivo e passe pelas quadras até a Portaria 2",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"portaria 2"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"centro esportivo",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia da Portaria 2 e passe pelas quadras até a Praça de Alimentação 3",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"museoh"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"portaria 2",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia da Praça de Alimentação 3 e passe pelas quadras até a Portaria 2",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"portaria 2"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"museoh",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Prédio da Manutenção e passe pelas quadras até a Praça de Alimentação 3",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"museoh"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"predio da manutenção",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia da Praça de Alimentação 3 e passe pelas quadras até o Prédio da Manutenção",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"predio da manutencao"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"museoh",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Prédio da Manutenção e passe pelas quadras até o Centro Esportivo",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"centro esportivo"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"predio da manutenção",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Centro Esportivo e passe pelas quadras até o Prédio da Manutenção",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"predio da manutencao"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"centro esportivo",
+         "andar":"terreo"
+      }
+   },
 ]
+

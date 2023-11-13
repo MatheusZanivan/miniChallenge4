@@ -678,6 +678,116 @@
                         "andar": "Térreo",
                         "descrição": "100 Universitárias"
                     },
+                    {
+                        "nome": "a201",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "a202",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "a203",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "a204",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "a205",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "a207",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "a209",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "a211",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "a212",
+                        "andar": "Primeiro andar",
+                        "descrição": "40 Universitárias"
+                    },
+                    {
+                        "nome": "a213",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "a214",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "a215",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "a216",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "a217",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "a219",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "a221",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "a222",
+                        "andar": "Primeiro andar",
+                        "descrição": "32 Univer."
+                    },
+                    {
+                        "nome": "a223",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "a224",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "a225",
+                        "andar": "Primeiro andar",
+                        "descrição": "Sala de Artes 44 Mesas"
+                    },
+                    {
+                        "nome": "a226",
+                        "andar": "Primeiro andar",
+                        "descrição": "50 Universitárias"
+                    },
+                    {
+                        "nome": "a227",
+                        "andar": "Primeiro andar",
+                        "descrição": "Depósito"
+                    },
                 ]
             },
             {
@@ -708,6 +818,21 @@
                         "andar": "Térreo",
                         "descrição": "Ilha de Edição Não Linear 30 Lugares"
                     },
+                    {
+                        "nome": "b228",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "b229",
+                        "andar": "Primeiro andar",
+                        "descrição": "Depósito ADM"
+                    },
+                    {
+                        "nome": "b230",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    }
                 ]
             },
             {
@@ -808,6 +933,121 @@
                         "andar": "Térreo",
                         "descrição": "CIT"
                     },
+                    {
+                        "nome": "c231",
+                        "andar": "Primeiro andar",
+                        "descrição": "Depósito"
+                    },
+                    {
+                        "nome": "c232",
+                        "andar": "Primeiro andar",
+                        "descrição": "55 universitárias"
+                    },
+                    {
+                        "nome": "c233",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "c234",
+                        "andar": "Primeiro andar",
+                        "descrição": "30 Univer."
+                    },
+                    {
+                        "nome": "c235",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "c236",
+                        "andar": "Primeiro andar",
+                        "descrição": "26 Mesas"
+                    },
+                    {
+                        "nome": "c237",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "c238",
+                        "andar": "Primeiro andar",
+                        "descrição": "26 Mesas"
+                    },
+                    {
+                        "nome": "c239",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "c241",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "c242",
+                        "andar": "Primeiro andar",
+                        "descrição": "100 Universitárias"
+                    },
+                    {
+                        "nome": "c243",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "c244",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "c245",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "c246",
+                        "andar": "Primeiro andar",
+                        "descrição": "36 Universitárias"
+                    },
+                    {
+                        "nome": "c247",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "c249",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "c251",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "c253",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "c254",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "c255",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "c256",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
+                    {
+                        "nome": "c257",
+                        "andar": "Primeiro andar",
+                        "descrição": "Padrão EMED 50 Mesas"
+                    },
                 ]
             },
             {
@@ -853,6 +1093,56 @@
                         "andar": "Térreo",
                         "descrição": "Central de Atendimento"
                     },
+                    {
+                        "nome": "d258",
+                        "andar": "Primeiro andar",
+                        "descrição": "Lab. Estilismo 40 Seats"
+                    },
+                    {
+                        "nome": "d259",
+                        "andar": "Primeiro andar",
+                        "descrição": "Lab. Modelagem 50 Seats"
+                    },
+                    {
+                        "nome": "d260",
+                        "andar": "Primeiro andar",
+                        "descrição": "Lab. Estilismo 45 Seats"
+                    },
+                    {
+                        "nome": "d261",
+                        "andar": "Primeiro andar",
+                        "descrição": "Lab. Modelagem 45 Seats"
+                    },
+                    {
+                        "nome": "d262",
+                        "andar": "Primeiro andar",
+                        "descrição": "Lab. Estilismo 45 Seats"
+                    },
+                    {
+                        "nome": "d263",
+                        "andar": "Primeiro andar",
+                        "descrição": "Lab. Modelagem 45 Seats"
+                    },
+                    {
+                        "nome": "d264",
+                        "andar": "Primeiro andar",
+                        "descrição": "Lab. Modelagem 35 Seats"
+                    },
+                    {
+                        "nome": "d265",
+                        "andar": "Primeiro andar",
+                        "descrição": "Lab. Modelagem 45 Seats"
+                    },
+                    {
+                        "nome": "d266",
+                        "andar": "Primeiro andar",
+                        "descrição": "Apoio da Moda"
+                    },
+                    {
+                        "nome": "d267",
+                        "andar": "Primeiro andar",
+                        "descrição": "Sala de Costura 20 Seats"
+                    }
                 ]
             },
             {
@@ -877,6 +1167,86 @@
                         "nome": "e169",
                         "andar": "Térreo",
                         "descrição": "Lab. PC 50 Seats"
+                    },
+                    {
+                        "nome": "e285",
+                        "andar": "Primeiro andar",
+                        "descrição": "100 Universitárias"
+                    },
+                    {
+                        "nome": "e286",
+                        "andar": "Primeiro andar",
+                        "descrição": "100 Universitárias"
+                    },
+                    {
+                        "nome": "e287",
+                        "andar": "Primeiro andar",
+                        "descrição": "55 Universitárias"
+                    }
+                ]
+            },
+            {
+                "corredor": "F",
+                "salas": [
+                    {
+                        "nome": "f272",
+                        "andar": "Primeiro andar",
+                        "descrição": "Lab. PC 40 Seats"
+                    },
+                    {
+                        "nome": "f273",
+                        "andar": "Primeiro andar",
+                        "descrição": "30 Universitárias"
+                    },
+                    {
+                        "nome": "f274",
+                        "andar": "Primeiro andar",
+                        "descrição": "36 Universitárias"
+                    },
+                    {
+                        "nome": "f275",
+                        "andar": "Primeiro andar",
+                        "descrição": "40 Universitárias"
+                    },
+                    {
+                        "nome": "f276",
+                        "andar": "Primeiro andar",
+                        "descrição": "36 Universitárias"
+                    },
+                    {
+                        "nome": "f277",
+                        "andar": "Primeiro andar",
+                        "descrição": "32 Universitárias"
+                    },
+                    {
+                        "nome": "f278",
+                        "andar": "Primeiro andar",
+                        "descrição": "Lab. Modelagem 20 Seats"
+                    },
+                    {
+                        "nome": "f279",
+                        "andar": "Primeiro andar",
+                        "descrição": "32 Universitárias"
+                    },
+                    {
+                        "nome": "f280",
+                        "andar": "Primeiro andar",
+                        "descrição": "36 Universitárias"
+                    },
+                    {
+                        "nome": "f281",
+                        "andar": "Primeiro andar",
+                        "descrição": "32 Universitárias"
+                    },
+                    {
+                        "nome": "f282",
+                        "andar": "Primeiro andar",
+                        "descrição": "36 Universitárias"
+                    },
+                    {
+                        "nome": "f284",
+                        "andar": "Primeiro andar",
+                        "descrição": "32 Universitárias"
                     },
                 ]
             }
