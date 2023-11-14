@@ -3753,7 +3753,7 @@
             "andar": "primeiro andar",
             "nome": "i465"
         },
-        "acao": "desca a escada e vire a direita"
+        "acao": "desça a escada e vire a direita"
     },
     {
         "noConexao": {
@@ -3772,7 +3772,7 @@
             "nome": "i454",
             "andar": "primeiro andar"
         },
-        "acao": "desca a escada e vire a direita",
+        "acao": "desça a escada e vire a direita",
         "pesoAcao": 3,
         "noConexao": {
             "andar": "terreo",
@@ -3800,7 +3800,7 @@
             "andar": "terreo",
             "nome": "k358"
         },
-        "acao": "desca a escada e vire a direita",
+        "acao": "desça a escada e vire a direita",
         "pesoAcao": 3
     },
     {
@@ -3812,7 +3812,7 @@
             "andar": "terreo",
             "nome": "k358"
         },
-        "acao": "desca a escada e vire a direita",
+        "acao": "desça a escada e vire a direita",
         "pesoAcao": 3
     },
     {
@@ -3833,7 +3833,7 @@
             "andar": "terreo"
         },
         "pesoAcao": 3,
-        "acao": "desca a escada e vire a esquerda",
+        "acao": "desça a escada e vire a esquerda",
         "no": {
             "andar": "primeiro andar",
             "nome": "i453"
@@ -3849,10 +3849,10 @@
             "nome": "i339",
             "andar": "terreo"
         },
-        "acao": "desca a escada e vire a esquerda"
+        "acao": "desça a escada e vire a esquerda"
     },
     {
-        "acao": "desca a escada e vire a esquerda",
+        "acao": "desça a escada e vire a esquerda",
         "noConexao": {
             "andar": "terreo",
             "nome": "i339"
@@ -3933,10 +3933,10 @@
             "nome": "i337",
             "andar": "terreo"
         },
-        "acao": "desca a escada e vire a direita"
+        "acao": "desça a escada e vire a direita"
     },
     {
-        "acao": "desca a escada e vire a direita",
+        "acao": "desça a escada e vire a direita",
         "no": {
             "andar": "primeiro andar",
             "nome": "i444"
@@ -3976,7 +3976,7 @@
             "andar": "terreo",
             "nome": "k363"
         },
-        "acao": "desca a escada e vire a esquerda",
+        "acao": "desça a escada e vire a esquerda",
         "no": {
             "nome": "i449",
             "andar": "primeiro andar"
@@ -3984,7 +3984,7 @@
         "pesoAcao": 3
     },
     {
-        "acao": "desca a escada e vire a esquerda",
+        "acao": "desça a escada e vire a esquerda",
         "noConexao": {
             "andar": "terreo",
             "nome": "k363"
@@ -4020,7 +4020,7 @@
         }
     },
     {
-        "acao": "desca a escada e vire a esquerda",
+        "acao": "desça a escada e vire a esquerda",
         "noConexao": {
             "nome": "i329",
             "andar": "terreo"
@@ -4037,7 +4037,7 @@
             "nome": "i440"
         },
         "pesoAcao": 3,
-        "acao": "desca a escada e vire a esquerda",
+        "acao": "desça a escada e vire a esquerda",
         "noConexao": {
             "andar": "terreo",
             "nome": "i329"
@@ -4072,7 +4072,7 @@
             "nome": "i440",
             "andar": "primeiro andar"
         },
-        "acao": "desca a escada e vire a direita",
+        "acao": "desça a escada e vire a direita",
         "noConexao": {
             "nome": "h324",
             "andar": "terreo"
@@ -4088,7 +4088,7 @@
             "nome": "i443",
             "andar": "primeiro andar"
         },
-        "acao": "desca a escada e vire a direita",
+        "acao": "desça a escada e vire a direita",
         "pesoAcao": 3
     },
     {
@@ -4121,7 +4121,7 @@
             "andar": "primeiro andar",
             "nome": "g418"
         },
-        "acao": "desca a escada e vire a direita",
+        "acao": "desça a escada e vire a direita",
         "noConexao": {
             "andar": "terreo",
             "nome": "g317"
@@ -4133,7 +4133,7 @@
             "nome": "g421"
         },
         "pesoAcao": 3,
-        "acao": "desca a escada e vire a direita",
+        "acao": "desça a escada e vire a direita",
         "noConexao": {
             "andar": "terreo",
             "nome": "g317"
@@ -4164,7 +4164,7 @@
         }
     },
     {
-        "acao": "desca a escada e vire a esquerda",
+        "acao": "desça a escada e vire a esquerda",
         "pesoAcao": 3,
         "noConexao": {
             "andar": "terreo",
@@ -4181,7 +4181,7 @@
             "andar": "terreo"
         },
         "pesoAcao": 3,
-        "acao": "desca a escada e vire a esquerda",
+        "acao": "desça a escada e vire a esquerda",
         "no": {
             "andar": "primeiro andar",
             "nome": "g418"
@@ -4212,7 +4212,7 @@
         "acao": "suba a escada e vire a direita"
     },
     {
-        "acao": "desca a escada e vire a esquerda",
+        "acao": "desça a escada e vire a esquerda",
         "pesoAcao": 3,
         "noConexao": {
             "nome": "g313",
@@ -4233,7 +4233,7 @@
             "andar": "terreo"
         },
         "pesoAcao": 3,
-        "acao": "desca a escada e vire a esquerda"
+        "acao": "desça a escada e vire a esquerda"
     },
     {
         "no": {
@@ -4260,7 +4260,7 @@
         }
     },
     {
-        "acao": "desca a escada e vire a direita",
+        "acao": "desça a escada e vire a direita",
         "noConexao": {
             "nome": "k357",
             "andar": "terreo"
@@ -4273,7 +4273,7 @@
     },
     {
         "pesoAcao": 3,
-        "acao": "desca a escada e vire a direita",
+        "acao": "desça a escada e vire a direita",
         "noConexao": {
             "nome": "k357",
             "andar": "terreo"
@@ -4308,7 +4308,7 @@
         }
     },
     {
-        "acao": "desca a escada e vire a direita",
+        "acao": "desça a escada e vire a direita",
         "noConexao": {
             "nome": "g311",
             "andar": "terreo"
@@ -4320,7 +4320,7 @@
         }
     },
     {
-        "acao": "desca a escada e vire a direita",
+        "acao": "desça a escada e vire a direita",
         "pesoAcao": 3,
         "no": {
             "andar": "primeiro andar",
@@ -4365,10 +4365,10 @@
             "andar": "primeiro andar"
         },
         "pesoAcao": 3,
-        "acao": "desca a escada e vire a esquerda"
+        "acao": "desça a escada e vire a esquerda"
     },
     {
-        "acao": "desca a escada e vire a esquerda",
+        "acao": "desça a escada e vire a esquerda",
         "no": {
             "nome": "g411",
             "andar": "primeiro andar"
@@ -4412,11 +4412,11 @@
             "nome": "g303",
             "andar": "terreo"
         },
-        "acao": "desca a escada e vire a esquerda",
+        "acao": "desça a escada e vire a esquerda",
         "pesoAcao": 3
     },
     {
-        "acao": "desca a escada e vire a esquerda",
+        "acao": "desça a escada e vire a esquerda",
         "noConexao": {
             "nome": "g303",
             "andar": "terreo"
@@ -4440,7 +4440,7 @@
         "acao": "suba a escada e siga reto"
     },
     {
-        "acao": "desca a escada e vire a esquerda",
+        "acao": "desça a escada e vire a esquerda",
         "pesoAcao": 3,
         "noConexao": {
             "nome": "c257",
@@ -4464,7 +4464,7 @@
         }
     },
     {
-        "acao": "desca a escada e vire a esquerda",
+        "acao": "desça a escada e vire a esquerda",
         "no": {
             "nome": "d258",
             "andar": "primeiro andar"
@@ -4512,6 +4512,18 @@
         "acao": "reto"
     },
     {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "c253"
+        },
+        "pesoAcao": 3,
+        "noConexao": {
+            "nome": "c255",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto"
+    },
+    {
         "pesoAcao": 1,
         "noConexao": {
             "nome": "c255",
@@ -4520,6 +4532,18 @@
         "no": {
             "andar": "primeiro andar",
             "nome": "c256"
+        },
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "nome": "c256",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "c255"
         },
         "acao": "reto"
     },
@@ -4670,30 +4694,6 @@
     {
         "acao": "reto",
         "no": {
-            "andar": "primeiro andar",
-            "nome": "c247"
-        },
-        "pesoAcao": 1,
-        "noConexao": {
-            "andar": "primeiro andar",
-            "nome": "c245"
-        }
-    },
-    {
-        "acao": "reto",
-        "pesoAcao": 1,
-        "noConexao": {
-            "nome": "c247",
-            "andar": "primeiro andar"
-        },
-        "no": {
-            "andar": "primeiro andar",
-            "nome": "c245"
-        }
-    },
-    {
-        "acao": "reto",
-        "no": {
             "nome": "c245",
             "andar": "primeiro andar"
         },
@@ -4738,30 +4738,6 @@
             "nome": "c245"
         },
         "acao": "reto"
-    },
-    {
-        "acao": "reto",
-        "pesoAcao": 1,
-        "noConexao": {
-            "andar": "primeiro andar",
-            "nome": "c244"
-        },
-        "no": {
-            "nome": "c245",
-            "andar": "primeiro andar"
-        }
-    },
-    {
-        "no": {
-            "andar": "primeiro andar",
-            "nome": "c244"
-        },
-        "acao": "reto",
-        "noConexao": {
-            "andar": "primeiro andar",
-            "nome": "c245"
-        },
-        "pesoAcao": 1
     },
     {
         "acao": "reto",
@@ -4940,6 +4916,18 @@
         "no": {
             "andar": "primeiro andar",
             "nome": "c231"
+        },
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "c231"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "c232"
         },
         "acao": "reto"
     },
@@ -5148,6 +5136,18 @@
         "acao": "reto"
     },
     {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "d261"
+        },
+        "no": {
+            "nome": "d262",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "acao": "reto"
+    },
+    {
         "acao": "reto",
         "no": {
             "andar": "primeiro andar",
@@ -5156,6 +5156,18 @@
         "noConexao": {
             "andar": "primeiro andar",
             "nome": "d263"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "d263"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "d262"
         },
         "pesoAcao": 1
     },
@@ -5210,6 +5222,54 @@
     {
         "pesoAcao": 1,
         "noConexao": {
+            "nome": "d266",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "d265",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "d265"
+        },
+        "no": {
+            "nome": "d266",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "d265"
+        },
+        "no": {
+            "nome": "d267",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "d267"
+        },
+        "no": {
+            "nome": "d265",
+            "andar": "primeiro andar"
+        },
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
             "andar": "primeiro andar",
             "nome": "d267"
         },
@@ -5236,24 +5296,12 @@
             "nome": "d267",
             "andar": "primeiro andar"
         },
-        "acao": "vire no corredor a",
-        "pesoAcao": 1,
-        "noConexao": {
-            "nome": "a201",
-            "andar": "primeiro andar"
-        }
-    },
-    {
-        "no": {
-            "nome": "d267",
-            "andar": "primeiro andar"
-        },
         "noConexao": {
             "andar": "primeiro andar",
             "nome": "a201"
         },
         "pesoAcao": 3,
-        "acao": "suba a escada e vire a direita"
+        "acao": "desça a escada e vire a direita"
     },
     {
         "acao": "suba a escada e vire a direita",
@@ -6560,6 +6608,18 @@
         },
         "noConexao": {
             "nome": "c132",
+            "andar": "terreo"
+        }
+    },
+    {
+        "pesoAcao": 1,
+        "acao": "reto",
+        "no": {
+            "nome": "c132",
+            "andar": "terreo"
+        },
+        "noConexao": {
+            "nome": "c131",
             "andar": "terreo"
         }
     },
@@ -8076,6 +8136,18 @@
         }
     },
     {
+        "acao": "vire no corredor a",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "d265"
+        },
+        "pesoAcao": 2,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "a201"
+        }
+    },
+    {
         "pesoAcao": 2,
         "noConexao": {
             "andar": "primeiro andar",
@@ -9012,6 +9084,18 @@
         }
     },
     {
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "a219"
+        },
+        "pesoAcao": 1,
+        "acao": "reto",
+        "noConexao": {
+            "nome": "a224",
+            "andar": "primeiro andar"
+        }
+    },
+    {
         "acao": "reto",
         "pesoAcao": 1,
         "no": {
@@ -9312,6 +9396,18 @@
         }
     },
     {
+        "pesoAcao": 2,
+        "noConexao": {
+            "nome": "b230",
+            "andar": "primeiro andar"
+        },
+        "acao": "vire no corredor b",
+        "no": {
+            "nome": "c234",
+            "andar": "primeiro andar"
+        }
+    },
+    {
         "noConexao": {
             "andar": "primeiro andar",
             "nome": "c235"
@@ -9322,6 +9418,18 @@
             "andar": "primeiro andar"
         },
         "acao": "vire no corredor c"
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "b230"
+        },
+        "pesoAcao": 2,
+        "no": {
+            "nome": "c235",
+            "andar": "primeiro andar"
+        },
+        "acao": "vire no corredor b"
     },
     {
         "noConexao": {
@@ -9410,7 +9518,7 @@
     {
         "noConexao": {
             "nome": "c242",
-            "andar": "terreo"
+            "andar": "primeiro andar"
         },
         "no": {
             "nome": "e287",
@@ -9418,6 +9526,18 @@
         },
         "pesoAcao": 2,
         "acao": "vire no corredor c"
+    },
+    {
+        "noConexao": {
+            "nome": "e287",
+            "andar": "primeiro andar"
+        },
+        "no": {
+            "nome": "c242",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 2,
+        "acao": "vire no corredor e"
     },
     {
         "no": {
@@ -9428,6 +9548,18 @@
         "noConexao": {
             "andar": "primeiro andar",
             "nome": "c238"
+        },
+        "pesoAcao": 2
+    },
+    {
+        "no": {
+            "nome": "c238",
+            "andar": "primeiro andar"
+        },
+        "acao": "vire no corredor e",
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "e287"
         },
         "pesoAcao": 2
     },
@@ -9444,15 +9576,15 @@
         }
     },
     {
+        "pesoAcao": 2,
         "noConexao": {
-            "nome": "c246",
+            "nome": "e287",
             "andar": "primeiro andar"
         },
-        "pesoAcao": 2,
-        "acao": "vire no corredor c",
+        "acao": "vire no corredor e",
         "no": {
             "andar": "primeiro andar",
-            "nome": "f272"
+            "nome": "c239"
         }
     },
     {
@@ -9464,6 +9596,18 @@
         "no": {
             "andar": "primeiro andar",
             "nome": "f272"
+        },
+        "pesoAcao": 2
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "f272"
+        },
+        "acao": "vire no corredor f",
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "c249"
         },
         "pesoAcao": 2
     },
@@ -9632,6 +9776,18 @@
         "noConexao": {
             "andar": "primeiro andar",
             "nome": "f276"
+        },
+        "pesoAcao": 1
+    },
+    {
+        "acao": "reto",
+        "no": {
+            "nome": "f276",
+            "andar": "primeiro andar"
+        },
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "f275"
         },
         "pesoAcao": 1
     },
@@ -10180,7 +10336,7 @@
          "nome":"a201",
          "andar":"primeiro andar"
       },
-      "acao":"desca a escada e siga reto",
+      "acao":"desça a escada e siga reto",
       "pesoAcao":3,
       "noConexao":{
          "nome":"a101",
@@ -10192,7 +10348,7 @@
          "nome":"a201",
          "andar":"primeiro andar"
       },
-      "acao":"desca a escada e vire a esquerda",
+      "acao":"desça a escada e vire a esquerda",
       "noConexao":{
          "andar":"terreo",
          "nome":"a102"
@@ -10209,7 +10365,7 @@
          "andar":"terreo"
       },
       "pesoAcao":3,
-      "acao":"desca a escada e vire a direita"
+      "acao":"desça a escada e vire a direita"
    },
    {
       "no":{
@@ -10217,7 +10373,7 @@
          "nome":"a202"
       },
       "pesoAcao":3,
-      "acao":"desca a escada e siga reto",
+      "acao":"desça a escada e siga reto",
       "noConexao":{
          "andar":"terreo",
          "nome":"a101"
@@ -10228,7 +10384,7 @@
          "nome":"a202",
          "andar":"primeiro andar"
       },
-      "acao":"desca a escada e vire a esquerda",
+      "acao":"desça a escada e vire a esquerda",
       "pesoAcao":3,
       "noConexao":{
          "nome":"a102",
@@ -10241,7 +10397,7 @@
          "nome":"d163",
          "andar":"terreo"
       },
-      "acao":"desca a escada e vire a direita",
+      "acao":"desça a escada e vire a direita",
       "no":{
          "nome":"a202",
          "andar":"primeiro andar"
@@ -10265,10 +10421,22 @@
          "andar":"primeiro andar",
          "nome":"a212"
       },
-      "acao":"reto",
+      "acao":"suba a escada e vire a esquerda",
       "no":{
          "nome":"a105",
          "andar":"terreo"
+      }
+   },
+   {
+      "pesoAcao":3,
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"a105"
+      },
+      "acao":"desça a escada e vire a esquerda",
+      "no":{
+         "nome":"a212",
+         "andar":"primeiro andar"
       }
    },
    {
@@ -10288,7 +10456,7 @@
          "nome":"a212",
          "andar":"primeiro andar"
       },
-      "acao":"reto",
+      "acao":"suba a escada e vire a esquerda",
       "pesoAcao":3,
       "no":{
          "nome":"a107",
@@ -10297,10 +10465,22 @@
    },
    {
       "noConexao":{
+         "nome":"a107",
+         "andar":"terreo"
+      },
+      "acao":"desça a escada e vire a esquerda",
+      "pesoAcao":3,
+      "no":{
+         "nome":"a212",
+         "andar":"primeiro andar"
+      }
+   },
+   {
+      "noConexao":{
          "andar":"terreo",
          "nome":"a105"
       },
-      "acao":"desca a escada e vire a esquerda",
+      "acao":"desça a escada e vire a esquerda",
       "no":{
          "andar":"primeiro andar",
          "nome":"a209"
@@ -10317,7 +10497,7 @@
          "andar":"primeiro andar",
          "nome":"a209"
       },
-      "acao":"desca a escada e vire a esquerda"
+      "acao":"desça a escada e vire a esquerda"
    },
    {
       "pesoAcao":3,
@@ -10353,10 +10533,10 @@
          "andar":"primeiro andar",
          "nome":"f284"
       },
-      "acao":"desca a escada e siga reto"
+      "acao":"desça a escada e siga reto"
    },
    {
-      "acao":"desca a escada e siga reto",
+      "acao":"desça a escada e siga reto",
       "pesoAcao":3,
       "noConexao":{
          "nome":"a112",
@@ -10425,7 +10605,7 @@
          "nome":"a219"
       },
       "pesoAcao":3,
-      "acao":"desca a escada e vire a esquerda"
+      "acao":"desça a escada e vire a esquerda"
    },
    {
       "no":{
@@ -10437,11 +10617,11 @@
          "nome":"a117"
       },
       "pesoAcao":3,
-      "acao":"desca a escada e vire a esquerda"
+      "acao":"desça a escada e vire a esquerda"
    },
    {
       "pesoAcao":3,
-      "acao":"desca a escada e vire a esquerda",
+      "acao":"desça a escada e vire a esquerda",
       "noConexao":{
          "nome":"a115",
          "andar":"terreo"
@@ -10452,7 +10632,7 @@
       }
    },
    {
-      "acao":"desca a escada e vire a esquerda",
+      "acao":"desça a escada e vire a esquerda",
       "noConexao":{
          "andar":"terreo",
          "nome":"a117"
@@ -10477,11 +10657,11 @@
    },
    {
       "no":{
-         "nome":"b238",
+         "nome":"b228",
          "andar":"primeiro andar"
       },
       "pesoAcao":3,
-      "acao":"desca a escada e siga reto",
+      "acao":"desça a escada e siga reto",
       "noConexao":{
          "nome":"b126",
          "andar":"terreo"
@@ -10505,7 +10685,7 @@
          "andar":"terreo",
          "nome":"b129"
       },
-      "acao":"desca a escada e siga reto",
+      "acao":"desça a escada e siga reto",
       "no":{
          "nome":"b230",
          "andar":"primeiro andar"
@@ -10569,7 +10749,7 @@
          "nome":"c238",
          "andar":"primeiro andar"
       },
-      "acao":"desca a escada e vire a direita"
+      "acao":"desça a escada e vire a direita"
    },
    {
       "noConexao":{
@@ -10577,7 +10757,7 @@
          "andar":"terreo"
       },
       "pesoAcao":3,
-      "acao":"desca a escada e vire a direita",
+      "acao":"desça a escada e vire a direita",
       "no":{
          "nome":"c238",
          "andar":"primeiro andar"
@@ -10588,7 +10768,7 @@
          "nome":"c137",
          "andar":"terreo"
       },
-      "acao":"desca a escada e vire a direita",
+      "acao":"desça a escada e vire a direita",
       "no":{
          "andar":"primeiro andar",
          "nome":"c239"
@@ -10601,7 +10781,7 @@
          "nome":"c239"
       },
       "pesoAcao":3,
-      "acao":"desca a escada e vire a direita",
+      "acao":"desça a escada e vire a direita",
       "noConexao":{
          "nome":"c139",
          "andar":"terreo"
@@ -10632,7 +10812,7 @@
       "acao":"suba a escada e siga reto"
    },
    {
-      "acao":"desca a escada e siga reto",
+      "acao":"desça a escada e siga reto",
       "no":{
          "andar":"primeiro andar",
          "nome":"f272"
@@ -10653,7 +10833,7 @@
          "nome":"f272",
          "andar":"primeiro andar"
       },
-      "acao":"desca a escada e siga reto"
+      "acao":"desça a escada e siga reto"
    },
    {
       "acao":"suba a escada e siga reto",
@@ -10680,7 +10860,7 @@
       }
    },
    {
-      "acao":"desca a escada e vire a direita",
+      "acao":"desça a escada e vire a direita",
       "pesoAcao":3,
       "no":{
          "nome":"c246",
@@ -10701,7 +10881,7 @@
          "nome":"c249"
       },
       "pesoAcao":3,
-      "acao":"desca a escada e vire a direita"
+      "acao":"desça a escada e vire a direita"
    },
    {
       "acao":"suba a escada e vire a esquerda",
@@ -10760,7 +10940,7 @@
          "andar":"terreo",
          "nome":"c150"
       },
-      "acao":"desca a escada e vire a direita",
+      "acao":"desça a escada e vire a direita",
       "pesoAcao":3
    },
    {
@@ -10773,10 +10953,10 @@
          "nome":"c151"
       },
       "pesoAcao":3,
-      "acao":"desca a escada e vire a direita"
+      "acao":"desça a escada e vire a direita"
    },
    {
-      "acao":"desca a escada e vire a direita",
+      "acao":"desça a escada e vire a direita",
       "noConexao":{
          "nome":"c150",
          "andar":"terreo"
@@ -10797,7 +10977,7 @@
          "nome":"c257"
       },
       "pesoAcao":3,
-      "acao":"desca a escada e vire a direita"
+      "acao":"desça a escada e vire a direita"
    },
    {
       "pesoAcao":5,
@@ -11047,14 +11227,14 @@
       "pesoAcao":1,
       "noConexao":{
          "andar":"terreo",
-         "nome":"laboratorio de automacao e robotica "
+         "nome":"laboratorio de automacao e robotica"
       },
       "acao":"vire a direita"
    },
    {
       "no":{
          "andar":"terreo",
-         "nome":"sala tecnicos "
+         "nome":"sala tecnicos"
       },
       "acao":"vire a esquerda",
       "pesoAcao":1,
@@ -11118,7 +11298,7 @@
       },
       "no":{
          "andar":"terreo",
-         "nome":"laboratorio de ciencias e tecnologia dos materiais "
+         "nome":"laboratorio de ciencias e tecnologia dos materiais"
       },
       "acao":"reto",
       "pesoAcao":1
@@ -11126,24 +11306,24 @@
    {
       "pesoAcao":1,
       "no":{
-         "nome":"laboratorio de fenomenos de transporte ",
+         "nome":"laboratorio de fenomenos de transporte",
          "andar":"terreo"
       },
       "noConexao":{
-         "nome":"laboratorio de ciencias e tecnologia dos materiais ",
+         "nome":"laboratorio de ciencias e tecnologia dos materiais",
          "andar":"terreo"
       },
       "acao":"reto"
    },
    {
       "no":{
-         "nome":"laboratorio fabricacao digital ",
+         "nome":"laboratorio fabricacao digital",
          "andar":"terreo"
       },
       "acao":"vire a direita",
       "pesoAcao":1,
       "noConexao":{
-         "nome":"sala tecnicos ",
+         "nome":"sala tecnicos",
          "andar":"terreo"
       }
    },
@@ -11151,12 +11331,12 @@
       "acao":"reto",
       "pesoAcao":1,
       "no":{
-         "nome":"laboratorio fabricacao digital ",
+         "nome":"laboratorio fabricacao digital",
          "andar":"terreo"
       },
       "noConexao":{
          "andar":"terreo",
-         "nome":"laboratorio de automacao e robotica "
+         "nome":"laboratorio de automacao e robotica"
       }
    },
    {
@@ -11185,36 +11365,36 @@
    },
    {
       "noConexao":{
-         "nome":"atelie modelagem ",
+         "nome":"atelie modelagem",
          "andar":"terreo"
       },
       "acao":"reto",
       "pesoAcao":1,
       "no":{
          "andar":"terreo",
-         "nome":"laboratorio de eletroeletronica "
+         "nome":"laboratorio de eletroeletronica"
       }
    },
    {
       "acao":"vire a direita",
       "no":{
-         "nome":"laboratorio de eletroeletronica ",
+         "nome":"laboratorio de eletroeletronica",
          "andar":"terreo"
       },
       "noConexao":{
-         "nome":"almoxarifado ",
+         "nome":"almoxarifado",
          "andar":"terreo"
       },
       "pesoAcao":1
    },
    {
       "no":{
-         "nome":"atelie modelagem ",
+         "nome":"atelie modelagem",
          "andar":"terreo"
       },
       "noConexao":{
          "andar":"terreo",
-         "nome":"laboratorio de eletroeletronica "
+         "nome":"laboratorio de eletroeletronica"
       },
       "pesoAcao":1,
       "acao":"reto"
@@ -11226,7 +11406,7 @@
       },
       "pesoAcao":1,
       "no":{
-         "nome":"atelie modelagem ",
+         "nome":"atelie modelagem",
          "andar":"terreo"
       },
       "acao":"reto"
@@ -11239,7 +11419,7 @@
       },
       "no":{
          "andar":"terreo",
-         "nome":"atelie modelagem "
+         "nome":"atelie modelagem"
       },
       "pesoAcao":1
    },
@@ -11263,7 +11443,7 @@
          "nome":"cpd"
       },
       "noConexao":{
-         "nome":"atelie modelagem ",
+         "nome":"atelie modelagem",
          "andar":"terreo"
       }
    },
@@ -11281,26 +11461,26 @@
    },
    {
       "noConexao":{
-         "nome":"atelie modelagem ",
+         "nome":"atelie modelagem",
          "andar":"terreo"
       },
       "pesoAcao":1,
       "acao":"reto",
       "no":{
          "andar":"terreo",
-         "nome":"almoxarifado "
+         "nome":"almoxarifado"
       }
    },
    {
       "acao":"vire a esquerda",
       "noConexao":{
          "andar":"terreo",
-         "nome":"laboratorio de eletroeletronica "
+         "nome":"laboratorio de eletroeletronica"
       },
       "pesoAcao":1,
       "no":{
          "andar":"terreo",
-         "nome":"almoxarifado "
+         "nome":"almoxarifado"
       }
    },
    {
@@ -11311,7 +11491,19 @@
       "acao":"reto",
       "no":{
          "andar":"terreo",
-         "nome":"almoxarifado "
+         "nome":"almoxarifado"
+      },
+      "pesoAcao":1
+   },
+   {
+      "noConexao":{
+         "nome":"almoxarifado",
+         "andar":"terreo"
+      },
+      "acao":"reto",
+      "no":{
+         "andar":"terreo",
+         "nome":"hall"
       },
       "pesoAcao":1
    },
@@ -11323,7 +11515,7 @@
       },
       "acao":"reto",
       "noConexao":{
-         "nome":"deposito controlado ",
+         "nome":"deposito controlado",
          "andar":"terreo"
       }
    },
@@ -11335,7 +11527,7 @@
       "acao":"reto",
       "pesoAcao":1,
       "noConexao":{
-         "nome":"setor de ensaios tecnologicos ",
+         "nome":"setor de ensaios tecnologicos",
          "andar":"terreo"
       }
    },
@@ -11359,7 +11551,7 @@
       "pesoAcao":1,
       "noConexao":{
          "andar":"terreo",
-         "nome":"laboratorio de eletrotecnica "
+         "nome":"laboratorio de eletrotecnica"
       },
       "acao":"reto"
    },
@@ -11383,7 +11575,7 @@
       "acao":"reto",
       "no":{
          "andar":"terreo",
-         "nome":"setor de ensaios tecnologicos "
+         "nome":"setor de ensaios tecnologicos"
       },
       "pesoAcao":1
    },
@@ -11450,37 +11642,37 @@
    {
       "acao":"reto",
       "noConexao":{
-         "nome":"setor de metalurgia ",
+         "nome":"setor de metalurgia",
          "andar":"terreo"
       },
       "no":{
-         "nome":"setor de acabamento e pintura ",
+         "nome":"setor de acabamento e pintura",
          "andar":"terreo"
       },
       "pesoAcao":1
    },
    {
       "no":{
-         "nome":"restaurante ",
+         "nome":"restaurante",
          "andar":"primeiro andar"
       },
       "noConexao":{
          "andar":"primeiro andar",
-         "nome":"distribuicao "
+         "nome":"distribuicao"
       },
       "pesoAcao":1,
       "acao":"reto"
    },
    {
       "no":{
-         "nome":"restaurante ",
+         "nome":"restaurante",
          "andar":"primeiro andar"
       },
       "pesoAcao":1,
       "acao":"reto",
       "noConexao":{
          "andar":"primeiro andar",
-         "nome":"higienizacao "
+         "nome":"higienizacao"
       }
    },
    {
@@ -11491,7 +11683,7 @@
       "pesoAcao":1,
       "no":{
          "andar":"primeiro andar",
-         "nome":"restaurante "
+         "nome":"restaurante"
       },
       "acao":"reto"
    },
@@ -11502,7 +11694,19 @@
          "andar":"primeiro andar"
       },
       "no":{
-         "nome":"restaurante ",
+         "nome":"restaurante",
+         "andar":"primeiro andar"
+      },
+      "acao":"reto"
+   },
+   {
+      "pesoAcao":1,
+      "noConexao":{
+         "nome":"restaurante",
+         "andar":"primeiro andar"
+      },
+      "no":{
+         "nome":"cozinha fria",
          "andar":"primeiro andar"
       },
       "acao":"reto"
@@ -11511,34 +11715,34 @@
       "acao":"reto",
       "no":{
          "andar":"primeiro andar",
-         "nome":"distribuicao "
+         "nome":"distribuicao"
       },
       "noConexao":{
          "andar":"primeiro andar",
-         "nome":"restaurante "
+         "nome":"restaurante"
       },
       "pesoAcao":1
    },
    {
       "noConexao":{
-         "nome":"apoio cozinha ",
+         "nome":"apoio cozinha",
          "andar":"primeiro andar"
       },
       "pesoAcao":1,
       "no":{
          "andar":"primeiro andar",
-         "nome":"distribuicao "
+         "nome":"distribuicao"
       },
       "acao":"reto"
    },
    {
       "noConexao":{
-         "nome":"distribuicao ",
+         "nome":"distribuicao",
          "andar":"primeiro andar"
       },
       "no":{
          "andar":"primeiro andar",
-         "nome":"apoio cozinha "
+         "nome":"apoio cozinha"
       },
       "pesoAcao":1,
       "acao":"reto"
@@ -11547,35 +11751,35 @@
       "acao":"reto",
       "pesoAcao":1,
       "noConexao":{
-         "nome":"higienizacao ",
+         "nome":"higienizacao",
          "andar":"primeiro andar"
       },
       "no":{
          "andar":"primeiro andar",
-         "nome":"apoio cozinha "
+         "nome":"apoio cozinha"
       }
    },
    {
       "noConexao":{
          "andar":"primeiro andar",
-         "nome":"restaurante "
+         "nome":"restaurante"
       },
       "acao":"reto",
       "pesoAcao":1,
       "no":{
          "andar":"primeiro andar",
-         "nome":"higienizacao "
+         "nome":"higienizacao"
       }
    },
    {
       "acao":"reto",
       "no":{
          "andar":"primeiro andar",
-         "nome":"higienizacao "
+         "nome":"higienizacao"
       },
       "pesoAcao":1,
       "noConexao":{
-         "nome":"apoio cozinha ",
+         "nome":"apoio cozinha",
          "andar":"primeiro andar"
       }
    },
@@ -11583,11 +11787,23 @@
       "pesoAcao":1,
       "acao":"reto",
       "noConexao":{
-         "nome":"enologia ",
+         "nome":"enologia",
          "andar":"primeiro andar"
       },
       "no":{
-         "nome":"higienizacao ",
+         "nome":"higienizacao",
+         "andar":"primeiro andar"
+      }
+   },
+   {
+      "pesoAcao":1,
+      "acao":"reto",
+      "noConexao":{
+         "nome":"higienizacao",
+         "andar":"primeiro andar"
+      },
+      "no":{
+         "nome":"enologia",
          "andar":"primeiro andar"
       }
    },
@@ -11595,7 +11811,7 @@
       "acao":"reto",
       "noConexao":{
          "andar":"primeiro andar",
-         "nome":"restaurante "
+         "nome":"restaurante"
       },
       "no":{
          "andar":"primeiro andar",
@@ -11605,7 +11821,7 @@
    },
    {
       "noConexao":{
-         "nome":"cozinha fria ",
+         "nome":"cozinha fria",
          "andar":"primeiro andar"
       },
       "no":{
@@ -11642,7 +11858,7 @@
    {
       "pesoAcao":1,
       "noConexao":{
-         "nome":"pré-preparo carnes",
+         "nome":"pre-preparo carnes",
          "andar":"primeiro andar"
       },
       "no":{
@@ -11653,7 +11869,7 @@
    },
    {
       "noConexao":{
-         "nome":"deposito de utensilios ",
+         "nome":"deposito de utensilios",
          "andar":"primeiro andar"
       },
       "pesoAcao":1,
@@ -11718,7 +11934,7 @@
       },
       "acao":"vire a direita",
       "no":{
-         "nome":"cozinha 2 ",
+         "nome":"cozinha 2",
          "andar":"primeiro andar"
       },
       "pesoAcao":1
@@ -11731,13 +11947,13 @@
       },
       "acao":"reto",
       "no":{
-         "nome":"deposito de utensilios ",
+         "nome":"deposito de utensilios",
          "andar":"primeiro andar"
       }
    },
    {
       "no":{
-         "nome":"deposito de utensilios ",
+         "nome":"deposito de utensilios",
          "andar":"primeiro andar"
       },
       "noConexao":{
@@ -11750,7 +11966,7 @@
    {
       "acao":"vire a esquerda",
       "no":{
-         "nome":"deposito de utensilios ",
+         "nome":"deposito de utensilios",
          "andar":"primeiro andar"
       },
       "pesoAcao":1,
@@ -11790,7 +12006,7 @@
          "andar":"primeiro andar"
       },
       "noConexao":{
-         "nome":"professores e monitores ",
+         "nome":"professores e monitores",
          "andar":"primeiro andar"
       },
       "acao":"reto"
@@ -11799,7 +12015,7 @@
       "acao":"reto",
       "noConexao":{
          "andar":"primeiro andar",
-         "nome":"enologia "
+         "nome":"enologia"
       },
       "no":{
          "nome":"cozinha fria",
@@ -11827,7 +12043,7 @@
       },
       "acao":"reto",
       "noConexao":{
-         "nome":"padaria ",
+         "nome":"padaria",
          "andar":"primeiro andar"
       }
    },
@@ -11835,7 +12051,7 @@
       "pesoAcao":1,
       "acao":"reto",
       "no":{
-         "nome":"enologia ",
+         "nome":"enologia",
          "andar":"primeiro andar"
       },
       "noConexao":{
@@ -11846,7 +12062,7 @@
    {
       "acao":"vire a direita",
       "no":{
-         "nome":"enologia ",
+         "nome":"enologia",
          "andar":"primeiro andar"
       },
       "pesoAcao":1,
@@ -11882,7 +12098,7 @@
    {
       "acao":"reto",
       "noConexao":{
-         "nome":"pre-preparo carnes ",
+         "nome":"pre-preparo carnes",
          "andar":"primeiro andar"
       },
       "pesoAcao":1,
@@ -11894,22 +12110,22 @@
    {
       "noConexao":{
          "andar":"primeiro andar",
-         "nome":"professores e monitores "
+         "nome":"professores e monitores"
       },
       "pesoAcao":1,
       "acao":"vire a esquerda",
       "no":{
          "andar":"primeiro andar",
-         "nome":"sala demonstracao 3"
+         "nome":"sala de demonstracao 3"
       }
    },
    {
       "no":{
-         "nome":"sala demonstracao 3 ",
+         "nome":"sala demonstracao 3",
          "andar":"primeiro andar"
       },
       "noConexao":{
-         "nome":"padaria ",
+         "nome":"padaria",
          "andar":"primeiro andar"
       },
       "acao":"vire a esquerda",
@@ -11942,7 +12158,7 @@
    {
       "pesoAcao":1,
       "noConexao":{
-         "nome":"deposito de utensilios ",
+         "nome":"deposito de utensilios",
          "andar":"primeiro andar"
       },
       "acao":"vire a direita",
@@ -11980,7 +12196,7 @@
       "pesoAcao":1,
       "noConexao":{
          "andar":"primeiro andar",
-         "nome":"professores e monitores "
+         "nome":"professores e monitores"
       },
       "no":{
          "andar":"primeiro andar",
@@ -11994,7 +12210,7 @@
       },
       "pesoAcao":1,
       "noConexao":{
-         "nome":"padaria ",
+         "nome":"padaria",
          "andar":"primeiro andar"
       },
       "acao":"vire a direita"
@@ -12007,7 +12223,7 @@
       "pesoAcao":1,
       "noConexao":{
          "andar":"primeiro andar",
-         "nome":"enologia "
+         "nome":"enologia"
       },
       "acao":"vire a esquerda"
    },
@@ -12019,13 +12235,13 @@
       },
       "acao":"reto",
       "noConexao":{
-         "nome":"confeitaria ",
+         "nome":"confeitaria",
          "andar":"primeiro andar"
       }
    },
    {
       "no":{
-         "nome":"padaria ",
+         "nome":"padaria",
          "andar":"primeiro andar"
       },
       "noConexao":{
@@ -12038,7 +12254,7 @@
    {
       "acao":"reto",
       "noConexao":{
-         "nome":"professores e monitores ",
+         "nome":"professores e monitores",
          "andar":"primeiro andar"
       },
       "no":{
@@ -12061,7 +12277,7 @@
    },
    {
       "no":{
-         "nome":"padaria ",
+         "nome":"padaria",
          "andar":"primeiro andar"
       },
       "acao":"vire a direita",
@@ -12075,7 +12291,7 @@
       "pesoAcao":1,
       "no":{
          "andar":"primeiro andar",
-         "nome":"padaria "
+         "nome":"padaria"
       },
       "acao":"vire a esquerda",
       "noConexao":{
@@ -12089,7 +12305,7 @@
          "andar":"primeiro andar"
       },
       "noConexao":{
-         "nome":"padaria ",
+         "nome":"padaria",
          "andar":"primeiro andar"
       },
       "pesoAcao":1,
@@ -12097,7 +12313,7 @@
    },
    {
       "no":{
-         "nome":"confeitaria ",
+         "nome":"confeitaria",
          "andar":"primeiro andar"
       },
       "pesoAcao":1,
@@ -12109,7 +12325,7 @@
    },
    {
       "noConexao":{
-         "nome":"confeitaria ",
+         "nome":"confeitaria",
          "andar":"primeiro andar"
       },
       "acao":"reto",
@@ -12128,17 +12344,17 @@
       "pesoAcao":1,
       "noConexao":{
          "andar":"primeiro andar",
-         "nome":"padaria "
+         "nome":"padaria"
       }
    },
    {
       "acao":"reto",
       "no":{
          "andar":"primeiro andar",
-         "nome":"professores e monitores "
+         "nome":"professores e monitores"
       },
       "noConexao":{
-         "nome":"padaria ",
+         "nome":"padaria",
          "andar":"primeiro andar"
       },
       "pesoAcao":1
@@ -12150,7 +12366,7 @@
          "andar":"primeiro andar"
       },
       "no":{
-         "nome":"professores e monitores ",
+         "nome":"professores e monitores",
          "andar":"primeiro andar"
       },
       "acao":"reto"
@@ -12163,18 +12379,18 @@
       },
       "no":{
          "andar":"primeiro andar",
-         "nome":"professores e monitores "
+         "nome":"professores e monitores"
       },
       "acao":"vire a direita"
    },
    {
       "no":{
          "andar":"primeiro andar",
-         "nome":"professores e monitores "
+         "nome":"professores e monitores"
       },
       "acao":"vire a esquerda",
       "noConexao":{
-         "nome":"limpeza ",
+         "nome":"limpeza",
          "andar":"primeiro andar"
       },
       "pesoAcao":1
@@ -12183,12 +12399,12 @@
       "pesoAcao":1,
       "acao":"reto",
       "noConexao":{
-         "nome":"grafica ",
+         "nome":"grafica",
          "andar":"terreo"
       },
       "no":{
          "andar":"terreo",
-         "nome":"ambulatório "
+         "nome":"ambulatorio"
       }
    },
    {
@@ -12200,7 +12416,7 @@
       "acao":"reto",
       "noConexao":{
          "andar":"terreo",
-         "nome":"ambulatorio "
+         "nome":"ambulatorio"
       }
    },
    {
@@ -12208,7 +12424,7 @@
       "pesoAcao":1,
       "no":{
          "andar":"terreo",
-         "nome":"grafica "
+         "nome":"grafica"
       },
       "noConexao":{
          "andar":"terreo",
@@ -12236,7 +12452,7 @@
       "acao":"reto",
       "noConexao":{
          "andar":"terreo",
-         "nome":"santander "
+         "nome":"santander"
       }
    },
    {
@@ -12255,7 +12471,7 @@
       "acao":"vire a direita",
       "pesoAcao":1,
       "noConexao":{
-         "nome":"casa do pao de queijo ",
+         "nome":"casa do pao de queijo",
          "andar":"terreo"
       },
       "no":{
@@ -12271,20 +12487,20 @@
       "acao":"vire a direita",
       "pesoAcao":1,
       "no":{
-         "nome":"casa do pao de queijo ",
+         "nome":"casa do pao de queijo",
          "andar":"terreo"
       }
    },
    {
       "acao":"reto",
       "no":{
-         "nome":"casa do pao de queijo ",
+         "nome":"casa do pao de queijo",
          "andar":"terreo"
       },
       "pesoAcao":1,
       "noConexao":{
          "andar":"terreo",
-         "nome":"campus pasta grill "
+         "nome":"campus pasta grill"
       }
    },
    {
@@ -12320,7 +12536,7 @@
       "acao":"reto",
       "noConexao":{
          "andar":"terreo",
-         "nome":"campus pasta grill "
+         "nome":"campus pasta grill"
       }
    },
    {
@@ -12614,11 +12830,11 @@
    {
       "noConexao":{
          "andar":"terreo",
-         "nome":"museoh "
+         "nome":"museoh"
       },
       "no":{
          "andar":"terreo",
-         "nome":"jua "
+         "nome":"jua"
       },
       "pesoAcao":1,
       "acao":"reto"
@@ -12926,8 +13142,8 @@
    {
       "acao":"saia da Portaria Principal e siga reto até a Biblioteca",
       "noConexao":{
-         "andar":"biblioteca",
-         "nome":"d163"
+         "andar":"terreo",
+         "nome":"biblioteca"
       },
       "pesoAcao":5,
       "no":{
@@ -12948,7 +13164,7 @@
       }
    },
    {
-      "acao":"saia da Portaria 2 e siga reto até a Prédio da Manutenção",
+      "acao":"saia da Portaria 2 e siga reto até o Prédio da Manutenção",
       "noConexao":{
          "andar":"terreo",
          "nome":"predio da manutencao"
@@ -12960,14 +13176,14 @@
       }
    },
    {
-      "acao":"saia da Portaria 2 e siga reto até a Prédio da Manutenção",
+      "acao":"saia do Prédio da Manutenção e siga reto até a Portaria 2",
       "noConexao":{
          "andar":"terreo",
-         "nome":"predio da manutencao"
+         "nome":"portaria 2"
       },
       "pesoAcao":5,
       "no":{
-         "nome":"portaria 2",
+         "nome":"predio da manutencao",
          "andar":"terreo"
       }
    },
@@ -13027,7 +13243,7 @@
       },
       "pesoAcao":5,
       "no":{
-         "nome":"predio da manutenção",
+         "nome":"predio da manutencao",
          "andar":"terreo"
       }
    },
@@ -13051,7 +13267,7 @@
       },
       "pesoAcao":5,
       "no":{
-         "nome":"predio da manutenção",
+         "nome":"predio da manutencao",
          "andar":"terreo"
       }
    },

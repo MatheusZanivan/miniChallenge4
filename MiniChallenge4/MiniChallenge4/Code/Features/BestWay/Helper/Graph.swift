@@ -27,12 +27,11 @@ class Graph {
                 if let nodeIndex = graphAlgorithm.firstIndex(where: { $0.node.nome == node.no.nome }) {
                     if !graphAlgorithm[nodeIndex].nodeRelationships.contains(where: {$0.node.nome == node.noConexao.nome}) {
                         graphAlgorithm[nodeIndex].nodeRelationships.append(NodeRelationshipModel(node: node.noConexao, weight: node.pesoAcao, action: node.acao))
-                    } 
-                    
-//                    else {
-//                        print(node.no.nome)
-//                        print(node.noConexao.nome)
-//                    }
+                    }
+                    else {
+                        print("\(node.no.nome) - \(node.noConexao.nome)")
+                        
+                    }
                 }
             }
         }
