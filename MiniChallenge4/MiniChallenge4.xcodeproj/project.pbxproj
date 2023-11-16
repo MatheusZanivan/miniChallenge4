@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BDB0D462B068D4D001EF9BA /* ViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB0D452B068D4D001EF9BA /* ViewControler.swift */; };
 		883F7C5E2AF2D40B00691669 /* ChoosingDestinyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F7C5D2AF2D40B00691669 /* ChoosingDestinyView.swift */; };
 		883F7C612AF31A7700691669 /* DropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F7C602AF31A7700691669 /* DropdownMenu.swift */; };
 		884136782AF428EF00EE603E /* DropdownMenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884136772AF428EF00EE603E /* DropdownMenuList.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BDB0D452B068D4D001EF9BA /* ViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControler.swift; sourceTree = "<group>"; };
 		883F7C5D2AF2D40B00691669 /* ChoosingDestinyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosingDestinyView.swift; sourceTree = "<group>"; };
 		883F7C602AF31A7700691669 /* DropdownMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenu.swift; sourceTree = "<group>"; };
 		884136772AF428EF00EE603E /* DropdownMenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenuList.swift; sourceTree = "<group>"; };
@@ -94,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BDB0D422B0689A5001EF9BA /* ArtworkRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				3BDB0D452B068D4D001EF9BA /* ViewControler.swift */,
+			);
+			path = ArtworkRecognizer;
+			sourceTree = "<group>";
+		};
 		883F7C5F2AF31A3200691669 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,6 +245,7 @@
 		BB66B8AA2AF0419F00840E90 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				3BDB0D422B0689A5001EF9BA /* ArtworkRecognizer */,
 				BB66B8CD2AF1BE8700840E90 /* Common */,
 				BB3E49D92AF858CC00D4421B /* BestWay */,
 				BB66B8C22AF1BC3200840E90 /* ChoosingDestiny */,
@@ -413,6 +424,7 @@
 				BB66B8802AF03F4A00840E90 /* ContentView.swift in Sources */,
 				883F7C5E2AF2D40B00691669 /* ChoosingDestinyView.swift in Sources */,
 				BB66B8C82AF1BC5C00840E90 /* WardModel.swift in Sources */,
+				3BDB0D462B068D4D001EF9BA /* ViewControler.swift in Sources */,
 				BB66B87E2AF03F4A00840E90 /* MiniChallenge4App.swift in Sources */,
 				BB3E49EB2AF8592A00D4421B /* NodeRelationshipModel.swift in Sources */,
 				884136782AF428EF00EE603E /* DropdownMenuList.swift in Sources */,
@@ -576,9 +588,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniChallenge4/Preview Content\"";
-				DEVELOPMENT_TEAM = UFS93RKF34;
+				DEVELOPMENT_TEAM = 55AU2SQW7Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Para fornecer a melhor experiência possível, precisamos acessar a câmera do seu dispositivo. Este acesso será usado exclusivamente para ativar nosso reconhecedor de obras da universidade. ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -608,9 +621,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniChallenge4/Preview Content\"";
-				DEVELOPMENT_TEAM = UFS93RKF34;
+				DEVELOPMENT_TEAM = 55AU2SQW7Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Para fornecer a melhor experiência possível, precisamos acessar a câmera do seu dispositivo. Este acesso será usado exclusivamente para ativar nosso reconhecedor de obras da universidade. ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

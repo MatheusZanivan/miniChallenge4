@@ -67,8 +67,6 @@ struct ChoosingDestinyView: View {
                 
                 
             }.background(Color.gray)
-        }
-        
-        
+        }   
     }
 }
