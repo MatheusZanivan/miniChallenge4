@@ -6,20 +6,32 @@
 //
 
 import SwiftUI
+import SceneKit
 
 struct ContentView: View {
     @StateObject var senacMapViewModel = SenacMapViewModel()
+    
+    @State var nodeName = "art.scnassets/sceneAcademico1.scn"
+    @State var nodeWay = [String]()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            SceneViewRepresentable(strScene: nodeName, responseOnClick: { nodeName in
+                if nodeName == "Cube_001" {
+                    print(nodeName)
+                    self.nodeName = "art.scnassets/sceneOla.scn"
+                }
+            })
+            VStack {
+                Text(nodeName)
+                Spacer()
+            }
         }
-        .onReceive(senacMapViewModel.$senacMap, perform: { _ in
-            print("\(senacMapViewModel.senacMap)")
+        .onChange(of: nodeName, { _, newValue in
+            nodeWay.append(newValue)
         })
-        .padding()
+        .onAppear {
+            nodeWay.append(nodeName)
+        }
     }
 }
 
