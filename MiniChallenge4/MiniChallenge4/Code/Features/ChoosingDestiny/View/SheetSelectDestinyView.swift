@@ -10,25 +10,37 @@ import SwiftUI
 struct SheetSelectDestinyView: View {
     
     @Environment(\.dismiss) private var dismiss
+    @EnvironmentObject var senacMapViewModel: SenacMapViewModel
+    @Binding var destiny: String
+    private let title: String
+    @State var search = String()
+    private var filtered: [SenacPlaceModel]{
+        guard !search.isEmpty else {return senacMapViewModel.senacMap}
+        return senacMapViewModel.senacMap.filter { place in
+            place.nome.lowercased().contains(search.lowercased())
+        }
+    }
+
+    init(destiny: Binding<String>, title: String) {
+        self._destiny = destiny
+        self.title = title
+    }
     
-    @State var destiny: String
-    
-//    init(destiny: String) {
-//        self.destiny = destiny
-//    }
     var body: some View {
         NavigationView(content: {
             VStack(content: {
-                TextField("", text: $destiny)
-                    .frame(minWidth: 200, idealWidth: 300, maxWidth: 300, alignment:.leading)
-                    .padding([.vertical], 8)
-                    .padding(.horizontal)
-                    .background(Color(red: 0.75, green: 0.75, blue: 0.75))
-                    .clipShape(RoundedRectangle(cornerSize: CGSize(width: 8, height: 0)), style: FillStyle())
-                    .foregroundColor(Color(red: 0.47, green: 0.47, blue: 0.47))
+                ScrollView {
+                    ForEach(filtered, id: \.nome) { place in
+                        Button(place.nome) {
+                            self.destiny = place.nome
+                            dismiss()
+                        }
+                    }
+                }
                 Spacer()
             })
-            .navigationTitle("Onde você está")
+            .searchable(text: $search)
+            .navigationTitle(title)
             .navigationBarTitleDisplayMode(.inline)
             .toolbar(content: {
                 ToolbarItem(placement: .topBarTrailing) {
@@ -41,3 +53,5 @@ struct SheetSelectDestinyView: View {
         
     }
 }
+
+

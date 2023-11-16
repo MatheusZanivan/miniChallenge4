@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct SheetAddRouteView: View {
-    
+    @Environment(\.dismiss) private var dismiss
     @State private var showSheetSelectDestiny = false
+    @State private var showSheetSelectYourLocation = false
+    @State private var yourLocation: String = String()
     
     var body: some View {
         VStack(content: {
@@ -20,20 +22,22 @@ struct SheetAddRouteView: View {
                     .foregroundColor(.black)
                 Spacer()
                 Button("Fechar") {
-                    
+                    dismiss()
                 }
             }).padding()
-            RectangularButton(action: {showSheetSelectDestiny.toggle()}, title: "Onde você está")
-                .sheet(isPresented: $showSheetSelectDestiny, content: {
+            RectangularButton(action: {showSheetSelectYourLocation.toggle()}, title: self.yourLocation)
+                .sheet(isPresented: $showSheetSelectYourLocation, content: {
                     withAnimation {
-                        SheetSelectDestinyView(destiny: "")
+                        SheetSelectDestinyView(destiny: $yourLocation, title: "Onde você está")
                             .presentationDetents([.medium, .large])
                             .presentationDragIndicator(.hidden)
                     }
                 })
             RectangularButton(action: {showSheetSelectDestiny.toggle()}, title: "Onde você quer ir")
                 .sheet(isPresented: $showSheetSelectDestiny, content: {
-                    
+                    SheetSelectDestinyView(destiny: $yourLocation, title: "Onde você quer ir")
+                        .presentationDetents([.medium, .large])
+                        .presentationDragIndicator(.hidden)
                 })
             Spacer()
         })
