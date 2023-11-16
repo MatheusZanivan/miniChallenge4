@@ -99,6 +99,7 @@
 		883F7C5F2AF31A3200691669 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				BBCF60ED2AFEB1DC00FF8952 /* SceneViewRepresentable.swift */,
 				883F7C602AF31A7700691669 /* DropdownMenu.swift */,
 				884136772AF428EF00EE603E /* DropdownMenuList.swift */,
 				884136792AF429A500EE603E /* DropdownMenuListRow.swift */,
@@ -286,7 +287,6 @@
 			isa = PBXGroup;
 			children = (
 				BB66B87F2AF03F4A00840E90 /* ContentView.swift */,
-				BBCF60ED2AFEB1DC00FF8952 /* SceneViewRepresentable.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

@@ -10,21 +10,28 @@ import SceneKit
 
 struct ContentView: View {
     @StateObject var senacMapViewModel = SenacMapViewModel()
+    
+    @State var nodeName = "art.scnassets/sceneAcademico1.scn"
+    @State var nodeWay = [String]()
     var body: some View {
-//        SceneView(scene: SCNScene(named: "art.scnassets/snorlax.scn"), options: [.allowsCameraControl, .autoenablesDefaultLighting])
-//            .gesture(
-//                TapGesture(count: 1).onEnded { tap in
-//                    let location = tap.location(in: )
-//                    let hitResults = UIApplication.shared.windows.first?.rootViewController?.view.hitTest(location, with: nil)
-//
-//                    if let hitNode = hitResults?.first?.node {
-//                        // Handle the tap on the 3D object
-//                        print("Tapped on \(hitNode.name ?? "Unknown node")")
-//                    }
-//                }
-//            )
-        SceneViewRepresentable()
-
+        ZStack {
+            SceneViewRepresentable(strScene: nodeName, responseOnClick: { nodeName in
+                if nodeName == "Cube_001" {
+                    print(nodeName)
+                    self.nodeName = "art.scnassets/sceneOla.scn"
+                }
+            })
+            VStack {
+                Text(nodeName)
+                Spacer()
+            }
+        }
+        .onChange(of: nodeName, { _, newValue in
+            nodeWay.append(newValue)
+        })
+        .onAppear {
+            nodeWay.append(nodeName)
+        }
     }
 }
 
