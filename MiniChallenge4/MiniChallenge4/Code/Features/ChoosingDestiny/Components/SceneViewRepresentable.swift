@@ -32,9 +32,9 @@ class Coordinator: NSObject {
             let result = hitResults[0]
      
             // get material for selected geometry element
-            print()
-                    
+            
             let material = result.node.geometry!.materials[(result.geometryIndex)]
+            print("\(result.node.name ?? "N/A") - \(result.node.name ?? "N/A")")
             responseOnClick(result.node.name ?? "N/A")
             // highlight it
             SCNTransaction.begin()
@@ -77,7 +77,10 @@ struct SceneViewRepresentable: UIViewRepresentable {
 
     func updateUIView(_ scnView: SCNView, context: Context) {
         withAnimation {
-            scnView.scene = SCNScene(named: strScene)
+            guard let scene = SCNScene(named: strScene) else {
+                return
+            }
+            scnView.scene = scene
         }
         scnView.allowsCameraControl = true
         scnView.backgroundColor = UIColor.gray
