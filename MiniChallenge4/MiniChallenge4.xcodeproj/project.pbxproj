@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BDB0D462B068D4D001EF9BA /* ViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB0D452B068D4D001EF9BA /* ViewControler.swift */; };
+		3B35AA592B07E64B00B41A88 /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B35AA582B07E64B00B41A88 /* Detector.swift */; };
+		3B35AA5B2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B35AA5A2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel */; };
+		3BDB0D462B068D4D001EF9BA /* CameraViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB0D452B068D4D001EF9BA /* CameraViewControler.swift */; };
 		883F7C5E2AF2D40B00691669 /* ChoosingDestinyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F7C5D2AF2D40B00691669 /* ChoosingDestinyView.swift */; };
 		883F7C612AF31A7700691669 /* DropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F7C602AF31A7700691669 /* DropdownMenu.swift */; };
 		884136782AF428EF00EE603E /* DropdownMenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884136772AF428EF00EE603E /* DropdownMenuList.swift */; };
@@ -47,7 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3BDB0D452B068D4D001EF9BA /* ViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControler.swift; sourceTree = "<group>"; };
+		3B35AA582B07E64B00B41A88 /* Detector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detector.swift; sourceTree = "<group>"; };
+		3B35AA5A2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ModeloTesteComOutros.mlmodel; sourceTree = "<group>"; };
+		3BDB0D452B068D4D001EF9BA /* CameraViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewControler.swift; sourceTree = "<group>"; };
 		883F7C5D2AF2D40B00691669 /* ChoosingDestinyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosingDestinyView.swift; sourceTree = "<group>"; };
 		883F7C602AF31A7700691669 /* DropdownMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenu.swift; sourceTree = "<group>"; };
 		884136772AF428EF00EE603E /* DropdownMenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenuList.swift; sourceTree = "<group>"; };
@@ -99,7 +103,9 @@
 		3BDB0D422B0689A5001EF9BA /* ArtworkRecognizer */ = {
 			isa = PBXGroup;
 			children = (
-				3BDB0D452B068D4D001EF9BA /* ViewControler.swift */,
+				3BDB0D452B068D4D001EF9BA /* CameraViewControler.swift */,
+				3B35AA582B07E64B00B41A88 /* Detector.swift */,
+				3B35AA5A2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel */,
 			);
 			path = ArtworkRecognizer;
 			sourceTree = "<group>";
@@ -422,9 +428,10 @@
 				BB3E49E82AF8592A00D4421B /* ClassroomNodeModel.swift in Sources */,
 				BBCF60E82AFC0BC400FF8952 /* ViewExtension.swift in Sources */,
 				BB66B8802AF03F4A00840E90 /* ContentView.swift in Sources */,
+				3B35AA592B07E64B00B41A88 /* Detector.swift in Sources */,
 				883F7C5E2AF2D40B00691669 /* ChoosingDestinyView.swift in Sources */,
 				BB66B8C82AF1BC5C00840E90 /* WardModel.swift in Sources */,
-				3BDB0D462B068D4D001EF9BA /* ViewControler.swift in Sources */,
+				3BDB0D462B068D4D001EF9BA /* CameraViewControler.swift in Sources */,
 				BB66B87E2AF03F4A00840E90 /* MiniChallenge4App.swift in Sources */,
 				BB3E49EB2AF8592A00D4421B /* NodeRelationshipModel.swift in Sources */,
 				884136782AF428EF00EE603E /* DropdownMenuList.swift in Sources */,
@@ -436,6 +443,7 @@
 				8841367A2AF429A500EE603E /* DropdownMenuListRow.swift in Sources */,
 				BB3E49E22AF8591800D4421B /* BestWayView.swift in Sources */,
 				883F7C612AF31A7700691669 /* DropdownMenu.swift in Sources */,
+				3B35AA5B2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel in Sources */,
 				BB3E49EF2AF8593A00D4421B /* Graph.swift in Sources */,
 				BB3E49E92AF8592A00D4421B /* NodeJSONModel.swift in Sources */,
 				BB3E49F02AF8593A00D4421B /* GraphDataLoader.swift in Sources */,
