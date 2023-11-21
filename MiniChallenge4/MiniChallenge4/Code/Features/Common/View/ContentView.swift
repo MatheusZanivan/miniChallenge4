@@ -11,14 +11,15 @@ import SceneKit
 struct ContentView: View {
     @StateObject var senacMapViewModel = SenacMapViewModel()
     
-    @State var nodeName = "art.scnassets/sceneDayCampus.scn"
+    @State var nodeName = "scenes.scnassets/campus/sceneCampus.scn"
     @State var nodeWay = [String]()
     var body: some View {
         ZStack {
-            SceneViewRepresentable(strScene: nodeName, responseOnClick: { nodeName in
+            SceneViewRepresentable(strScene: nodeName, strCamera: "camera1", responseOnClick: { nodeName in
                 print(nodeName)
                 
-                self.nodeName = "art.scnassets/scene\(nodeName.capitalized).scn"
+                self.nodeName = "scenes.scnassets/\(nodeName)/scene\(nodeName.capitalized).scn"
+                print(self.nodeName)
                 
             })
             VStack {

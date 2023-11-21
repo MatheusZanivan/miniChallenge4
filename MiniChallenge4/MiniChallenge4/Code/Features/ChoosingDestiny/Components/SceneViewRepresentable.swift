@@ -59,11 +59,13 @@ struct SceneViewRepresentable: UIViewRepresentable {
     typealias UIViewType = SCNView
     let sceneView = SCNView()
     let strScene: String
+    let strCamera: String
     
     private var responseOnClick: (_ nodeName: String) -> Void
     
-    init(strScene: String, responseOnClick: @escaping (_ nodeName: String) -> Void) {
+    init(strScene: String, strCamera: String, responseOnClick: @escaping (_ nodeName: String) -> Void) {
         self.strScene = strScene
+        self.strCamera = strCamera
         self.responseOnClick = responseOnClick
     }
     
