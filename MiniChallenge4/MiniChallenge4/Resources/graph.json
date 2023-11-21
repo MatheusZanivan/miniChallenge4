@@ -4488,30 +4488,6 @@
         }
     },
     {
-        "acao": "suba a escada e vire a direita",
-        "pesoAcao": 3,
-        "noConexao": {
-            "nome": "d258",
-            "andar": "primeiro andar"
-        },
-        "no": {
-            "nome": "c257",
-            "andar": "primeiro andar"
-        }
-    },
-    {
-        "acao": "desça a escada e vire a esquerda",
-        "no": {
-            "nome": "d258",
-            "andar": "primeiro andar"
-        },
-        "pesoAcao": 3,
-        "noConexao": {
-            "andar": "primeiro andar",
-            "nome": "c257"
-        }
-    },
-    {
         "pesoAcao": 3,
         "noConexao": {
             "andar": "primeiro andar",
@@ -4925,7 +4901,7 @@
             "andar": "primeiro andar"
         },
         "pesoAcao": 1,
-        "acao": "vire no corredor b",
+        "acao": "reto",
         "noConexao": {
             "nome": "c231",
             "andar": "primeiro andar"
@@ -4936,7 +4912,7 @@
             "andar": "primeiro andar",
             "nome": "c231"
         },
-        "acao": "vire no corredor b",
+        "acao": "reto",
         "noConexao": {
             "andar": "primeiro andar",
             "nome": "c233"
@@ -4964,6 +4940,30 @@
         "no": {
             "andar": "primeiro andar",
             "nome": "c232"
+        },
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "c233"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "c232"
+        },
+        "acao": "reto"
+    },
+    {
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "c232"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "c233"
         },
         "acao": "reto"
     },
@@ -7273,18 +7273,6 @@
     },
     {
         "pesoAcao": 2,
-        "acao": "saia do Lab. Geral (NASA) e vire no corredor C",
-        "noConexao": {
-            "nome": "c145",
-            "andar": "terreo"
-        },
-        "no": {
-            "andar": "terreo",
-            "nome": "a110"
-        }
-    },
-    {
-        "pesoAcao": 2,
         "noConexao": {
             "andar": "terreo",
             "nome": "c146"
@@ -7340,6 +7328,18 @@
         },
         "no": {
             "nome": "c145",
+            "andar": "terreo"
+        }
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "terreo",
+            "nome": "c145"
+        },
+        "no": {
+            "nome": "c147",
             "andar": "terreo"
         }
     },
@@ -9550,30 +9550,6 @@
             "nome": "e287"
         },
         "pesoAcao": 2
-    },
-    {
-        "pesoAcao": 2,
-        "noConexao": {
-            "nome": "c239",
-            "andar": "primeiro andar"
-        },
-        "acao": "vire no corredor c",
-        "no": {
-            "andar": "primeiro andar",
-            "nome": "e287"
-        }
-    },
-    {
-        "pesoAcao": 2,
-        "noConexao": {
-            "nome": "e287",
-            "andar": "primeiro andar"
-        },
-        "acao": "vire no corredor e",
-        "no": {
-            "andar": "primeiro andar",
-            "nome": "c239"
-        }
     },
     {
         "noConexao": {
@@ -12812,54 +12788,6 @@
       "pesoAcao":5,
       "no":{
          "nome":"centro esportivo",
-         "andar":"terreo"
-      }
-   },
-   {
-      "acao":"saia do Academico 2 e siga reto até o Prédio das Coordenações",
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"predio das coordenacoes"
-      },
-      "pesoAcao":5,
-      "no":{
-         "nome":"g301",
-         "andar":"terreo"
-      }
-   },
-   {
-      "acao":"saia do Prédio das Coordenações e siga reto até o Acadêmico 2",
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"g301"
-      },
-      "pesoAcao":5,
-      "no":{
-         "nome":"predio das coordenacoes",
-         "andar":"terreo"
-      }
-   },
-   {
-      "acao":"saia do Academico 1 e siga reto até o Prédio das Coordenações",
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"predio das coordenacoes"
-      },
-      "pesoAcao":5,
-      "no":{
-         "nome":"c150",
-         "andar":"terreo"
-      }
-   },
-   {
-      "acao":"saia do Prédio das Coordenações e siga reto até o Acadêmico 1",
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"c150"
-      },
-      "pesoAcao":5,
-      "no":{
-         "nome":"predio das coordenacoes",
          "andar":"terreo"
       }
    },
