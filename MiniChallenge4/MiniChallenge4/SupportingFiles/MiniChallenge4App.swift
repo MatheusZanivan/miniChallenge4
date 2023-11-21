@@ -13,7 +13,8 @@ struct MiniChallenge4App: App {
         WindowGroup {
 //            BestWayView(startingNode: .constant("i347"), arrivalNode: .constant("j475"))
          
-            ChoosingDestinyView()
+//            ChoosingDestinyView()
+            ContentView()
         }
     }
 }
