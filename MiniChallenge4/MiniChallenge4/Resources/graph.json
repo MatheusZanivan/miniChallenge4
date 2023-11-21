@@ -6864,18 +6864,6 @@
         }
     },
     {
-        "noConexao": {
-            "andar": "terreo",
-            "nome": "e166"
-        },
-        "acao": "vire no corredor e",
-        "pesoAcao": 2,
-        "no": {
-            "nome": "c135",
-            "andar": "terreo"
-        }
-    },
-    {
         "pesoAcao": 1,
         "no": {
             "nome": "c136",
@@ -8002,18 +7990,6 @@
             "nome": "c134",
             "andar": "terreo"
         }
-    },
-    {
-        "no": {
-            "andar": "terreo",
-            "nome": "e166"
-        },
-        "noConexao": {
-            "nome": "c135",
-            "andar": "terreo"
-        },
-        "acao": "vire no corredor c",
-        "pesoAcao": 2
     },
     {
         "noConexao": {
@@ -10836,18 +10812,6 @@
       "pesoAcao":3
    },
    {
-      "pesoAcao":3,
-      "no":{
-         "nome":"c145",
-         "andar":"terreo"
-      },
-      "noConexao":{
-         "andar":"primeiro andar",
-         "nome":"f272"
-      },
-      "acao":"suba a escada e siga reto"
-   },
-   {
       "acao":"desça a escada e siga reto",
       "no":{
          "andar":"primeiro andar",
@@ -10858,18 +10822,6 @@
          "andar":"terreo",
          "nome":"c143"
       }
-   },
-   {
-      "noConexao":{
-         "nome":"c145",
-         "andar":"terreo"
-      },
-      "pesoAcao":3,
-      "no":{
-         "nome":"f272",
-         "andar":"primeiro andar"
-      },
-      "acao":"desça a escada e siga reto"
    },
    {
       "acao":"suba a escada e siga reto",
