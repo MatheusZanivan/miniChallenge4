@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B35AA5B2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B35AA5A2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel */; };
+		3BDB0D462B068D4D001EF9BA /* CameraViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB0D452B068D4D001EF9BA /* CameraViewControler.swift */; };
 		8826C20D2AF98F59005FC3B6 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826C20C2AF98F59005FC3B6 /* RoundButton.swift */; };
 		883F7C5E2AF2D40B00691669 /* ChoosingDestinyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F7C5D2AF2D40B00691669 /* ChoosingDestinyView.swift */; };
 		883F7C612AF31A7700691669 /* DropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F7C602AF31A7700691669 /* DropdownMenu.swift */; };
@@ -53,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B35AA5A2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ModeloTesteComOutros.mlmodel; sourceTree = "<group>"; };
+		3BDB0D452B068D4D001EF9BA /* CameraViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewControler.swift; sourceTree = "<group>"; };
 		8826C20C2AF98F59005FC3B6 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		883F7C5D2AF2D40B00691669 /* ChoosingDestinyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosingDestinyView.swift; sourceTree = "<group>"; };
 		883F7C602AF31A7700691669 /* DropdownMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenu.swift; sourceTree = "<group>"; };
@@ -108,6 +112,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BDB0D422B0689A5001EF9BA /* ArtworkRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				3BDB0D452B068D4D001EF9BA /* CameraViewControler.swift */,
+				3B35AA5A2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel */,
+			);
+			path = ArtworkRecognizer;
+			sourceTree = "<group>";
+		};
 		8826C20B2AF98EC7005FC3B6 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				BB66B8CD2AF1BE8700840E90 /* Common */,
+				3BDB0D422B0689A5001EF9BA /* ArtworkRecognizer */,
 				BB3E49D92AF858CC00D4421B /* BestWay */,
 				BB66B8C22AF1BC3200840E90 /* ChoosingDestiny */,
 			);
@@ -331,13 +345,6 @@
 				88A08B6B2AFEAC470086608A /* LocationDetailsView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		BBCF60E92AFD520B00FF8952 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -451,6 +458,7 @@
 				883F7C5E2AF2D40B00691669 /* ChoosingDestinyView.swift in Sources */,
 				88A08B6C2AFEAC470086608A /* LocationDetailsView.swift in Sources */,
 				BB66B8C82AF1BC5C00840E90 /* WardModel.swift in Sources */,
+				3BDB0D462B068D4D001EF9BA /* CameraViewControler.swift in Sources */,
 				BB66B87E2AF03F4A00840E90 /* MiniChallenge4App.swift in Sources */,
 				BBCF60EE2AFEB1DC00FF8952 /* SceneViewRepresentable.swift in Sources */,
 				BB3E49EB2AF8592A00D4421B /* NodeRelationshipModel.swift in Sources */,
@@ -467,6 +475,7 @@
 				BB3E49E22AF8591800D4421B /* BestWayView.swift in Sources */,
 				883F7C612AF31A7700691669 /* DropdownMenu.swift in Sources */,
 				88A75D732AFAB5AE005D5877 /* SheetAddRouteView.swift in Sources */,
+				3B35AA5B2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel in Sources */,
 				BB3E49EF2AF8593A00D4421B /* Graph.swift in Sources */,
 				BB3E49E92AF8592A00D4421B /* NodeJSONModel.swift in Sources */,
 				BB3E49F02AF8593A00D4421B /* GraphDataLoader.swift in Sources */,
@@ -619,9 +628,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniChallenge4/Preview Content\"";
-				DEVELOPMENT_TEAM = Z2T622XX3F;
+				DEVELOPMENT_TEAM = UFS93RKF34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Para fornecer a melhor experiência possível, precisamos acessar a câmera do seu dispositivo. Este acesso será usado exclusivamente para ativar nosso reconhecedor de obras da universidade. ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -651,9 +661,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniChallenge4/Preview Content\"";
-				DEVELOPMENT_TEAM = Z2T622XX3F;
+				DEVELOPMENT_TEAM = UFS93RKF34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Para fornecer a melhor experiência possível, precisamos acessar a câmera do seu dispositivo. Este acesso será usado exclusivamente para ativar nosso reconhecedor de obras da universidade. ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

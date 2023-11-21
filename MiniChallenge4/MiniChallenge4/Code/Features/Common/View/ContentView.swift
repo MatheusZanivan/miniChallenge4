@@ -45,6 +45,13 @@ struct ContentView: View {
         .onAppear {
             nodeWay.append(nodeName)
         }
+//=======
+//        VStack {
+//			CameraViewControlerRepresentable()
+//				.ignoresSafeArea()
+//        }
+//        .padding()
+//>>>>>>> origin/artwork_recognizer
     }
 }
 

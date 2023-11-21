@@ -11,6 +11,7 @@ struct ChoosingDestinyView: View {
     @EnvironmentObject var senacMapViewModel: SenacMapViewModel
     @State private var placeSelect: String?
     @State private var showSheetRoute = false
+    @State private var showSheetCamera = false
     
     @State var nodeName = "scenes.scnassets/campus/sceneCampus.scn"
     @State var cameraName = String()
@@ -50,22 +51,28 @@ struct ChoosingDestinyView: View {
                         RoundButton(action: {
                             showSheetRoute.toggle()
                         }, imageButton: Image(uiImage: UIImage(named: "Regular-S")!))
+                        .sheet(isPresented: $showSheetRoute) {
+                            SheetAddRouteView()
+                                .presentationDetents([.height(200),.medium, .large])
+                                .presentationDragIndicator(.hidden)
+                        }
                         
                         Spacer()
                         RoundButton(action: {
-                            print("imagem")
+                            showSheetCamera.toggle()
                         }, imageButton: Image(uiImage: UIImage(named: "Image")!))
+                        .sheet(isPresented: $showSheetCamera) {
+                            CameraViewControlerRepresentable()
+                                .ignoresSafeArea()
+                        }
                     }.padding()
                 }
                 
             }.background(Color.gray)
             
         }
-        .sheet(isPresented: $showSheetRoute) {
-            SheetAddRouteView()
-                .presentationDetents([.height(200),.medium, .large])
-                .presentationDragIndicator(.hidden)
+        
             
-        }
+        
     }
 }
