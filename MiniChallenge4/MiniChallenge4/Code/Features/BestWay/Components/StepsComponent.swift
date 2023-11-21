@@ -53,15 +53,22 @@ struct StepsComponent: View {
         .onAppear() {
             setupOpacityButtons()
         }
-        .onChange(of: steps, { oldValue, newValue in
+        .onChange2(of: steps, action17: { _, _ in
+            indexStep = 0
+            setupOpacityButtons()
+        }, actionLower: { _ in
+            indexStep = 0
             setupOpacityButtons()
         })
-        .onChange(of: indexStep) { _, newIndex in
+        
+        .onChange2(of: indexStep, action17: { oldValue, newValue in
             setupOpacityButtons()
-        }
-        
-        
+        }, actionLower: { newValue in
+            setupOpacityButtons()
+        })
     }
+    
+    
     func setupOpacityButtons() {
         switch indexStep {
         case 0:
