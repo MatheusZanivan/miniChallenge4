@@ -95,7 +95,7 @@ struct SceneViewRepresentable: UIViewRepresentable {
         
         scnView.allowsCameraControl = true
         scnView.isUserInteractionEnabled = true
-        scnView.showsStatistics = true
+//        scnView.showsStatistics = true
     }
     
     

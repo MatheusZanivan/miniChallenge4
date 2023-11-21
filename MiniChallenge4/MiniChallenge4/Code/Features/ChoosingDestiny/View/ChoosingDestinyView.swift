@@ -12,70 +12,52 @@ struct ChoosingDestinyView: View {
     @State private var placeSelect: String?
     @State private var showSheetRoute = false
     
+    @State var nodeName = "scenes.scnassets/campus/sceneCampus.scn"
+    @State var cameraName = String()
+    @State var nodeWay = [String]()
+    
     var body: some View {
         NavigationView{
-            VStack{
+            ZStack{
                 
-                DropdownMenu(selectedOption: self.$placeSelect,
-                             places: senacMapViewModel.senacMap,
-                             placeholder: "Selecione uma área de Destino")
                 
-                Spacer()
-                
-                HStack(content: {
-                    VStack{
-                        Text("Selecione o Corredor")
-                            .frame(minWidth: 150, idealWidth: 180, maxWidth: 200)
-                            .padding([.bottom, .top], 18)
-                            .foregroundColor(.black)
-                            .background(.white)
-                        ScrollView {
-                            if let senacFiltered = senacMapViewModel.filterWard(from: placeSelect ?? "Local não selecionado") {
-                                if !senacFiltered.isEmpty {
-                                    ForEach(senacFiltered, id: \.corredor) { place in
-                                        
-                                        NavigationLink(place.corredor){
-                                            RouteView(classRoomSenac: place.salas)
-                                        }
-                                        .padding([.bottom, .top], 8)
-                                        .frame(minWidth: 150, idealWidth: 180, maxWidth: 200)
-                                        .foregroundStyle(Color.black)
-                                        
-                                    }
-                                } else {
-                                    Text("Nenhuma informação encontrada nessa área")
-                                        .padding([.bottom, .top], 8)
-                                        .frame(minWidth: 150, idealWidth: 180, maxWidth: 200)
-                                        .foregroundStyle(Color.black)
-                                }
-                                
-                            } else {
-                                Text("Nenhuma área selecionada até o momento")
-                                    .padding([.bottom, .top], 8)
-                                    .frame(minWidth: 150, idealWidth: 180, maxWidth: 200)
-                                    .foregroundStyle(Color.black)
-                            }
-                        }.background(Color(uiColor: .systemGray3))
-                            .padding(.top, -8)
-                    }
-                    .cornerRadius(16)
-                    .frame(width: UIScreen.main.bounds.width * 0.75, height: UIScreen.main.bounds.width * 0.75)
-                    .overlay {
-                        RoundedRectangle(cornerRadius: 20)
-                            .stroke(.white, lineWidth: 0)
-                    }
+               
+                SceneViewRepresentable(strScene: nodeName, strCamera: cameraName, responseOnClick: { nodeName in
+                    print(nodeName)
+                    
+    //                switch Int.random(in: 0...1) {
+    //                case 0:
+    //                    self.cameraName = "camera"
+    //                case 1:
+    //                    self.cameraName = "camera2"
+    //                default:
+    //                    self.cameraName = "camera2"
+    //                }
+                    
+    //                self.nodeName = "scenes.scnassets/\(nodeName)/scene\(nodeName.capitalized).scn"
+                    print(self.nodeName)
+                    
                 })
-    
-                HStack {
-                    RoundButton(action: {
-                        showSheetRoute.toggle()
-                    }, imageButton: Image(uiImage: UIImage(named: "Regular-S")!))
+                
+                VStack {
+                    DropdownMenu(selectedOption: self.$placeSelect,
+                                 places: senacMapViewModel.senacMap,
+                                 placeholder: "Selecione uma área de Destino")
                     
                     Spacer()
-                    RoundButton(action: {
-                        print("imagem")
-                    }, imageButton: Image(uiImage: UIImage(named: "Image")!))
-                }.padding()
+        
+                    HStack {
+                        RoundButton(action: {
+                            showSheetRoute.toggle()
+                        }, imageButton: Image(uiImage: UIImage(named: "Regular-S")!))
+                        
+                        Spacer()
+                        RoundButton(action: {
+                            print("imagem")
+                        }, imageButton: Image(uiImage: UIImage(named: "Image")!))
+                    }.padding()
+                }
+                
             }.background(Color.gray)
             
         }

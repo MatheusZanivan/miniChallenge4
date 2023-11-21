@@ -50,7 +50,6 @@ struct LocationDetailsView: View {
             }.padding(.vertical)
         }.background(Color.gray)
         .navigationTitle(self.place)
-        .toolbarTitleDisplayMode(.inline)
         .onAppear(perform: {
             self.places = vmSenac.filterWard(from: place) ?? []
         })
