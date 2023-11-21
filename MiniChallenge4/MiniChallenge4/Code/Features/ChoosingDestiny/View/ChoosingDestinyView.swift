@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct ChoosingDestinyView: View {
+    @EnvironmentObject var senacMapViewModel: SenacMapViewModel
     @State private var placeSelect: String?
-    @StateObject var senacMapViewModel = SenacMapViewModel()
+    @State private var showSheetRoute = false
     
     var body: some View {
-        NavigationStack{
+        NavigationView{
             VStack{
                 
                 DropdownMenu(selectedOption: self.$placeSelect,
@@ -64,11 +65,25 @@ struct ChoosingDestinyView: View {
                             .stroke(.white, lineWidth: 0)
                     }
                 })
-                
-                
+    
+                HStack {
+                    RoundButton(action: {
+                        showSheetRoute.toggle()
+                    }, imageButton: Image(uiImage: UIImage(named: "Regular-S")!))
+                    
+                    Spacer()
+                    RoundButton(action: {
+                        print("imagem")
+                    }, imageButton: Image(uiImage: UIImage(named: "Image")!))
+                }.padding()
             }.background(Color.gray)
+            
         }
-        
-        
+        .sheet(isPresented: $showSheetRoute) {
+            SheetAddRouteView()
+                .presentationDetents([.height(200),.medium, .large])
+                .presentationDragIndicator(.hidden)
+            
+        }
     }
 }

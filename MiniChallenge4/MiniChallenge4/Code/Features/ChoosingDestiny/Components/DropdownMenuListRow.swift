@@ -11,9 +11,9 @@ struct DropdownMenuListRow: View {
     let option: SenacPlaceModel
     let onSelectionAction: (_ option: SenacPlaceModel) -> Void
     var body: some View {
-        Button(action: {
-            self.onSelectionAction(option)
-        }) {
+        NavigationLink {
+            LocationDetailsView(place: option.nome)
+        } label: {
             Text(option.nome)
                 .frame(maxWidth: .infinity, alignment: .center)
                 .padding()
