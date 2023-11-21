@@ -9,7 +9,7 @@ import SwiftUI
 
 struct StepsComponent: View {
     @Binding var steps: [String]
-    @State var indexStep = 0
+    @Binding var indexStep: Int
     @State var opacityPrevious: Double = 0.5
     @State var opacityNext: Double = 1
     var body: some View {
@@ -54,7 +54,6 @@ struct StepsComponent: View {
             setupOpacityButtons()
         }
         .onChange(of: steps, { oldValue, newValue in
-            indexStep = 0
             setupOpacityButtons()
         })
         .onChange(of: indexStep) { _, newIndex in

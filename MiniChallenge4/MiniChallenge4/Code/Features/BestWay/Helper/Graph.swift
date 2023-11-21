@@ -12,6 +12,7 @@ class Graph {
     var graph: [NodeJSONModel]
     var graphAlgorithm = [NodeModel]()
     var way = [String]()
+    var weightWay = Int()
     
     init(graph: [NodeJSONModel]) {
         self.graph = graph
@@ -58,6 +59,7 @@ class Graph {
         if let startingNodeIndex = graphAlgorithm.firstIndex(where: { $0.node.nome == startingNode}) {
             
             if graphAlgorithm[startingNodeIndex].node.nome == arrivalNode {
+                print(weight)
                 generateWay(arrivalNode: arrivalNode)
                 return
             }
@@ -69,15 +71,29 @@ class Graph {
             let startingNodeGraphAlgorithm = graphAlgorithm[startingNodeIndex]
             var adj = [String]()
             
+//            var downstairs = false
+//            if let arrivalNodeIndex = graphAlgorithm.firstIndex(where: { $0.node.nome == arrivalNode}) {
+//                let arrivalNodeGraphAlgorithm = graphAlgorithm[arrivalNodeIndex]
+//                let startingFloor = startingNodeGraphAlgorithm.node.andar
+//                let arrivalFloor = arrivalNodeGraphAlgorithm.node.andar
+//                
+//                if startingFloor == "terreo" && arrivalFloor == "terreo" {
+//                    downstairs = true
+//                }
+//            }
+            
             for i in 0...(startingNodeGraphAlgorithm.nodeRelationships.count - 1) {
                 if let nextNodeIndex = graphAlgorithm.firstIndex(where: { $0.node.nome == startingNodeGraphAlgorithm.nodeRelationships[i].node.nome}) {
+                    //MARK: - UPDATE (weight + startingNodeGraphAlgorithm.nodeRelationships[i].weight)
                     if ((weight + 1) < graphAlgorithm[nextNodeIndex].weight && startingNodeGraphAlgorithm.antecedent != graphAlgorithm[nextNodeIndex].node.nome){
-                        graphAlgorithm[nextNodeIndex].weight = weight + startingNodeGraphAlgorithm.nodeRelationships[i].weight
-                        graphAlgorithm[nextNodeIndex].antecedent = startingNodeGraphAlgorithm.node.nome
-                        adj.append(graphAlgorithm[nextNodeIndex].node.nome)
+//                        if !downstairs || (downstairs && graphAlgorithm[nextNodeIndex].node.andar == "terreo") {
+                            graphAlgorithm[nextNodeIndex].weight = weight + startingNodeGraphAlgorithm.nodeRelationships[i].weight
+                            graphAlgorithm[nextNodeIndex].antecedent = startingNodeGraphAlgorithm.node.nome
+                            adj.append(graphAlgorithm[nextNodeIndex].node.nome)
+//                        }
                         
                         
-//                        print("\(graphAlgorithm[startingNodeIndex].node.nome) - \(graphAlgorithm[nextNodeIndex].node.nome)")
+                        print("\(graphAlgorithm[startingNodeIndex].node.nome) - \(graphAlgorithm[nextNodeIndex].node.nome)")
                         
 //                        if noPartidaGrafoAlgoritmo.relacaoNos[i].acao == "direita" {
 //                            print("\(noPartida) virou a direita para \(grafoAlgoritmo[indexProximoNo].nome)")
@@ -106,8 +122,9 @@ class Graph {
         var nodeList = [String]()
         var currentNode = arrivalNode
         while true {
+//            print(Int.random(in: 0...10))
             if let startingNodeIndex = graphAlgorithm.firstIndex(where: { $0.node.nome == currentNode}) {
-//                print("\(graphAlgorithm[startingNodeIndex].node.nome) - \(graphAlgorithm[startingNodeIndex].antecedent ?? "")")
+                print("\(graphAlgorithm[startingNodeIndex].node.nome) - \(graphAlgorithm[startingNodeIndex].antecedent ?? "")")
                 nodeList.append(graphAlgorithm[startingNodeIndex].node.nome)
                 currentNode = graphAlgorithm[startingNodeIndex].antecedent ?? ""
             } else {
@@ -115,11 +132,14 @@ class Graph {
             }
         }
         nodeList.reverse()
+        print(nodeList)
+        
         generateSteps(nodeList: nodeList)
     }
     
     func generateSteps(nodeList: [String]) {
-        if (nodeList.count < way.count && !way.isEmpty) || way.isEmpty {
+        if (nodeList.count < weightWay && !way.isEmpty) || way.isEmpty {
+            weightWay = nodeList.count
             way.removeAll()
             for i in 0...(nodeList.count - 1) {
                 if let startingNodeIndex = graphAlgorithm.firstIndex(where: { $0.node.nome == nodeList[i]}) {

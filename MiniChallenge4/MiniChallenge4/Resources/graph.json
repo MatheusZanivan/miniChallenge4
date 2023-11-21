@@ -1,6 +1,6 @@
 [
     {
-        "pesoAcao": 1,
+        "pesoAcao": 2,
         "acao": "vire no corredor j",
         "no": {
             "nome": "i347",
@@ -20,7 +20,7 @@
             "nome": "i347",
             "andar": "terreo"
         },
-        "pesoAcao": 1,
+        "pesoAcao": 2,
         "acao": "vire no corredor i"
     },
     {
@@ -684,6 +684,18 @@
         "acao": "reto"
     },
     {
+        "no": {
+            "nome": "i459",
+            "andar": "primeiro andar"
+        },
+        "pesoAcao": 1,
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i463"
+        },
+        "acao": "reto"
+    },
+    {
         "noConexao": {
             "andar": "primeiro andar",
             "nome": "i459"
@@ -691,6 +703,18 @@
         "no": {
             "andar": "primeiro andar",
             "nome": "i457"
+        },
+        "acao": "reto",
+        "pesoAcao": 1
+    },
+    {
+        "noConexao": {
+            "andar": "primeiro andar",
+            "nome": "i457"
+        },
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i459"
         },
         "acao": "reto",
         "pesoAcao": 1
@@ -968,6 +992,18 @@
         },
         "noConexao": {
             "nome": "i459",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i459"
+        },
+        "noConexao": {
+            "nome": "i452",
             "andar": "primeiro andar"
         }
     },
@@ -10908,30 +10944,6 @@
       }
    },
    {
-      "acao":"suba a escada e vire a esquerda",
-      "no":{
-         "andar":"terreo",
-         "nome":"c151"
-      },
-      "pesoAcao":3,
-      "noConexao":{
-         "andar":"primeiro andar",
-         "nome":"c256"
-      }
-   },
-   {
-      "noConexao":{
-         "nome":"c257",
-         "andar":"primeiro andar"
-      },
-      "no":{
-         "nome":"c151",
-         "andar":"terreo"
-      },
-      "pesoAcao":3,
-      "acao":"suba a escada e vire a direita"
-   },
-   {
       "no":{
          "nome":"c256",
          "andar":"primeiro andar"
@@ -10944,18 +10956,6 @@
       "pesoAcao":3
    },
    {
-      "no":{
-         "andar":"primeiro andar",
-         "nome":"c256"
-      },
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"c151"
-      },
-      "pesoAcao":3,
-      "acao":"desça a escada e vire a direita"
-   },
-   {
       "acao":"desça a escada e vire a direita",
       "noConexao":{
          "nome":"c150",
@@ -10966,18 +10966,6 @@
          "nome":"c257",
          "andar":"primeiro andar"
       }
-   },
-   {
-      "noConexao":{
-         "nome":"c151",
-         "andar":"terreo"
-      },
-      "no":{
-         "andar":"primeiro andar",
-         "nome":"c257"
-      },
-      "pesoAcao":3,
-      "acao":"desça a escada e vire a direita"
    },
    {
       "pesoAcao":5,
@@ -12638,54 +12626,6 @@
    {
       "noConexao":{
          "andar":"terreo",
-         "nome":"d163"
-      },
-      "no":{
-         "nome":"biblioteca",
-         "andar":"terreo"
-      },
-      "acao":"saia da Biblioteca e siga reto até o Acadêmico 1",
-      "pesoAcao":5
-   },
-   {
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"biblioteca"
-      },
-      "no":{
-         "nome":"d163",
-         "andar":"terreo"
-      },
-      "acao":"saia do Acadêmico 1 e siga reto até a Biblioteca",
-      "pesoAcao":5
-   },
-   {
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"a101"
-      },
-      "no":{
-         "nome":"biblioteca",
-         "andar":"terreo"
-      },
-      "acao":"saia da Biblioteca e siga reto até o Acadêmico 1",
-      "pesoAcao":5
-   },
-   {
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"biblioteca"
-      },
-      "no":{
-         "nome":"a101",
-         "andar":"terreo"
-      },
-      "acao":"saia do Acadêmico 1 e siga reto até a Biblioteca",
-      "pesoAcao":5
-   },
-   {
-      "noConexao":{
-         "andar":"terreo",
          "nome":"praca de alimentacao 2"
       },
       "no":{
@@ -12924,30 +12864,6 @@
       }
    },
    {
-      "acao":"saia da Praça de Alimentação 3 e siga reto até o Centro Esportivo",
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"centro esportivo"
-      },
-      "pesoAcao":5,
-      "no":{
-         "nome":"jua",
-         "andar":"terreo"
-      }
-   },
-   {
-      "acao":"saia do Centro Esportivo e siga reto até a Praça de Alimentação 3",
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"jua"
-      },
-      "pesoAcao":5,
-      "no":{
-         "nome":"centro esportivo",
-         "andar":"terreo"
-      }
-   },
-   {
       "acao":"saia do Acadêmico 2 e siga reto até o Centro Esportivo",
       "noConexao":{
          "andar":"terreo",
@@ -13012,30 +12928,6 @@
       "noConexao":{
          "andar":"terreo",
          "nome":"c150"
-      },
-      "pesoAcao":5,
-      "no":{
-         "nome":"predio das coordenacoes",
-         "andar":"terreo"
-      }
-   },
-   {
-      "acao":"saia do Academico 1 e siga reto até o Prédio das Coordenações",
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"predio das coordenacoes"
-      },
-      "pesoAcao":5,
-      "no":{
-         "nome":"c151",
-         "andar":"terreo"
-      }
-   },
-   {
-      "acao":"saia do Prédio das Coordenações e siga reto até o Acadêmico 1",
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"c151"
       },
       "pesoAcao":5,
       "no":{
@@ -13116,30 +13008,6 @@
       }
    },
    {
-      "acao":"saia da Portaria Principal e siga reto até o Acadêmico 1",
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"d163"
-      },
-      "pesoAcao":5,
-      "no":{
-         "nome":"portaria principal",
-         "andar":"terreo"
-      }
-   },
-   {
-      "acao":"saia do Acadêmico 1 e siga reto até a Portaria Principal",
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"portaria principal"
-      },
-      "pesoAcao":5,
-      "no":{
-         "nome":"d163",
-         "andar":"terreo"
-      }
-   },
-   {
       "acao":"saia da Portaria Principal e siga reto até a Biblioteca",
       "noConexao":{
          "andar":"terreo",
@@ -13212,30 +13080,6 @@
       }
    },
    {
-      "acao":"saia da Portaria 2 e passe pelas quadras até a Praça de Alimentação 3",
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"museoh"
-      },
-      "pesoAcao":5,
-      "no":{
-         "nome":"portaria 2",
-         "andar":"terreo"
-      }
-   },
-   {
-      "acao":"saia da Praça de Alimentação 3 e passe pelas quadras até a Portaria 2",
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"portaria 2"
-      },
-      "pesoAcao":5,
-      "no":{
-         "nome":"museoh",
-         "andar":"terreo"
-      }
-   },
-   {
       "acao":"saia do Prédio da Manutenção e passe pelas quadras até a Praça de Alimentação 3",
       "noConexao":{
          "andar":"terreo",
@@ -13256,30 +13100,6 @@
       "pesoAcao":5,
       "no":{
          "nome":"museoh",
-         "andar":"terreo"
-      }
-   },
-   {
-      "acao":"saia do Prédio da Manutenção e passe pelas quadras até o Centro Esportivo",
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"centro esportivo"
-      },
-      "pesoAcao":5,
-      "no":{
-         "nome":"predio da manutencao",
-         "andar":"terreo"
-      }
-   },
-   {
-      "acao":"saia do Centro Esportivo e passe pelas quadras até o Prédio da Manutenção",
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"predio da manutencao"
-      },
-      "pesoAcao":5,
-      "no":{
-         "nome":"centro esportivo",
          "andar":"terreo"
       }
    },

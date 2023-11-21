@@ -14,6 +14,7 @@ struct BestWayView: View {
     @Binding var startingNode: String
     @Binding var arrivalNode: String
     @State var steps = [String]()
+    @State var indexSteps = Int()
     @State var invalidData = false
     
     var body: some View {
@@ -21,6 +22,7 @@ struct BestWayView: View {
             VStack {
                 if graphDidLoad {
                     Button {
+                        indexSteps = 0
                         steps = bestWayViewModel.findBestWay(startingNode: startingNode.lowercased(), arrivalNode: arrivalNode.lowercased())
                         if steps.isEmpty {
                             invalidData = true
@@ -38,7 +40,7 @@ struct BestWayView: View {
                     .padding(.bottom)
                     
                     if !steps.isEmpty {
-                        StepsComponent(steps: $steps)
+                        StepsComponent(steps: $steps, indexStep: $indexSteps)
                     }
                 } else {
                     ProgressView()
