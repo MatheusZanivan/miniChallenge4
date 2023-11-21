@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B35AA592B07E64B00B41A88 /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B35AA582B07E64B00B41A88 /* Detector.swift */; };
 		3B35AA5B2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B35AA5A2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel */; };
 		3BDB0D462B068D4D001EF9BA /* CameraViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB0D452B068D4D001EF9BA /* CameraViewControler.swift */; };
 		883F7C5E2AF2D40B00691669 /* ChoosingDestinyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F7C5D2AF2D40B00691669 /* ChoosingDestinyView.swift */; };
@@ -49,7 +48,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B35AA582B07E64B00B41A88 /* Detector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detector.swift; sourceTree = "<group>"; };
 		3B35AA5A2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ModeloTesteComOutros.mlmodel; sourceTree = "<group>"; };
 		3BDB0D452B068D4D001EF9BA /* CameraViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewControler.swift; sourceTree = "<group>"; };
 		883F7C5D2AF2D40B00691669 /* ChoosingDestinyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosingDestinyView.swift; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				3BDB0D452B068D4D001EF9BA /* CameraViewControler.swift */,
-				3B35AA582B07E64B00B41A88 /* Detector.swift */,
 				3B35AA5A2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel */,
 			);
 			path = ArtworkRecognizer;
@@ -428,7 +425,6 @@
 				BB3E49E82AF8592A00D4421B /* ClassroomNodeModel.swift in Sources */,
 				BBCF60E82AFC0BC400FF8952 /* ViewExtension.swift in Sources */,
 				BB66B8802AF03F4A00840E90 /* ContentView.swift in Sources */,
-				3B35AA592B07E64B00B41A88 /* Detector.swift in Sources */,
 				883F7C5E2AF2D40B00691669 /* ChoosingDestinyView.swift in Sources */,
 				BB66B8C82AF1BC5C00840E90 /* WardModel.swift in Sources */,
 				3BDB0D462B068D4D001EF9BA /* CameraViewControler.swift in Sources */,
