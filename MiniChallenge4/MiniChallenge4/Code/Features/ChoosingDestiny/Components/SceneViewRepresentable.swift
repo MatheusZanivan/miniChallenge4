@@ -78,14 +78,22 @@ struct SceneViewRepresentable: UIViewRepresentable {
     }
 
     func updateUIView(_ scnView: SCNView, context: Context) {
-        withAnimation {
-            guard let scene = SCNScene(named: strScene) else {
-                return
-            }
-            scnView.scene = scene
+        
+        guard let scene = SCNScene(named: strScene) else {
+            return
         }
+        if let cameraNode = scene.rootNode.childNode(withName: strCamera, recursively: true) {
+            // Adjust the duration as needed
+            SCNTransaction.begin()
+            SCNTransaction.animationDuration = 1.0
+            scnView.pointOfView = cameraNode
+            SCNTransaction.commit()
+        }
+        scnView.scene = scene
+        
+//        scnView.scene.background.contents = UIColor.clear
+        
         scnView.allowsCameraControl = true
-        scnView.backgroundColor = UIColor.gray
         scnView.isUserInteractionEnabled = true
         scnView.showsStatistics = true
     }
