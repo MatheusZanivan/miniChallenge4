@@ -9,7 +9,6 @@ import Foundation
 
 struct NodeModel {
     let node: ClassroomNodeModel
-    var value: Int
     var weight: Int
     var antecedent: String?
     var nodeRelationships: [NodeRelationshipModel]
