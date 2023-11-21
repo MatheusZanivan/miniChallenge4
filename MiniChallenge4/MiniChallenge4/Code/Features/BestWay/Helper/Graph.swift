@@ -71,26 +71,26 @@ class Graph {
             let startingNodeGraphAlgorithm = graphAlgorithm[startingNodeIndex]
             var adj = [String]()
             
-//            var downstairs = false
-//            if let arrivalNodeIndex = graphAlgorithm.firstIndex(where: { $0.node.nome == arrivalNode}) {
-//                let arrivalNodeGraphAlgorithm = graphAlgorithm[arrivalNodeIndex]
-//                let startingFloor = startingNodeGraphAlgorithm.node.andar
-//                let arrivalFloor = arrivalNodeGraphAlgorithm.node.andar
-//                
-//                if startingFloor == "terreo" && arrivalFloor == "terreo" {
-//                    downstairs = true
-//                }
-//            }
+            var downstairs = false
+            if let arrivalNodeIndex = graphAlgorithm.firstIndex(where: { $0.node.nome == arrivalNode}) {
+                let arrivalNodeGraphAlgorithm = graphAlgorithm[arrivalNodeIndex]
+                let startingFloor = startingNodeGraphAlgorithm.node.andar
+                let arrivalFloor = arrivalNodeGraphAlgorithm.node.andar
+                
+                if startingFloor == "terreo" && arrivalFloor == "terreo" {
+                    downstairs = true
+                }
+            }
             
             for i in 0...(startingNodeGraphAlgorithm.nodeRelationships.count - 1) {
                 if let nextNodeIndex = graphAlgorithm.firstIndex(where: { $0.node.nome == startingNodeGraphAlgorithm.nodeRelationships[i].node.nome}) {
                     //MARK: - UPDATE (weight + startingNodeGraphAlgorithm.nodeRelationships[i].weight)
                     if ((weight + 1) < graphAlgorithm[nextNodeIndex].weight && startingNodeGraphAlgorithm.antecedent != graphAlgorithm[nextNodeIndex].node.nome){
-//                        if !downstairs || (downstairs && graphAlgorithm[nextNodeIndex].node.andar == "terreo") {
+                        if !downstairs || (downstairs && graphAlgorithm[nextNodeIndex].node.andar == "terreo") {
                             graphAlgorithm[nextNodeIndex].weight = weight + startingNodeGraphAlgorithm.nodeRelationships[i].weight
                             graphAlgorithm[nextNodeIndex].antecedent = startingNodeGraphAlgorithm.node.nome
                             adj.append(graphAlgorithm[nextNodeIndex].node.nome)
-//                        }
+                        }
                         
                         
                         print("\(graphAlgorithm[startingNodeIndex].node.nome) - \(graphAlgorithm[nextNodeIndex].node.nome)")
