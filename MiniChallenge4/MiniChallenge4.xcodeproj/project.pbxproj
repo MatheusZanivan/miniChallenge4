@@ -37,6 +37,8 @@
 		BB66B8CC2AF1BD0C00840E90 /* SenacMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8CB2AF1BD0C00840E90 /* SenacMapViewModel.swift */; };
 		BB66B8D02AF1BF2C00840E90 /* senac_map.json in Resources */ = {isa = PBXBuildFile; fileRef = BB66B8CF2AF1BF2C00840E90 /* senac_map.json */; };
 		BB66B8D32AF1C03600840E90 /* DecodingSenacJsonMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8D22AF1C03600840E90 /* DecodingSenacJsonMap.swift */; };
+		BBCF60EC2AFD530E00FF8952 /* scenes.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCF60EB2AFD530E00FF8952 /* scenes.scnassets */; };
+		BBCF60EE2AFEB1DC00FF8952 /* SceneViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCF60ED2AFEB1DC00FF8952 /* SceneViewRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,8 @@
 		BB66B8CB2AF1BD0C00840E90 /* SenacMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenacMapViewModel.swift; sourceTree = "<group>"; };
 		BB66B8CF2AF1BF2C00840E90 /* senac_map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = senac_map.json; sourceTree = "<group>"; };
 		BB66B8D22AF1C03600840E90 /* DecodingSenacJsonMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodingSenacJsonMap.swift; sourceTree = "<group>"; };
+		BBCF60EB2AFD530E00FF8952 /* scenes.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = scenes.scnassets; sourceTree = "<group>"; };
+		BBCF60ED2AFEB1DC00FF8952 /* SceneViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneViewRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 		883F7C5F2AF31A3200691669 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				BBCF60ED2AFEB1DC00FF8952 /* SceneViewRepresentable.swift */,
 				883F7C602AF31A7700691669 /* DropdownMenu.swift */,
 				884136772AF428EF00EE603E /* DropdownMenuList.swift */,
 				884136792AF429A500EE603E /* DropdownMenuListRow.swift */,
@@ -226,7 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				BB66B8AA2AF0419F00840E90 /* Features */,
-				BB66B8AB2AF041AB00840E90 /* Utils */,
+				BBCF60E92AFD520B00FF8952 /* Utils */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -234,6 +239,7 @@
 		BB66B8A82AF0417D00840E90 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BBCF60EB2AFD530E00FF8952 /* scenes.scnassets */,
 				BB3E49D52AF8550000D4421B /* graph.json */,
 				BB66B8CF2AF1BF2C00840E90 /* senac_map.json */,
 				BB66B8812AF03F4B00840E90 /* Assets.xcassets */,
@@ -257,13 +263,6 @@
 				BB66B8C22AF1BC3200840E90 /* ChoosingDestiny */,
 			);
 			path = Features;
-			sourceTree = "<group>";
-		};
-		BB66B8AB2AF041AB00840E90 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		BB66B8C22AF1BC3200840E90 /* ChoosingDestiny */ = {
@@ -322,6 +321,13 @@
 				88A08B6B2AFEAC470086608A /* LocationDetailsView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BBCF60E92AFD520B00FF8952 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,6 +413,7 @@
 			files = (
 				BB3E49D62AF8550000D4421B /* graph.json in Resources */,
 				BB66B8D02AF1BF2C00840E90 /* senac_map.json in Resources */,
+				BBCF60EC2AFD530E00FF8952 /* scenes.scnassets in Resources */,
 				BB66B8852AF03F4B00840E90 /* Preview Assets.xcassets in Resources */,
 				BB66B8822AF03F4B00840E90 /* Assets.xcassets in Resources */,
 			);
@@ -434,6 +441,7 @@
 				88A08B6C2AFEAC470086608A /* LocationDetailsView.swift in Sources */,
 				BB66B8C82AF1BC5C00840E90 /* WardModel.swift in Sources */,
 				BB66B87E2AF03F4A00840E90 /* MiniChallenge4App.swift in Sources */,
+				BBCF60EE2AFEB1DC00FF8952 /* SceneViewRepresentable.swift in Sources */,
 				BB3E49EB2AF8592A00D4421B /* NodeRelationshipModel.swift in Sources */,
 				884136782AF428EF00EE603E /* DropdownMenuList.swift in Sources */,
 				88A75D752AFAD824005D5877 /* RectangularButton.swift in Sources */,

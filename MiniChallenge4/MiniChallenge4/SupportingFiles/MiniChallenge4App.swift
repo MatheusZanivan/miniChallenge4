@@ -14,8 +14,13 @@ struct MiniChallenge4App: App {
         WindowGroup {
 //            BestWayView(startingNode: .constant("i347"), arrivalNode: .constant("j475"))
          
-            ChoosingDestinyView()
-                .environmentObject(senacMapViewModel)
+// <<<<<<< screen_to_add_route
+//             ChoosingDestinyView()
+//                 .environmentObject(senacMapViewModel)
+// =======
+// //            ChoosingDestinyView()
+//             ContentView()
+// >>>>>>> choosing_destiny_epic
         }
     }
 }

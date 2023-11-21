@@ -41,6 +41,16 @@ final class SenacMapViewModel: ObservableObject {
         return nil
     }
     
+    func verifyIfPlaceExists(place: String) -> Bool {
+        return senacMap.contains(where: {
+            $0.nome.lowercased() == place.lowercased() ||
+            (($0.alas?.contains(where: {
+                $0.corredor.lowercased() == place.lowercased() ||
+                $0.salas.contains(where: { $0.nome.lowercased() == place.lowercased() })
+            })) != nil)
+        })
+    }
+    
     func filterLab(from placeSelected: String)->[WardModel]?{
         if senacMap.isEmpty {return nil}
         for senacPlace in senacMap {

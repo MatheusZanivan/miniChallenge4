@@ -6,20 +6,43 @@
 //
 
 import SwiftUI
+import SceneKit
 
 struct ContentView: View {
     @StateObject var senacMapViewModel = SenacMapViewModel()
+    
+    @State var nodeName = "scenes.scnassets/campus/sceneCampus.scn"
+    @State var cameraName = String()
+    @State var nodeWay = [String]()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            SceneViewRepresentable(strScene: nodeName, strCamera: cameraName, responseOnClick: { nodeName in
+                print(nodeName)
+                
+//                switch Int.random(in: 0...1) {
+//                case 0:
+//                    self.cameraName = "camera"
+//                case 1:
+//                    self.cameraName = "camera2"
+//                default:
+//                    self.cameraName = "camera2"
+//                }
+                
+//                self.nodeName = "scenes.scnassets/\(nodeName)/scene\(nodeName.capitalized).scn"
+                print(self.nodeName)
+                
+            })
+            VStack {
+                Text(nodeName)
+                Spacer()
+            }
         }
-        .onReceive(senacMapViewModel.$senacMap, perform: { _ in
-            print("\(senacMapViewModel.senacMap)")
+        .onChange(of: nodeName, { _, newValue in
+            nodeWay.append(newValue)
         })
-        .padding()
+        .onAppear {
+            nodeWay.append(nodeName)
+        }
     }
 }
 
