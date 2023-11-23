@@ -71,16 +71,7 @@ class Graph {
             let startingNodeGraphAlgorithm = graphAlgorithm[startingNodeIndex]
             var adj = [String]()
             
-            var downstairs = false
-            if let arrivalNodeIndex = graphAlgorithm.firstIndex(where: { $0.node.nome == arrivalNode}) {
-                let arrivalNodeGraphAlgorithm = graphAlgorithm[arrivalNodeIndex]
-                let startingFloor = startingNodeGraphAlgorithm.node.andar
-                let arrivalFloor = arrivalNodeGraphAlgorithm.node.andar
-                
-                if startingFloor == "terreo" && arrivalFloor == "terreo" {
-                    downstairs = true
-                }
-            }
+            let downstairs = checkFloors(startingNodeGraphAlgorithm: startingNodeGraphAlgorithm, arrivalNode: arrivalNode)
             
             for i in 0...(startingNodeGraphAlgorithm.nodeRelationships.count - 1) {
                 if let nextNodeIndex = graphAlgorithm.firstIndex(where: { $0.node.nome == startingNodeGraphAlgorithm.nodeRelationships[i].node.nome}) {
@@ -116,6 +107,18 @@ class Graph {
 //            }
             
         }
+    }
+    
+    func checkFloors(startingNodeGraphAlgorithm: NodeModel, arrivalNode: String) -> Bool {
+        if let arrivalNodeIndex = graphAlgorithm.firstIndex(where: { $0.node.nome == arrivalNode}) {
+            let arrivalNodeGraphAlgorithm = graphAlgorithm[arrivalNodeIndex]
+            let startingFloor = startingNodeGraphAlgorithm.node.andar
+            let arrivalFloor = arrivalNodeGraphAlgorithm.node.andar
+            if startingFloor == "terreo" && arrivalFloor == "terreo" {
+                return true
+            }
+        }
+        return false
     }
     
     func generateWay(arrivalNode: String) {
@@ -165,7 +168,7 @@ class Graph {
     }
     
     func applyRightOrLeftDirection(nodeRelationships: [NodeRelationshipModel], nodeAction: String, nodeList: [String], i: Int) -> String? {
-        if nodeAction != "reto" {
+        if nodeAction.hasPrefix("vire no corredor") {
             if !((i + 1) > (nodeList.count - 1)) {
                 if i > 0 {
                     if let lastClassGreaterThanCurrent = verifyIfLastClassNumberIsBiggerThanCurrent(last: nodeList[i - 1], current: nodeList[i]) {
