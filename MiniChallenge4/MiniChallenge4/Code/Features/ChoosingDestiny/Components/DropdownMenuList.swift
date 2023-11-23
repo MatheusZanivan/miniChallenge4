@@ -18,8 +18,6 @@ struct DropdownMenuList: View {
                         option: name,
                         onSelectionAction: self.onSelectionAction
                     )
-                    Divider()
-                        .padding(.horizontal, 48)
                 }
             }
         }.frame(height: 240)

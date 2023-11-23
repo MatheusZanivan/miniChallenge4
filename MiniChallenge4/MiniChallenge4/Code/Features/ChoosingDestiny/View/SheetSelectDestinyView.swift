@@ -12,14 +12,17 @@ struct SheetSelectDestinyView: View {
     @Environment(\.dismiss) private var dismiss
     @EnvironmentObject var senacMapViewModel: SenacMapViewModel
     @Binding var destiny: String
+    
     private let title: String
+    
     @State var search = String()
-    private var filtered: [SenacPlaceModel]{
-        guard !search.isEmpty else {return senacMapViewModel.senacMap}
-        return senacMapViewModel.senacMap.filter { place in
-            place.nome.lowercased().contains(search.lowercased())
-        }
-    }
+    @State var emptyClassrooms: String?
+//    private var filtered: [SenacPlaceModel]{
+//        guard !search.isEmpty else {return senacMapViewModel.senacMap}
+//        return senacMapViewModel.senacMap.filter { place in
+//            place.nome.lowercased().contains(search.lowercased())
+//        }
+//    }
 
     init(destiny: Binding<String>, title: String) {
         self._destiny = destiny
@@ -29,15 +32,25 @@ struct SheetSelectDestinyView: View {
     var body: some View {
         NavigationView(content: {
             VStack(content: {
-                ScrollView {
-                    ForEach(filtered, id: \.nome) { place in
-                        Button(place.nome) {
-                            self.destiny = place.nome
-                            dismiss()
+                if let emptyClassrooms {
+                    Text("\(emptyClassrooms)")
+                } else {
+                    ScrollView {
+                        ForEach(senacMapViewModel.senacClassrooms) { place in
+                            Button(place.nome) {
+                                self.destiny = place.nome
+                                dismiss()
+                            }
                         }
                     }
                 }
+                
                 Spacer()
+            })
+            .onChange2(of: search, action17: { _, newValue in
+                emptyClassrooms = senacMapViewModel.filterClassrooms(text: newValue)
+            }, actionLower: { newValue in
+                emptyClassrooms = senacMapViewModel.filterClassrooms(text: newValue)
             })
             .searchable(text: $search)
             .navigationTitle(title)

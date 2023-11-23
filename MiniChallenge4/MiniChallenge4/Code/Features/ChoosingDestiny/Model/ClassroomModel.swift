@@ -7,8 +7,11 @@
 
 import Foundation
 
-struct ClassroomModel: Codable {
+struct ClassroomModel: Codable, Identifiable {
+    let id = UUID()
     let nome: String
     let andar: String
     let descricao: String?
 }
+
+

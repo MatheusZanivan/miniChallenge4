@@ -9,11 +9,11 @@ import SwiftUI
 
 struct RectangularButton: View {
     private var action: () -> Void
-    @State private var title: String
+    @Binding var title: String
     
-    init(action: @escaping () -> Void, title: String) {
+    init(action: @escaping () -> Void, title: Binding<String>) {
         self.action = action
-        self.title = title
+        self._title = title
     }
     
     var body: some View {

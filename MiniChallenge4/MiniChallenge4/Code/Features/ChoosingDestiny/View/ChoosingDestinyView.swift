@@ -20,9 +20,6 @@ struct ChoosingDestinyView: View {
     var body: some View {
         NavigationView{
             ZStack{
-                
-                
-               
                 SceneViewRepresentable(strScene: nodeName, strCamera: cameraName, responseOnClick: { nodeName in
                     print(nodeName)
                     
@@ -39,6 +36,7 @@ struct ChoosingDestinyView: View {
                     print(self.nodeName)
                     
                 })
+                .ignoresSafeArea()
                 
                 VStack {
                     DropdownMenu(selectedOption: self.$placeSelect,
@@ -52,7 +50,7 @@ struct ChoosingDestinyView: View {
                             showSheetRoute.toggle()
                         }, imageButton: Image(uiImage: UIImage(named: "Regular-S")!))
                         .sheet(isPresented: $showSheetRoute) {
-                            SheetAddRouteView()
+                            SheetAddRouteView(yourDestiny: nil)
                                 .presentationDetents([.height(200),.medium, .large])
                                 .presentationDragIndicator(.hidden)
                         }

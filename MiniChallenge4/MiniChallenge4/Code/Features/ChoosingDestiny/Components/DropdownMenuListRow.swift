@@ -14,9 +14,13 @@ struct DropdownMenuListRow: View {
         NavigationLink {
             LocationDetailsView(place: option.nome)
         } label: {
-            Text(option.nome)
-                .frame(maxWidth: .infinity, alignment: .center)
-                .padding()
+            VStack {
+                Text(option.nome)
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    .padding()
+                Divider()
+                    .padding(.horizontal, 48)
+            }
         }
     }
 }
