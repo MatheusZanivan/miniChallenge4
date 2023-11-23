@@ -48,7 +48,7 @@ struct BestWayView: View {
             }
         }
         .frame(width: UIScreen.main.bounds.width)
-        .background(Color.gray)
+        .background(.white)
         .onReceive(graphDataLoader.$graph, perform: { _ in
             graphDidLoad = true
             bestWayViewModel.graph = Graph(graph: graphDataLoader.graph)

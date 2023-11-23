@@ -12,6 +12,13 @@ struct SheetAddRouteView: View {
     @State private var showSheetSelectDestiny = false
     @State private var showSheetSelectYourLocation = false
     @State private var yourLocation: String = String()
+    @State private var yourDestiny = String()
+    
+    init(yourDestiny: String?) {
+        if let yourDestiny {
+            self.yourDestiny = yourDestiny
+        }
+    }
     
     var body: some View {
         VStack(content: {
@@ -25,7 +32,7 @@ struct SheetAddRouteView: View {
                     dismiss()
                 }
             }).padding()
-            RectangularButton(action: {showSheetSelectYourLocation.toggle()}, title: self.yourLocation)
+            RectangularButton(action: {showSheetSelectYourLocation.toggle()}, title: yourLocation == String() ? .constant("Onde você está") : $yourLocation)
                 .sheet(isPresented: $showSheetSelectYourLocation, content: {
                     withAnimation {
                         SheetSelectDestinyView(destiny: $yourLocation, title: "Onde você está")
@@ -33,12 +40,17 @@ struct SheetAddRouteView: View {
                             .presentationDragIndicator(.hidden)
                     }
                 })
-            RectangularButton(action: {showSheetSelectDestiny.toggle()}, title: "Onde você quer ir")
+            RectangularButton(action: {showSheetSelectDestiny.toggle()}, title: yourDestiny == String() ? .constant("Onde você quer ir") : $yourDestiny)
                 .sheet(isPresented: $showSheetSelectDestiny, content: {
-                    SheetSelectDestinyView(destiny: $yourLocation, title: "Onde você quer ir")
+                    SheetSelectDestinyView(destiny: $yourDestiny, title: "Onde você quer ir")
                         .presentationDetents([.medium, .large])
                         .presentationDragIndicator(.hidden)
                 })
+            
+            if yourDestiny != String() && yourLocation != String() {
+                BestWayView(startingNode: $yourLocation, arrivalNode: $yourDestiny)
+                    .padding()
+            }
             Spacer()
         })
     }

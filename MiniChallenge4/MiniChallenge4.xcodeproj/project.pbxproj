@@ -19,6 +19,7 @@
 		88A75D752AFAD824005D5877 /* RectangularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A75D742AFAD824005D5877 /* RectangularButton.swift */; };
 		88A75D772AFADC48005D5877 /* SheetSelectDestinyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A75D762AFADC48005D5877 /* SheetSelectDestinyView.swift */; };
 		88A9DB912AF6DD18002AC071 /* RouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A9DB902AF6DD18002AC071 /* RouteView.swift */; };
+		BB08E6C22B0E230B00DCC4EB /* ClassroomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08E6C12B0E230B00DCC4EB /* ClassroomCard.swift */; };
 		BB3E49D62AF8550000D4421B /* graph.json in Resources */ = {isa = PBXBuildFile; fileRef = BB3E49D52AF8550000D4421B /* graph.json */; };
 		BB3E49DC2AF858EF00D4421B /* StepsComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E49DB2AF858EF00D4421B /* StepsComponent.swift */; };
 		BB3E49DF2AF8590600D4421B /* BestWayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E49DE2AF8590600D4421B /* BestWayViewModel.swift */; };
@@ -39,6 +40,7 @@
 		BB66B8CC2AF1BD0C00840E90 /* SenacMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8CB2AF1BD0C00840E90 /* SenacMapViewModel.swift */; };
 		BB66B8D02AF1BF2C00840E90 /* senac_map.json in Resources */ = {isa = PBXBuildFile; fileRef = BB66B8CF2AF1BF2C00840E90 /* senac_map.json */; };
 		BB66B8D32AF1C03600840E90 /* DecodingSenacJsonMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66B8D22AF1C03600840E90 /* DecodingSenacJsonMap.swift */; };
+		BB72C15B2B0D69920097DE24 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB72C15A2B0D69920097DE24 /* StringExtension.swift */; };
 		BBCF60E82AFC0BC400FF8952 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCF60E72AFC0BC400FF8952 /* ViewExtension.swift */; };
 		BBCF60EC2AFD530E00FF8952 /* scenes.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCF60EB2AFD530E00FF8952 /* scenes.scnassets */; };
 		BBCF60EE2AFEB1DC00FF8952 /* SceneViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCF60ED2AFEB1DC00FF8952 /* SceneViewRepresentable.swift */; };
@@ -67,6 +69,7 @@
 		88A75D742AFAD824005D5877 /* RectangularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularButton.swift; sourceTree = "<group>"; };
 		88A75D762AFADC48005D5877 /* SheetSelectDestinyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetSelectDestinyView.swift; sourceTree = "<group>"; };
 		88A9DB902AF6DD18002AC071 /* RouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
+		BB08E6C12B0E230B00DCC4EB /* ClassroomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomCard.swift; sourceTree = "<group>"; };
 		BB3E49D52AF8550000D4421B /* graph.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = graph.json; sourceTree = "<group>"; };
 		BB3E49DB2AF858EF00D4421B /* StepsComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepsComponent.swift; sourceTree = "<group>"; };
 		BB3E49DE2AF8590600D4421B /* BestWayViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestWayViewModel.swift; sourceTree = "<group>"; };
@@ -89,6 +92,7 @@
 		BB66B8CB2AF1BD0C00840E90 /* SenacMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenacMapViewModel.swift; sourceTree = "<group>"; };
 		BB66B8CF2AF1BF2C00840E90 /* senac_map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = senac_map.json; sourceTree = "<group>"; };
 		BB66B8D22AF1C03600840E90 /* DecodingSenacJsonMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodingSenacJsonMap.swift; sourceTree = "<group>"; };
+		BB72C15A2B0D69920097DE24 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		BBCF60E72AFC0BC400FF8952 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		BBCF60EB2AFD530E00FF8952 /* scenes.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = scenes.scnassets; sourceTree = "<group>"; };
 		BBCF60ED2AFEB1DC00FF8952 /* SceneViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneViewRepresentable.swift; sourceTree = "<group>"; };
@@ -137,6 +141,7 @@
 				883F7C602AF31A7700691669 /* DropdownMenu.swift */,
 				884136772AF428EF00EE603E /* DropdownMenuList.swift */,
 				884136792AF429A500EE603E /* DropdownMenuListRow.swift */,
+				BB08E6C12B0E230B00DCC4EB /* ClassroomCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 			isa = PBXGroup;
 			children = (
 				BBCF60E72AFC0BC400FF8952 /* ViewExtension.swift */,
+				BB72C15A2B0D69920097DE24 /* StringExtension.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -452,6 +458,7 @@
 			files = (
 				BB3E49EA2AF8592A00D4421B /* NodeModel.swift in Sources */,
 				88A9DB912AF6DD18002AC071 /* RouteView.swift in Sources */,
+				BB72C15B2B0D69920097DE24 /* StringExtension.swift in Sources */,
 				BB3E49E82AF8592A00D4421B /* ClassroomNodeModel.swift in Sources */,
 				BBCF60E82AFC0BC400FF8952 /* ViewExtension.swift in Sources */,
 				BB66B8802AF03F4A00840E90 /* ContentView.swift in Sources */,
@@ -478,6 +485,7 @@
 				3B35AA5B2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel in Sources */,
 				BB3E49EF2AF8593A00D4421B /* Graph.swift in Sources */,
 				BB3E49E92AF8592A00D4421B /* NodeJSONModel.swift in Sources */,
+				BB08E6C22B0E230B00DCC4EB /* ClassroomCard.swift in Sources */,
 				BB3E49F02AF8593A00D4421B /* GraphDataLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -628,7 +636,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniChallenge4/Preview Content\"";
-				DEVELOPMENT_TEAM = V32Q5HA7F8;
+				DEVELOPMENT_TEAM = UFS93RKF34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Para fornecer a melhor experiência possível, precisamos acessar a câmera do seu dispositivo. Este acesso será usado exclusivamente para ativar nosso reconhecedor de obras da universidade. ";
@@ -661,7 +669,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniChallenge4/Preview Content\"";
-				DEVELOPMENT_TEAM = V32Q5HA7F8;
+				DEVELOPMENT_TEAM = UFS93RKF34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Para fornecer a melhor experiência possível, precisamos acessar a câmera do seu dispositivo. Este acesso será usado exclusivamente para ativar nosso reconhecedor de obras da universidade. ";

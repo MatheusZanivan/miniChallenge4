@@ -9,7 +9,7 @@ import Foundation
 
 final class SenacMapViewModel: ObservableObject {
     @Published var senacMap = [SenacPlaceModel]()
-    
+    @Published var senacClassrooms = [ClassroomModel]()
     init() {
         loadSenacMap()
     }
@@ -58,6 +58,60 @@ final class SenacMapViewModel: ObservableObject {
                 
                 return senacPlace.alas
             }
+        }
+        return nil
+    }
+    
+    func verifyIfThereIsUpstairs(wards: [WardModel]?) -> Bool {
+        if let wards {
+            for ward in wards {
+                for classrooms in ward.salas {
+                    if classrooms.andar.lowercased() == "primeiro andar" {
+                        return true
+                    }
+                }
+            }
+        }
+        
+        return false
+    }
+    
+    func findClassroomInfo(classroom: String) -> ClassroomModel? {
+        for senacPlace in senacMap {
+            if let wards = senacPlace.alas {
+                for ward in wards {
+                    for classRoom in ward.salas {
+                        if classRoom.nome == classroom {
+                            return classRoom
+                        }
+                    }
+                }
+            }
+        }
+        return nil
+    }
+    
+    func setClassrooms() {
+        senacClassrooms = [ClassroomModel]()
+        for place in senacMap {
+            if let wards = place.alas {
+                for ward in wards {
+                    for classroom in ward.salas {
+                        senacClassrooms.append(classroom)
+                    }
+                }
+            }
+            
+        }
+    }
+    
+    func filterClassrooms(text: String) -> String? {
+        setClassrooms()
+        print(senacClassrooms)
+        senacClassrooms = senacClassrooms.filter({$0.nome.lowercased() == text.lowercased()})
+        
+        if senacClassrooms.isEmpty {
+            return "Sem salas até o momento."
         }
         return nil
     }
