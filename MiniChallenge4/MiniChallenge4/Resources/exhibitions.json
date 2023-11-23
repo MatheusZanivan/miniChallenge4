@@ -1,0 +1,55 @@
+    [
+        {
+            "idExhibition": 1,
+            "name": "Teletubbies",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "idExhibition": 2,
+            "name": "Avião",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "idExhibition": 3,
+            "name": "Chama Vermelha",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "idExhibition": 4,
+            "name": "A Borboleta",
+            "description": "Aluna do curso Bacharelado em Design Gráfico - 5º semestre"
+        },
+        {
+            "idExhibition": 5,
+            "name": "Cubo Vaastu",
+            "description": "Cubo alinhado ao Norte verdadeiro. Portas a Leste e a Norte, janelas a Oeste e Sul. Um espaço central aberto. Esse cubo, com proporções medidas e orientação segundo princípios do Vastu-Vidya (morada perfeita), procura sintetizar uma tradição ancestral (6 a 7 mil anos) do morar em harmonia com as Leis da Natureza."
+        },
+        {
+            "idExhibition": 6,
+            "name": "Mergulho na Diversidade",
+            "description": "Arte produzida pela artista Guilherme Matsumto (Xguix), ex-aluno do curso de Bacharelado em Design (Comunicação visual na época). Um mergulho na diversidade para celebrar e amar nossas diferenças, que é que nos faz seres únicos. A figura humana com partes biônicas representa a diversidade dos seres humanos. O movimento corporal e o aquário com o peixe repesentam a liberdade e a expansão da percepção. O peixe também faz uma analogia com os navios imigrantes que vieram para o Brasil"
+        },
+        {
+            "idExhibition": 7,
+            "name": "Tabela periódica",
+            "description": "Em 1869 o Sistema Periódico foi descoberto pelo cientista russo Dmitri Mendeleev e, em comemoração aos 150 anos do estabelecimento da Tabela Periódica, a Organização das Nações Unidas proclamou ano de 2019 como o Ano Internacional da Tabela Periódica dos Elementos Químicos. Esta ação visa reconhecer a importância da Tabela Periódica como uma das conquistas mais importantes e infleuentes da ciência moderna."
+        },
+        {
+            "idExhibition": 8,
+            "name": "JDA Amarelo",
+            "description": "Em 1869 o Sistema Periódico foi descoberto pelo cientista russo Dmitri Mendeleev e, em comemoração aos 150 anos do estabelecimento da Tabela Periódica, a Organização das Nações Unidas proclamou ano de 2019 como o Ano Internacional da Tabela Periódica dos Elementos Químicos. Esta ação visa reconhecer a importância da Tabela Periódica como uma das conquistas mais importantes e infleuentes da ciência moderna."
+        },
+        "idExhibition": 9,
+        "name": "JDA Azul",
+        "description": "Em 1869 o Sistema Periódico foi descoberto pelo cientista russo Dmitri Mendeleev e, em comemoração aos 150 anos do estabelecimento da Tabela Periódica, a Organização das Nações Unidas proclamou ano de 2019 como o Ano Internacional da Tabela Periódica dos Elementos Químicos. Esta ação visa reconhecer a importância da Tabela Periódica como uma das conquistas mais importantes e infleuentes da ciência moderna."
+        {
+            "idExhibition": 10,
+            "name": "Leitor",
+            "description": "Escultura construída a partir de 5 discos - 5 círculos. O círculo exerce fascinação porque é a figura perfeita: nele todos os pontos são equidistantes do centro, nele todas as partes possuem exatamente as mesmas propriedades e nele o começo e o fim são um só. Eis porque sempre foi considerado o símbolo da eterndidade, do tempo e da infinitude do espaço. Porque sem o começo e sem fim o círculo é uma figura imensurável."
+        },
+        {
+            "idExhibition": 11,
+            "name": "A estudante",
+            "description": "Arte produzida pelo ex-aluno Tito Ferrara, que se inspirou no artista japonês Hokusai para elaboração do seu TCC, quando cursou Bacharelado em Design (Comunicação Visual na época) no Centro Univesitário Senac. Estudante de olhos fechados, imaginando o futuro dela. O barquinho de papel representa seus sonhos e o que gostaria de fazer nesse mar revolto que simboliza as indecisões e dúvidas que surgem no caminho."
+        }
+    ]
