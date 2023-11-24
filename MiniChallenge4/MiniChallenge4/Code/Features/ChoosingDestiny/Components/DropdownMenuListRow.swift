@@ -17,9 +17,15 @@ struct DropdownMenuListRow: View {
             VStack {
                 Text(option.nome)
                     .frame(maxWidth: .infinity, alignment: .center)
-                    .padding()
+                    .padding(.vertical,12)
+                    .foregroundStyle(Color(.gsFontBody))
                 Divider()
-                    .padding(.horizontal, 48)
+                    .frame(minHeight: 1)
+                    .padding(.horizontal, 24)
+                    .overlay {
+                        Color(.gsFontBody)
+                            .padding(.horizontal, 24)
+                    }
             }
         }
     }
