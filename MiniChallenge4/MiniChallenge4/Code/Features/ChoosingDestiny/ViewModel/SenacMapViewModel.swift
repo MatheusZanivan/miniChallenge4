@@ -100,6 +100,10 @@ final class SenacMapViewModel: ObservableObject {
                         senacClassrooms.append(classroom)
                     }
                 }
+            } else if let classes = place.salas {
+                for classe in classes {
+                    senacClassrooms.append(classe)
+                }
             }
             
         }

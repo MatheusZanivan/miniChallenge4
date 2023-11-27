@@ -10,4 +10,5 @@ import Foundation
 struct SenacPlaceModel: Codable {
     let nome: String
     let alas: [WardModel]?
+    let salas: [ClassroomModel]?
 }

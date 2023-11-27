@@ -11020,7 +11020,7 @@
       "acao":"vire a esquerda",
       "noConexao":{
          "andar":"terreo",
-         "nome":"sala tecnicos "
+         "nome":"sala tecnicos"
       },
       "no":{
          "nome":"laboratorio de automacao e robotica",
@@ -12357,6 +12357,30 @@
          "andar":"terreo"
       },
       "acao":"saia da Praça de Alimentação 1 e siga reto até o Acadêmico 1",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"primeiro andar",
+         "nome":"restaurante"
+      },
+      "no":{
+         "nome":"casa do pao de queijo",
+         "andar":"terreo"
+      },
+      "acao":"suba a escada e vire a esquerda",
+      "pesoAcao":5
+   },
+   {
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"casa do pao de queijo"
+      },
+      "no":{
+         "nome":"restaurante",
+         "andar":"primeiro andar"
+      },
+      "acao":"desça a escada e vire a esquerda",
       "pesoAcao":5
    },
    {
