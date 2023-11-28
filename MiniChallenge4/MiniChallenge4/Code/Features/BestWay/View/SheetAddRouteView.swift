@@ -14,10 +14,10 @@ struct SheetAddRouteView: View {
     @State private var yourLocation: String = String()
     @State private var yourDestiny = String()
     
-    init(yourDestiny: String?) {
-        if let yourDestiny {
-            self.yourDestiny = yourDestiny
-        }
+    private var destiny: String?
+    
+    init(destiny: String?) {
+        self.destiny = destiny
     }
     
     var body: some View {
@@ -53,5 +53,10 @@ struct SheetAddRouteView: View {
             }
             Spacer()
         })
+        .onAppear {
+            if let destiny {
+                self.yourDestiny = destiny
+            }
+        }
     }
 }

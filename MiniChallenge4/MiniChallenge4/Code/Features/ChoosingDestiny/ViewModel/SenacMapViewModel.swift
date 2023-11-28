@@ -33,13 +33,34 @@ final class SenacMapViewModel: ObservableObject {
         }
     }
     
-    func filterWard(from placeSelected: String)->[WardModel]?{
+    func filterWard(from placeSelected: String, stair: String?)->[WardModel]?{
         if senacMap.isEmpty {return nil}
         for senacPlace in senacMap {
             if senacPlace.nome == placeSelected {
-                return senacPlace.alas
+                if let stair {
+                    return getWardsInStair(wards: senacPlace.alas, stair: stair)
+                } else {
+                    return senacPlace.alas
+                }
             }
         }
+        return nil
+    }
+    
+    func getWardsInStair(wards: [WardModel]?, stair: String) -> [WardModel]? {
+        var newWards = [WardModel]()
+        if let wards {
+            for ward in wards {
+                for sala in ward.salas {
+                    if sala.andar.forSorting.lowercased() == stair {
+                        newWards.append(ward)
+                        break;
+                    }
+                }
+            }
+            return newWards
+        }
+        
         return nil
     }
     

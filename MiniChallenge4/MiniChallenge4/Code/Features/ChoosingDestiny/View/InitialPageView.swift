@@ -44,7 +44,7 @@ struct InitialPageView: View {
                             showSheetRoute.toggle()
                         }, imageButton: Image(uiImage: UIImage(named: "Regular-S")!))
                         .sheet(isPresented: $showSheetRoute) {
-                            SheetAddRouteView(yourDestiny: nil)
+                            SheetAddRouteView(destiny: nil)
                                 .presentationDetents([.height(200),.medium, .large])
                                 .presentationDragIndicator(.hidden)
                         }

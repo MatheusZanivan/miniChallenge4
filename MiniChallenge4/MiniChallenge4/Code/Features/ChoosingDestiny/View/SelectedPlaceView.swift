@@ -42,6 +42,7 @@ struct SelectedPlaceView: View {
                     VStack {
                         Button {
                             currentStair = 1
+                            self.wards = vmSenac.filterWard(from: place, stair: "primeiro andar") ?? []
                         } label: {
                             Image(systemName: "chevron.up")
                                 .foregroundStyle(.gray)
@@ -53,6 +54,7 @@ struct SelectedPlaceView: View {
 
                         Button {
                             currentStair = 0
+                            self.wards = vmSenac.filterWard(from: place, stair: "terreo") ?? []
                         } label: {
                             Image(systemName: "chevron.down")
                                 .foregroundStyle(.gray)
@@ -76,7 +78,7 @@ struct SelectedPlaceView: View {
                         ForEach(wards, id:\.corredor) { ward in
                             Button(action: {
                                 didChangeStrCamera.toggle()
-                                strCamera = ward.corredor
+                                strCamera = strCamera == ward.corredor ? String() : ward.corredor
                             }, label: {
                                 Text(ward.corredor)
                                     .padding()
@@ -95,7 +97,7 @@ struct SelectedPlaceView: View {
                         showRouteWithSelectedDestiny.toggle()
                     }, classroomNumber: $classroomSelected)
                     .sheet(isPresented: $showRouteWithSelectedDestiny) {
-                        SheetAddRouteView(yourDestiny: classroomSelected == String() ? nil : classroomSelected)
+                        SheetAddRouteView(destiny: classroomSelected)
                     }
                 } else {
                     HStack{
@@ -103,7 +105,7 @@ struct SelectedPlaceView: View {
                             showSheetRoute.toggle()
                         }, imageButton: Image(uiImage: UIImage(named: "Regular-S")!))
                         .sheet(isPresented: $showSheetRoute) {
-                            SheetAddRouteView(yourDestiny: nil)
+                            SheetAddRouteView(destiny: nil)
                                 .ignoresSafeArea()
                         }
                         Spacer()
@@ -139,7 +141,7 @@ struct SelectedPlaceView: View {
         .onAppear(perform: {
             currentPlace = place.forSorting.split(separator: " ").joined()
             current3DPlaceUpdate(newValue: currentStair)
-            self.wards = vmSenac.filterWard(from: place) ?? []
+            self.wards = vmSenac.filterWard(from: place, stair: "terreo") ?? []
         })
     }
     

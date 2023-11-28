@@ -11,6 +11,7 @@ extension String {
     var forSorting: String {
         let simple = folding(options: [.diacriticInsensitive, .widthInsensitive, .caseInsensitive], locale: nil)
         let nonAlphaNumeric = CharacterSet.alphanumerics.inverted
-        return simple.components(separatedBy: nonAlphaNumeric).joined(separator: "")
+        let words = simple.components(separatedBy: nonAlphaNumeric)
+        return words.count > 1 ? words.joined(separator: " ") : words.joined(separator: "")
     }
 }
