@@ -12672,7 +12672,7 @@
       }
    },
    {
-      "acao":"saia do Acadêmico 2 e siga reto até o Centro Esportivo",
+      "acao":"saia do Acadêmico 2 e siga reto",
       "noConexao":{
          "andar":"terreo",
          "nome":"centro esportivo"
@@ -12684,7 +12684,7 @@
       }
    },
    {
-      "acao":"saia do Centro Esportivo e siga reto até o Acadêmico 2",
+      "acao":"siga reto até o Acadêmico 2",
       "noConexao":{
          "andar":"terreo",
          "nome":"i327"
@@ -12696,7 +12696,7 @@
       }
    },
    {
-      "acao":"saia do Academico 2 e siga reto até o Prédio das Coordenações",
+      "acao":"saia do Academico 2 e siga reto",
       "noConexao":{
          "andar":"primeiro andar",
          "nome":"predio das coordenacoes"
@@ -12708,7 +12708,7 @@
       }
    },
    {
-      "acao":"saia do Prédio das Coordenações e siga reto até o Acadêmico 2",
+      "acao":"siga reto até o Acadêmico 2",
       "noConexao":{
          "andar":"primeiro andar",
          "nome":"g401"
@@ -12720,7 +12720,7 @@
       }
    },
    {
-      "acao":"saia do Academico 1 e siga reto até o Prédio das Coordenações",
+      "acao":"saia do Academico 1 e siga reto",
       "noConexao":{
          "andar":"primeiro andar",
          "nome":"predio das coordenacoes"
@@ -12732,7 +12732,7 @@
       }
    },
    {
-      "acao":"saia do Prédio das Coordenações e siga reto até o Acadêmico 1",
+      "acao":"siga reto até o Acadêmico 1",
       "noConexao":{
          "andar":"primeiro andar",
          "nome":"d258"
@@ -12744,7 +12744,7 @@
       }
    },
    {
-      "acao":"saia da Portaria Principal e siga reto até o Acadêmico 1",
+      "acao":"siga reto até o Acadêmico 1",
       "noConexao":{
          "andar":"terreo",
          "nome":"a101"
@@ -12756,7 +12756,7 @@
       }
    },
    {
-      "acao":"saia do Acadêmico 1 e siga reto até a Portaria Principal",
+      "acao":"saia do Acadêmico 1 e siga",
       "noConexao":{
          "andar":"terreo",
          "nome":"portaria principal"
@@ -12768,7 +12768,7 @@
       }
    },
    {
-      "acao":"saia da Portaria Principal e siga reto até a Biblioteca",
+      "acao":"siga reto",
       "noConexao":{
          "andar":"terreo",
          "nome":"biblioteca"
@@ -12780,7 +12780,7 @@
       }
    },
    {
-      "acao":"saia da Biblioteca e siga reto até a Portaria Principal",
+      "acao":"siga reto",
       "noConexao":{
          "andar":"terreo",
          "nome":"portaria principal"
@@ -12792,7 +12792,7 @@
       }
    },
    {
-      "acao":"saia da Portaria 2 e siga reto até o Prédio da Manutenção",
+      "acao":"siga reto",
       "noConexao":{
          "andar":"terreo",
          "nome":"predio da manutencao"
@@ -12804,7 +12804,7 @@
       }
    },
    {
-      "acao":"saia do Prédio da Manutenção e siga reto até a Portaria 2",
+      "acao":"siga reto",
       "noConexao":{
          "andar":"terreo",
          "nome":"portaria 2"
@@ -12816,7 +12816,7 @@
       }
    },
    {
-      "acao":"saia da Portaria 2 e passe pelas quadras até o Centro Esportivo",
+      "acao":"passe pelas quadras até o Centro Esportivo",
       "noConexao":{
          "andar":"terreo",
          "nome":"centro esportivo"
@@ -12828,7 +12828,7 @@
       }
    },
    {
-      "acao":"saia do Centro Esportivo e passe pelas quadras até a Portaria 2",
+      "acao":"passe pelas quadras até a Portaria 2",
       "noConexao":{
          "andar":"terreo",
          "nome":"portaria 2"
@@ -12840,7 +12840,7 @@
       }
    },
    {
-      "acao":"saia do Prédio da Manutenção e passe pelas quadras até a Praça de Alimentação 3",
+      "acao":"passe pelas quadras até a Praça de Alimentação 3",
       "noConexao":{
          "andar":"terreo",
          "nome":"museoh"
@@ -12852,7 +12852,7 @@
       }
    },
    {
-      "acao":"saia da Praça de Alimentação 3 e passe pelas quadras até o Prédio da Manutenção",
+      "acao":"passe pelas quadras até o Prédio da Manutenção",
       "noConexao":{
          "andar":"terreo",
          "nome":"predio da manutencao"

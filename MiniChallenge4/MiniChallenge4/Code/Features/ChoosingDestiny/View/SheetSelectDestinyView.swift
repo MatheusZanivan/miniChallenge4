@@ -16,14 +16,8 @@ struct SheetSelectDestinyView: View {
     private let title: String
     
     @State var search = String()
-    @State var emptyClassrooms: String?
-//    private var filtered: [SenacPlaceModel]{
-//        guard !search.isEmpty else {return senacMapViewModel.senacMap}
-//        return senacMapViewModel.senacMap.filter { place in
-//            place.nome.lowercased().contains(search.lowercased())
-//        }
-//    }
-
+    @State var filteredClassrooms: [ClassroomModel] = []
+    
     init(destiny: Binding<String>, title: String) {
         self._destiny = destiny
         self.title = title
@@ -32,9 +26,7 @@ struct SheetSelectDestinyView: View {
     var body: some View {
         NavigationView(content: {
             VStack(content: {
-                if let emptyClassrooms {
-                    Text("\(emptyClassrooms)")
-                } else {
+                if filteredClassrooms.isEmpty {
                     ScrollView {
                         ForEach(senacMapViewModel.senacClassrooms) { place in
                             Button(place.nome) {
@@ -43,16 +35,24 @@ struct SheetSelectDestinyView: View {
                             }
                         }
                     }
+                } else {
+                    List(filteredClassrooms, id: \.id) { classroom in
+                        Text(classroom.nome)
+                            // Exibir outras informações da sala conforme necessário
+                            .onTapGesture {
+                                self.destiny = classroom.nome
+                                dismiss()
+                            }
+                    }
                 }
                 
                 Spacer()
             })
-            .onChange2(of: search, action17: { _, newValue in
-                emptyClassrooms = senacMapViewModel.filterClassrooms(text: newValue)
-            }, actionLower: { newValue in
-                emptyClassrooms = senacMapViewModel.filterClassrooms(text: newValue)
-            })
-            .searchable(text: $search)
+            .searchable(text: $search, prompt: "Search") // Adicionando um prompt para a caixa de pesquisa
+            .onChange(of: search) { newValue in
+                // Atualizar a lista de salas filtradas quando o texto da pesquisa mudar
+                filteredClassrooms = senacMapViewModel.filterClassrooms(text: newValue)
+            }
             .navigationTitle(title)
             .navigationBarTitleDisplayMode(.inline)
             .toolbar(content: {
@@ -63,8 +63,5 @@ struct SheetSelectDestinyView: View {
                 }
             })
         })
-        
     }
 }
-
-

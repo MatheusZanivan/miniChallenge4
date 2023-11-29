@@ -109,14 +109,18 @@ final class SenacMapViewModel: ObservableObject {
         }
     }
     
-    func filterClassrooms(text: String) -> String? {
+    func filterClassrooms(text: String) -> [ClassroomModel] {
         setClassrooms()
-        print(senacClassrooms)
-        senacClassrooms = senacClassrooms.filter({$0.nome.lowercased() == text.lowercased()})
         
-        if senacClassrooms.isEmpty {
-            return "Sem salas até o momento."
+        if text.isEmpty {
+            return senacClassrooms // Retorna todas as salas se o texto estiver vazio
         }
-        return nil
+        
+        let filteredClassrooms = senacClassrooms.filter { classroom in
+            // Filtra as salas com base na correspondência parcial do nome da sala com o texto inserido
+            return classroom.nome.lowercased().contains(text.lowercased())
+        }
+        
+        return filteredClassrooms
     }
 }
