@@ -991,6 +991,30 @@
             "nome": "i452"
         },
         "noConexao": {
+            "nome": "i444",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i444"
+        },
+        "noConexao": {
+            "nome": "i452",
+            "andar": "primeiro andar"
+        }
+    },
+    {
+        "acao": "reto",
+        "pesoAcao": 1,
+        "no": {
+            "andar": "primeiro andar",
+            "nome": "i452"
+        },
+        "noConexao": {
             "nome": "i459",
             "andar": "primeiro andar"
         }
@@ -3684,18 +3708,6 @@
         }
     },
     {
-        "noConexao": {
-            "andar": "terreo",
-            "nome": "k361"
-        },
-        "no": {
-            "andar": "terreo",
-            "nome": "k358"
-        },
-        "pesoAcao": 1,
-        "acao": "reto"
-    },
-    {
         "pesoAcao": 1,
         "acao": "reto",
         "no": {
@@ -3742,18 +3754,6 @@
             "andar": "terreo",
             "nome": "k354"
         }
-    },
-    {
-        "no": {
-            "nome": "k361",
-            "andar": "terreo"
-        },
-        "noConexao": {
-            "nome": "k358",
-            "andar": "terreo"
-        },
-        "acao": "reto",
-        "pesoAcao": 1
     },
     {
         "pesoAcao": 1,
@@ -12440,7 +12440,7 @@
          "nome":"b130",
          "andar":"terreo"
       },
-      "acao":"saia do Acadêmico 1 e siga reto até a Praça de Alimentação 2",
+      "acao":"saia do Acadêmico 1 e siga reto",
       "pesoAcao":5
    },
    {
@@ -12452,7 +12452,7 @@
          "nome":"praca de alimentacao 2",
          "andar":"terreo"
       },
-      "acao":"saia da Praça de Alimentação 2 e siga reto até o Acadêmico 1",
+      "acao":"siga reto até o Acadêmico 1",
       "pesoAcao":5
    },
    {
@@ -12464,7 +12464,7 @@
          "nome":"b131",
          "andar":"terreo"
       },
-      "acao":"saia do Acadêmico 1 e siga reto até a Praça de Alimentação 2",
+      "acao":"saia do Acadêmico 1 e siga reto",
       "pesoAcao":5
    },
    {
@@ -12476,7 +12476,7 @@
          "nome":"praca de alimentacao 2",
          "andar":"terreo"
       },
-      "acao":"saia da Praça de Alimentação 2 e siga reto até o Acadêmico 1",
+      "acao":"siga reto até o Acadêmico 1",
       "pesoAcao":5
    },
    {
@@ -12488,7 +12488,7 @@
          "nome":"praca de alimentacao 2",
          "andar":"terreo"
       },
-      "acao":"saia da Praça de Alimentação 2 e siga reto até a Academia",
+      "acao":"siga reto",
       "pesoAcao":5
    },
    {
@@ -12500,7 +12500,7 @@
          "nome":"academia",
          "andar":"terreo"
       },
-      "acao":"saia da Academia e siga reto até a Praça de Alimentação 2",
+      "acao":"siga reto",
       "pesoAcao":5
    },
    {
@@ -12512,7 +12512,7 @@
          "nome":"academia",
          "andar":"terreo"
       },
-      "acao":"saia da Academia e siga reto até a Editora Senac",
+      "acao":"siga reto",
       "pesoAcao":5
    },
    {
@@ -12524,7 +12524,7 @@
          "nome":"editora senac",
          "andar":"terreo"
       },
-      "acao":"saia da Editora Senac e siga reto até a Academia",
+      "acao":"siga reto",
       "pesoAcao":5
    },
    {
