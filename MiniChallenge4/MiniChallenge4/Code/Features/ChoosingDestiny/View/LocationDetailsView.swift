@@ -56,11 +56,13 @@ struct LocationDetailsView: View {
                 
                 Spacer()
                 if classroomSelected != String() {
-                    ClassroomCard(action: {
-                        showRoute.toggle()
-                    }, classroomNumber: $classroomSelected)
-                    .sheet(isPresented: $showRoute) {
-                        SheetAddRouteView(yourDestiny: classroomSelected == String() ? nil : classroomSelected)
+                    HStack {
+                        ClassroomCard(action: {
+                            showRoute.toggle()
+                        }, classroomNumber: $classroomSelected, color: Color("GSColor-\(classroomSelected)"))
+                        .sheet(isPresented: $showRoute) {
+                            SheetAddRouteView(yourDestiny: classroomSelected == String() ? nil : classroomSelected)
+                        }
                     }
                 } else {
                     HStack(alignment: .bottom){

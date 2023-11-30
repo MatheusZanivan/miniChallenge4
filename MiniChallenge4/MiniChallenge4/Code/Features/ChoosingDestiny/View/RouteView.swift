@@ -32,7 +32,6 @@ struct RouteView: View {
             }
             .frame(minHeight: 150, idealHeight: 150, maxHeight: 150)
             .scrollContentBackground(.hidden)
-
 //            Button(action: {}, label: {
 //                Text("Calcular Rota")
 //                    .padding()
