@@ -31,7 +31,6 @@ class Graph {
                     }
                     else {
                         print("\(node.no.nome) - \(node.noConexao.nome)")
-                        
                     }
                 }
             }
@@ -71,27 +70,34 @@ class Graph {
             let startingNodeGraphAlgorithm = graphAlgorithm[startingNodeIndex]
             var adj = [String]()
             
-            var downstairs = false
-            if let arrivalNodeIndex = graphAlgorithm.firstIndex(where: { $0.node.nome == arrivalNode}) {
-                let arrivalNodeGraphAlgorithm = graphAlgorithm[arrivalNodeIndex]
-                let startingFloor = startingNodeGraphAlgorithm.node.andar
-                let arrivalFloor = arrivalNodeGraphAlgorithm.node.andar
-                
-                if startingFloor == "terreo" && arrivalFloor == "terreo" {
-                    downstairs = true
-                }
-            }
+            let sameFloor = checkFloors(startingNodeGraphAlgorithm: startingNodeGraphAlgorithm, arrivalNode: arrivalNode)
+            let sameAcademic = checkAcademic(startingNodeGraphAlgorithm: startingNodeGraphAlgorithm, arrivalNode: arrivalNode)
+            
             
             for i in 0...(startingNodeGraphAlgorithm.nodeRelationships.count - 1) {
                 if let nextNodeIndex = graphAlgorithm.firstIndex(where: { $0.node.nome == startingNodeGraphAlgorithm.nodeRelationships[i].node.nome}) {
                     //MARK: - UPDATE (weight + startingNodeGraphAlgorithm.nodeRelationships[i].weight)
-                    if ((weight + 1) < graphAlgorithm[nextNodeIndex].weight && startingNodeGraphAlgorithm.antecedent != graphAlgorithm[nextNodeIndex].node.nome){
-                        if !downstairs || (downstairs && graphAlgorithm[nextNodeIndex].node.andar == "terreo") {
+                    //weight + 1 <-- antes do update tava esse valor - update feito
+                    if ((weight + startingNodeGraphAlgorithm.nodeRelationships[i].weight) < graphAlgorithm[nextNodeIndex].weight && startingNodeGraphAlgorithm.antecedent != graphAlgorithm[nextNodeIndex].node.nome){
+                        
+                        //Se partida e destino estão no mesmo andar
+                        if sameFloor {
+                            //Se o andar da partida e do proximo nó for o mesmo
+                            //OU partida e destino NÃO estão no mesmo academico
+                            if (startingNodeGraphAlgorithm.node.andar == graphAlgorithm[nextNodeIndex].node.andar) || !sameAcademic {
+                                //Vai!
+                                graphAlgorithm[nextNodeIndex].weight = weight + startingNodeGraphAlgorithm.nodeRelationships[i].weight
+                                graphAlgorithm[nextNodeIndex].antecedent = startingNodeGraphAlgorithm.node.nome
+                                adj.append(graphAlgorithm[nextNodeIndex].node.nome)
+                            }
+                        } 
+                        //Se partida e destino NÃO estão no mesmo andar
+                        else {
+                            //Vai!
                             graphAlgorithm[nextNodeIndex].weight = weight + startingNodeGraphAlgorithm.nodeRelationships[i].weight
                             graphAlgorithm[nextNodeIndex].antecedent = startingNodeGraphAlgorithm.node.nome
                             adj.append(graphAlgorithm[nextNodeIndex].node.nome)
                         }
-                        
                         
                         print("\(graphAlgorithm[startingNodeIndex].node.nome) - \(graphAlgorithm[nextNodeIndex].node.nome)")
                         
@@ -116,6 +122,45 @@ class Graph {
 //            }
             
         }
+    }
+    
+    func numberOfAcademic(aisle: String) -> Int {
+        switch aisle {
+        case "a", "b", "c", "d", "f":
+            return 1
+        case "g", "h", "i", "j", "k":
+            return 2
+        default:
+            return -1
+        }
+    }
+    
+    func checkAcademic(startingNodeGraphAlgorithm: NodeModel, arrivalNode: String) -> Bool {
+        if let arrivalNodeIndex = graphAlgorithm.firstIndex(where: { $0.node.nome == arrivalNode}) {
+            let arrivalNodeGraphAlgorithm = graphAlgorithm[arrivalNodeIndex]
+            let startingAcademicAisle = String(startingNodeGraphAlgorithm.node.nome.prefix(1))
+            let arrivalAcademicAisle = String(arrivalNodeGraphAlgorithm.node.nome.prefix(1))
+            
+            if numberOfAcademic(aisle: startingAcademicAisle) == numberOfAcademic(aisle: arrivalAcademicAisle) {
+                return true
+            }
+        }
+        return false
+    }
+    
+    func checkFloors(startingNodeGraphAlgorithm: NodeModel, arrivalNode: String) -> Bool {
+        if let arrivalNodeIndex = graphAlgorithm.firstIndex(where: { $0.node.nome == arrivalNode}) {
+            let arrivalNodeGraphAlgorithm = graphAlgorithm[arrivalNodeIndex]
+            let startingFloor = startingNodeGraphAlgorithm.node.andar
+            let arrivalFloor = arrivalNodeGraphAlgorithm.node.andar
+            if startingFloor == "terreo" && arrivalFloor == "terreo"   {
+                return true
+            }
+            if startingFloor == "primeiro andar" && arrivalFloor == "primeiro andar"   {
+                return true
+            }
+        }
+        return false
     }
     
     func generateWay(arrivalNode: String) {
@@ -165,7 +210,7 @@ class Graph {
     }
     
     func applyRightOrLeftDirection(nodeRelationships: [NodeRelationshipModel], nodeAction: String, nodeList: [String], i: Int) -> String? {
-        if nodeAction != "reto" {
+        if nodeAction.hasPrefix("vire no corredor") {
             if !((i + 1) > (nodeList.count - 1)) {
                 if i > 0 {
                     if let lastClassGreaterThanCurrent = verifyIfLastClassNumberIsBiggerThanCurrent(last: nodeList[i - 1], current: nodeList[i]) {
