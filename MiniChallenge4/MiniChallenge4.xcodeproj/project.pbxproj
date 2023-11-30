@@ -638,7 +638,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniChallenge4/Preview Content\"";
-				DEVELOPMENT_TEAM = UFS93RKF34;
+				DEVELOPMENT_TEAM = 273QY7G77Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Para fornecer a melhor experiência possível, precisamos acessar a câmera do seu dispositivo. Este acesso será usado exclusivamente para ativar nosso reconhecedor de obras da universidade. ";
@@ -671,7 +671,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniChallenge4/Preview Content\"";
-				DEVELOPMENT_TEAM = UFS93RKF34;
+				DEVELOPMENT_TEAM = 273QY7G77Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Para fornecer a melhor experiência possível, precisamos acessar a câmera do seu dispositivo. Este acesso será usado exclusivamente para ativar nosso reconhecedor de obras da universidade. ";
