@@ -3696,18 +3696,6 @@
         }
     },
     {
-        "no": {
-            "andar": "terreo",
-            "nome": "k356"
-        },
-        "acao": "reto",
-        "pesoAcao": 1,
-        "noConexao": {
-            "nome": "k363",
-            "andar": "terreo"
-        }
-    },
-    {
         "pesoAcao": 1,
         "acao": "reto",
         "no": {
@@ -3753,18 +3741,6 @@
         "noConexao": {
             "andar": "terreo",
             "nome": "k354"
-        }
-    },
-    {
-        "pesoAcao": 1,
-        "acao": "reto",
-        "noConexao": {
-            "andar": "terreo",
-            "nome": "k356"
-        },
-        "no": {
-            "nome": "k363",
-            "andar": "terreo"
         }
     },
     {
