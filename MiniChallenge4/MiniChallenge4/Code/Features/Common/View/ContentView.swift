@@ -16,22 +16,22 @@ struct ContentView: View {
     @State var nodeWay = [String]()
     var body: some View {
         ZStack {
-            SceneViewRepresentable(strScene: nodeName, strCamera: cameraName, responseOnClick: { nodeName in
-                print(nodeName)
-                
-//                switch Int.random(in: 0...1) {
-//                case 0:
-//                    self.cameraName = "camera"
-//                case 1:
-//                    self.cameraName = "camera2"
-//                default:
-//                    self.cameraName = "camera2"
-//                }
-                
-//                self.nodeName = "scenes.scnassets/\(nodeName)/scene\(nodeName.capitalized).scn"
-                print(self.nodeName)
-                
-            })
+//            SceneViewRepresentable(strScene: nodeName, strCamera: $cameraName, oi: .constant("oi"), responseOnClick: { nodeName in
+//                print(nodeName)
+//                
+////                switch Int.random(in: 0...1) {
+////                case 0:
+////                    self.cameraName = "camera"
+////                case 1:
+////                    self.cameraName = "camera2"
+////                default:
+////                    self.cameraName = "camera2"
+////                }
+//                
+////                self.nodeName = "scenes.scnassets/\(nodeName)/scene\(nodeName.capitalized).scn"
+//                print(self.nodeName)
+//                
+//            })
             VStack {
                 Text(nodeName)
                 Spacer()

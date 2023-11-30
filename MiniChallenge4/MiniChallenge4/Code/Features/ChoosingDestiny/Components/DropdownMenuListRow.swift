@@ -12,7 +12,7 @@ struct DropdownMenuListRow: View {
     let onSelectionAction: (_ option: SenacPlaceModel) -> Void
     var body: some View {
         NavigationLink {
-            LocationDetailsView(place: option.nome)
+            SelectedPlaceView(place: option.nome)
         } label: {
             VStack {
                 Text(option.nome)

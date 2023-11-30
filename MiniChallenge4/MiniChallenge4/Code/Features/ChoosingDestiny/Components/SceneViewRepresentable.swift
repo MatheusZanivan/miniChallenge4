@@ -36,21 +36,6 @@ class Coordinator: NSObject {
             let material = result.node.geometry!.materials[(result.geometryIndex)]
             print("\(result.node.name ?? "N/A") - \(result.node.name ?? "N/A")")
             responseOnClick(result.node.name ?? "N/A")
-            // highlight it
-            SCNTransaction.begin()
-            SCNTransaction.animationDuration = 0.5
-            
-            // on completion - unhighlight
-            SCNTransaction.completionBlock = {
-                SCNTransaction.begin()
-                SCNTransaction.animationDuration = 0.5
-                
-                material.emission.contents = UIColor.black
-              
-                SCNTransaction.commit()
-            }
-            material.emission.contents = UIColor.green
-            SCNTransaction.commit()
         }
     }
 }
@@ -58,14 +43,16 @@ class Coordinator: NSObject {
 struct SceneViewRepresentable: UIViewRepresentable {
     typealias UIViewType = SCNView
     let sceneView = SCNView()
-    let strScene: String
-    let strCamera: String
+    @Binding private var strScene: String
+    @Binding private var strCamera: String
+    @Binding private var didChangeStrCamera: Bool
     
     private var responseOnClick: (_ nodeName: String) -> Void
     
-    init(strScene: String, strCamera: String, responseOnClick: @escaping (_ nodeName: String) -> Void) {
-        self.strScene = strScene
-        self.strCamera = strCamera
+    init(strScene: Binding<String>, strCamera: Binding<String>, didChangeStrCamera: Binding<Bool>, responseOnClick: @escaping (_ nodeName: String) -> Void) {
+        self._strScene = strScene
+        self._strCamera = strCamera
+        self._didChangeStrCamera = didChangeStrCamera
         self.responseOnClick = responseOnClick
     }
     
@@ -82,15 +69,24 @@ struct SceneViewRepresentable: UIViewRepresentable {
         guard let scene = SCNScene(named: strScene) else {
             return
         }
+        scnView.scene = scene
         if let cameraNode = scene.rootNode.childNode(withName: strCamera, recursively: true) {
             // Adjust the duration as needed
-            SCNTransaction.begin()
-            SCNTransaction.animationDuration = 1.0
-            scnView.pointOfView = cameraNode
-            SCNTransaction.commit()
+            
+            if didChangeStrCamera {
+                scnView.pointOfView = cameraNode
+            } else {
+                SCNTransaction.begin()
+                SCNTransaction.animationDuration = 1.0
+                
+                scnView.pointOfView = cameraNode
+    //            strCamera = String()
+                SCNTransaction.commit()
+                didChangeStrCamera.toggle()
+            }
+                
+            
         }
-        scnView.scene = scene
-        
 //        scnView.scene.background.contents = UIColor.clear
         
         scnView.allowsCameraControl = true

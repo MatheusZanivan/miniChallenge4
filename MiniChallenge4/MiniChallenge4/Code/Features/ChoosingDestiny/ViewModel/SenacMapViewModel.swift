@@ -10,6 +10,8 @@ import Foundation
 final class SenacMapViewModel: ObservableObject {
     @Published var senacMap = [SenacPlaceModel]()
     @Published var senacClassrooms = [ClassroomModel]()
+    private var senacClassroomsFixed = [ClassroomModel]()
+    
     init() {
         loadSenacMap()
     }
@@ -31,24 +33,57 @@ final class SenacMapViewModel: ObservableObject {
         }
     }
     
-    func filterWard(from placeSelected: String)->[WardModel]?{
+    func filterWard(from placeSelected: String, stair: String?)->[WardModel]?{
         if senacMap.isEmpty {return nil}
         for senacPlace in senacMap {
             if senacPlace.nome == placeSelected {
-                return senacPlace.alas
+                if let stair {
+                    return getWardsInStair(wards: senacPlace.alas, stair: stair)
+                } else {
+                    return senacPlace.alas
+                }
             }
         }
         return nil
     }
     
+    func getWardsInStair(wards: [WardModel]?, stair: String) -> [WardModel]? {
+        var newWards = [WardModel]()
+        if let wards {
+            for ward in wards {
+                for sala in ward.salas {
+                    if sala.andar.forSorting.lowercased() == stair {
+                        newWards.append(ward)
+                        break;
+                    }
+                }
+            }
+            return newWards
+        }
+        
+        return nil
+    }
+    
     func verifyIfPlaceExists(place: String) -> Bool {
-        return senacMap.contains(where: {
-            $0.nome.lowercased() == place.lowercased() ||
-            (($0.alas?.contains(where: {
-                $0.corredor.lowercased() == place.lowercased() ||
-                $0.salas.contains(where: { $0.nome.lowercased() == place.lowercased() })
-            })) != nil)
-        })
+        for senacPlace in senacMap {
+            if senacPlace.nome.forSorting.split(separator: " ").joined() == place {
+                return true
+            }
+            if let wards = senacPlace.alas {
+                for ward in wards {
+                    if ward.corredor.forSorting.split(separator: " ").joined() == place {
+                        return true
+                    }
+                    for classroom in ward.salas {
+                        if classroom.nome.forSorting.split(separator: " ").joined() == place {
+                            return true
+                        }
+                    }
+                }
+            }
+        }
+        
+        return false
     }
     
     func filterLab(from placeSelected: String)->[WardModel]?{
@@ -91,13 +126,22 @@ final class SenacMapViewModel: ObservableObject {
         return nil
     }
     
+    func getPlaceFrom3DPathPlace(place: String) -> String {
+        for senacPlace in senacMap {
+            if senacPlace.nome.forSorting.split(separator: " ").joined() == place {
+                return senacPlace.nome
+            }
+        }
+        return String()
+    }
+    
     func setClassrooms() {
-        senacClassrooms = [ClassroomModel]()
+        senacClassroomsFixed = [ClassroomModel]()
         for place in senacMap {
             if let wards = place.alas {
                 for ward in wards {
                     for classroom in ward.salas {
-                        senacClassrooms.append(classroom)
+                        senacClassroomsFixed.append(classroom)
                     }
                 }
             }
@@ -106,8 +150,8 @@ final class SenacMapViewModel: ObservableObject {
     }
     
     func filterClassrooms(text: String) -> String? {
-        setClassrooms()
-        print(senacClassrooms)
+        senacClassrooms = senacClassroomsFixed
+        
         senacClassrooms = senacClassrooms.filter({$0.nome.lowercased() == text.lowercased()})
         
         if senacClassrooms.isEmpty {

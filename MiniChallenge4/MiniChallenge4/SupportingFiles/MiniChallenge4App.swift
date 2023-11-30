@@ -12,7 +12,7 @@ struct MiniChallenge4App: App {
     @StateObject var senacMapViewModel = SenacMapViewModel()
     var body: some Scene {
         WindowGroup {
-             ChoosingDestinyView()
+             InitialPageView()
                  .environmentObject(senacMapViewModel)
         }
     }
