@@ -35,14 +35,14 @@ struct InitialPageView: View {
                 VStack {
                     DropdownMenu(selectedOption: self.$placeSelect,
                                  places: senacMapViewModel.senacMap,
-                                 placeholder: "Selecione uma área de Destino")
+                                 placeholder: "Selecione uma área")
                     
                     Spacer()
         
                     HStack {
                         RoundButton(action: {
                             showSheetRoute.toggle()
-                        }, imageButton: Image(uiImage: UIImage(named: "Regular-S")!))
+                        }, imageButton: Image(uiImage: UIImage(named: "GSMap")!), activeBackground: true)
                         .sheet(isPresented: $showSheetRoute) {
                             SheetAddRouteView(destiny: nil)
                                 .presentationDetents([.height(200),.medium, .large])
@@ -53,13 +53,13 @@ struct InitialPageView: View {
                         
                         RoundButton(action: {
                             showSheetCamera.toggle()
-                        }, imageButton: Image(uiImage: UIImage(named: "Image")!))
+                        }, imageButton: Image(uiImage: UIImage(named: "GSCamera")!), activeBackground: true)
                         .sheet(isPresented: $showSheetCamera) {
                             CameraViewControlerRepresentable()
                                 .ignoresSafeArea()
                         }
                     }.padding()
-                }
+                }.padding(.vertical, 32)
                 
             }.background(Color.gray)
             
