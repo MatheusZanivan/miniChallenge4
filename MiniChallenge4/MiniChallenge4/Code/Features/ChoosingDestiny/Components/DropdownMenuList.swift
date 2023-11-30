@@ -20,6 +20,8 @@ struct DropdownMenuList: View {
                     )
                 }
             }
-        }.frame(height: 240)
+        }.frame(width: 320, height: 240)
+            .background(Color(uiColor: UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.8)))
+            .padding(.top, 70)
     }
 }

@@ -26,9 +26,9 @@ struct DropdownMenu: View {
                     .foregroundStyle(.gray)
             }
             .padding()
-            .padding(.bottom, self.isOptionsPresented ? 260 : 0)
+//            .padding(.bottom, self.isOptionsPresented ? 260 : 0)
             .background(Color.white)
-            .cornerRadius(20)            
+            .cornerRadius(5)
         }
         .padding([.leading, .trailing], 24)
         .overlay(alignment: .top) {

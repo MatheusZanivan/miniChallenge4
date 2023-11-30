@@ -13,14 +13,20 @@ struct RoundButton: View {
     private let imageButton: Image
     private let frameHeight: CGFloat?
     private let frameWidth: CGFloat?
-
-    init(action: @escaping () -> Void, imageButton: Image, frameHeight: CGFloat = 32, frameWidth: CGFloat = 32) {
+    private let padding: CGFloat
+    private var activeBackgound: Bool
+    private var color: Color
+    
+    init(action: @escaping () -> Void, imageButton: Image, frameHeight: CGFloat = 32, frameWidth: CGFloat = 32, padding: CGFloat = 12, activeBackground: Bool = false, color: Color = .white) {
         self.action = action
         self.imageButton = imageButton
         self.frameHeight = frameHeight
         self.frameWidth = frameWidth
+        self.padding = padding
+        self.activeBackgound = activeBackground
+        self.color = color
     }
-    
+
     var body: some View {
         Button {
             action()
@@ -28,12 +34,27 @@ struct RoundButton: View {
             imageButton
                 .resizable()
                 .frame(width: frameHeight, height: frameWidth)
-                .padding()
-                .background(Color(red: 0.85, green: 0.85, blue: 0.85))
+                .padding(padding)
+                .modifier(BackgroundButton(activeBackgound, with: color))
                 .cornerRadius(40)
-                .foregroundStyle(.gray)
         }
-        
+    }
+}
 
+struct BackgroundButton: ViewModifier {
+    private var activeBackground: Bool
+    private var backgroundColor: Color
+    init(_ activeBackground: Bool = false, with background: Color = .white) {
+        self.activeBackground = activeBackground
+        self.backgroundColor = background
+    }
+    @ViewBuilder
+    func body(content: Content) -> some View {
+        if activeBackground {
+            content
+                .background(backgroundColor)
+        } else {
+            content
+        }
     }
 }
