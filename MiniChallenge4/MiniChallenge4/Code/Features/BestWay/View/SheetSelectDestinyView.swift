@@ -27,7 +27,7 @@ struct SheetSelectDestinyView: View {
             VStack(content: {
                 if filteredClassrooms.isEmpty {
                     ScrollView {
-                        ForEach(senacMapViewModel.senacClassrooms) { place in
+                        ForEach(senacMapViewModel.senacClassroomsFixed) { place in
                             Button(place.nome) {
                                 self.destiny = place.nome
                                 dismiss()

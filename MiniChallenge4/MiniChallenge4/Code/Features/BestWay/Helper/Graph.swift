@@ -126,9 +126,9 @@ class Graph {
     
     func numberOfAcademic(aisle: String) -> Int {
         switch aisle {
-        case "a", "b", "c", "d", "f":
+        case "a1", "a2", "b1", "b2", "c1", "c2", "d1", "d2", "e1", "e2", "f2":
             return 1
-        case "g", "h", "i", "j", "k":
+        case "g3", "g4", "h3", "h4", "i3", "i4", "j3", "j4", "k3", "k4":
             return 2
         default:
             return -1
@@ -138,8 +138,8 @@ class Graph {
     func checkAcademic(startingNodeGraphAlgorithm: NodeModel, arrivalNode: String) -> Bool {
         if let arrivalNodeIndex = graphAlgorithm.firstIndex(where: { $0.node.nome == arrivalNode}) {
             let arrivalNodeGraphAlgorithm = graphAlgorithm[arrivalNodeIndex]
-            let startingAcademicAisle = String(startingNodeGraphAlgorithm.node.nome.prefix(1))
-            let arrivalAcademicAisle = String(arrivalNodeGraphAlgorithm.node.nome.prefix(1))
+            let startingAcademicAisle = String(startingNodeGraphAlgorithm.node.nome.prefix(2))
+            let arrivalAcademicAisle = String(arrivalNodeGraphAlgorithm.node.nome.prefix(2))
             
             if numberOfAcademic(aisle: startingAcademicAisle) == numberOfAcademic(aisle: arrivalAcademicAisle) {
                 return true

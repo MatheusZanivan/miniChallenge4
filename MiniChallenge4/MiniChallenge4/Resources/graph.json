@@ -5653,30 +5653,6 @@
     },
     {
         "noConexao": {
-            "andar": "terreo",
-            "nome": "a112"
-        },
-        "pesoAcao": 1,
-        "acao": "reto",
-        "no": {
-            "nome": "a107",
-            "andar": "terreo"
-        }
-    },
-    {
-        "noConexao": {
-            "andar": "terreo",
-            "nome": "a110"
-        },
-        "no": {
-            "nome": "a107",
-            "andar": "terreo"
-        },
-        "pesoAcao": 2,
-        "acao": "entre no Lab. Geral (NASA)"
-    },
-    {
-        "noConexao": {
             "nome": "a107",
             "andar": "terreo"
         },
@@ -5736,18 +5712,6 @@
         }
     },
     {
-        "acao": "saia do Lab. Geral (NASA) e vire no corredor A",
-        "no": {
-            "nome": "a110",
-            "andar": "terreo"
-        },
-        "pesoAcao": 2,
-        "noConexao": {
-            "andar": "terreo",
-            "nome": "a107"
-        }
-    },
-    {
         "no": {
             "nome": "a110",
             "andar": "terreo"
@@ -5770,18 +5734,6 @@
             "nome": "a112",
             "andar": "terreo"
         }
-    },
-    {
-        "noConexao": {
-            "nome": "a107",
-            "andar": "terreo"
-        },
-        "acao": "reto",
-        "no": {
-            "andar": "terreo",
-            "nome": "a112"
-        },
-        "pesoAcao": 1
     },
     {
         "acao": "reto",
