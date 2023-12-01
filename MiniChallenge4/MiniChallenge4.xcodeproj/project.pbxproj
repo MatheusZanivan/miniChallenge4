@@ -60,6 +60,7 @@
 /* Begin PBXFileReference section */
 		3B35AA5A2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ModeloTesteComOutros.mlmodel; sourceTree = "<group>"; };
 		3BDB0D452B068D4D001EF9BA /* CameraViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewControler.swift; sourceTree = "<group>"; };
+		3FD2458E2B0FCEAB006DB51D /* exhibitions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exhibitions.json; sourceTree = "<group>"; };
 		8826C20C2AF98F59005FC3B6 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		883F7C5D2AF2D40B00691669 /* InitialPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialPageView.swift; sourceTree = "<group>"; };
 		883F7C602AF31A7700691669 /* DropdownMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenu.swift; sourceTree = "<group>"; };
@@ -265,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				BBCF60EB2AFD530E00FF8952 /* scenes.scnassets */,
+				3FD2458E2B0FCEAB006DB51D /* exhibitions.json */,
 				BB3E49D52AF8550000D4421B /* graph.json */,
 				BB66B8CF2AF1BF2C00840E90 /* senac_map.json */,
 				BB66B8812AF03F4B00840E90 /* Assets.xcassets */,
@@ -640,7 +642,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniChallenge4/Preview Content\"";
-				DEVELOPMENT_TEAM = UFS93RKF34;
+				DEVELOPMENT_TEAM = 273QY7G77Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Para fornecer a melhor experiência possível, precisamos acessar a câmera do seu dispositivo. Este acesso será usado exclusivamente para ativar nosso reconhecedor de obras da universidade. ";
@@ -673,7 +675,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniChallenge4/Preview Content\"";
-				DEVELOPMENT_TEAM = UFS93RKF34;
+				DEVELOPMENT_TEAM = 273QY7G77Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Para fornecer a melhor experiência possível, precisamos acessar a câmera do seu dispositivo. Este acesso será usado exclusivamente para ativar nosso reconhecedor de obras da universidade. ";

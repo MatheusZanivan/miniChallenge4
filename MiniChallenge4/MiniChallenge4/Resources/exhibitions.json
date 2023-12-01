@@ -1,0 +1,223 @@
+    [
+        {
+            "idExhibition": 1,
+            "name": "Teletubbies",
+            "author": "",
+            "description": ""
+        },
+        {
+            "idExhibition": 2,
+            "name": "Avião",
+            "author": "",
+            "description": ""
+        },
+        {
+            "idExhibition": 3,
+            "name": "Chama Vermelha",
+            "author": "Cássio Lázaro",
+            "description": ""
+        },
+        {
+            "idExhibition": 4,
+            "name": "A Borboleta",
+            "author": "",
+            "description": "Aluna do curso Bacharelado em Design Gráfico - 5º semestre"
+        },
+        {
+            "idExhibition": 5,
+            "name": "Cubo Vaastu",
+            "author": "Chico Niedzielski",
+            "description": "Cubo alinhado ao Norte verdadeiro. Portas a Leste e a Norte, janelas a Oeste e Sul. Um espaço central aberto. Esse cubo, com proporções medidas e orientação segundo princípios do Vastu-Vidya (morada perfeita), procura sintetizar uma tradição ancestral (6 a 7 mil anos) do morar em harmonia com as Leis da Natureza."
+        },
+        {
+            "idExhibition": 6,
+            "name": "Mergulho na Diversidade",
+            "author": "Guilherme Matsumto",
+            "description": "Arte produzida pela artista Guilherme Matsumto (Xguix), ex-aluno do curso de Bacharelado em Design (Comunicação visual na época). Um mergulho na diversidade para celebrar e amar nossas diferenças, que é que nos faz seres únicos. A figura humana com partes biônicas representa a diversidade dos seres humanos. O movimento corporal e o aquário com o peixe repesentam a liberdade e a expansão da percepção. O peixe também faz uma analogia com os navios imigrantes que vieram para o Brasil"
+        },
+        {
+            "idExhibition": 7,
+            "name": "Tabela periódica",
+            "author": "Senac",
+            "description": "Em 1869 o Sistema Periódico foi descoberto pelo cientista russo Dmitri Mendeleev e, em comemoração aos 150 anos do estabelecimento da Tabela Periódica, a Organização das Nações Unidas proclamou ano de 2019 como o Ano Internacional da Tabela Periódica dos Elementos Químicos. Esta ação visa reconhecer a importância da Tabela Periódica como uma das conquistas mais importantes e infleuentes da ciência moderna."
+        },
+        {
+            "idExhibition": 8,
+            "name": "JDA Amarelo",
+            "author": "Jorge dos Anjos",
+            "description": ""
+        },
+        "idExhibition": 9,
+        "name": "JDA Azul",
+        "author": "Jorge dos Anjos",
+        "description": ""
+        {
+            "idExhibition": 10,
+            "name": "Leitor",
+            "author": "Chico Niedzielski",
+            "description": "Escultura construída a partir de 5 discos - 5 círculos. O círculo exerce fascinação porque é a figura perfeita: nele todos os pontos são equidistantes do centro, nele todas as partes possuem exatamente as mesmas propriedades e nele o começo e o fim são um só. Eis porque sempre foi considerado o símbolo da eterndidade, do tempo e da infinitude do espaço. Porque sem o começo e sem fim o círculo é uma figura imensurável."
+        },
+        {
+            "idExhibition": 11,
+            "name": "A estudante",
+            "author": "Tito Ferrara",
+            "description": "Arte produzida pelo ex-aluno Tito Ferrara, que se inspirou no artista japonês Hokusai para elaboração do seu TCC, quando cursou Bacharelado em Design (Comunicação Visual na época) no Centro Univesitário Senac. Estudante de olhos fechados, imaginando o futuro dela. O barquinho de papel representa seus sonhos e o que gostaria de fazer nesse mar revolto que simboliza as indecisões e dúvidas que surgem no caminho."
+        },
+        {
+            "idExhibition": 12,
+            "name": "Mãe e filha",
+            "author": "Jenne Rosenthal",
+            "description": ""
+        },
+        {
+            "idExhibition": 13,
+            "name": "Flores",
+            "author": "Paulo Von Poser",
+            "description": ""
+        },
+        {
+            "idExhibition": 14,
+            "name": "Parque Ibirapuera",
+            "author": "Marcos Kim",
+            "description": ""
+        },
+        {
+            "idExhibition": 15,
+            "name": "Teatro Municipal",
+            "author": "Marcos Kim",
+            "description": ""
+        },
+        {
+            "idExhibition": 16,
+            "name": "Torre do Banespa",
+            "author": "Marcos Kim",
+            "description": ""
+        },
+        {
+            "idExhibition": 17,
+            "name": "Anhagabaú",
+            "author": "Marcos Kim",
+            "description": ""
+        },
+        {
+            "idExhibition": 18,
+            "name": "Avenida Paulista Consolação",
+            "author": "Marcos Kim",
+            "description": ""
+        },
+        {
+            "idExhibition": 19,
+            "name": "Anhagabaú",
+            "author": "Marcos Kim",
+            "description": ""
+        },
+        {
+            "idExhibition": 20,
+            "name": "Shopping Light",
+            "author": "Marcos Kim",
+            "description": ""
+        },
+        {
+            "idExhibition": 21,
+            "name": "Avenida Paulista Consolação",
+            "author": "Marcos Kim",
+            "description": ""
+        },
+        {
+            "idExhibition": 22,
+            "name": "Viaduto do chá",
+            "author": "Marcos Kim",
+            "description": ""
+        },
+        {
+            "idExhibition": 23,
+            "name": "Avenida Paulista Túnel",
+            "author": "Marcos Kim",
+            "description": ""
+        },
+        {
+            "idExhibition": 24,
+            "name": "MASP - Trianon",
+            "author": "Marcos Kim",
+            "description": ""
+        },
+        {
+            "idExhibition": 25,
+            "name": "MASP",
+            "author": "Marcos Kim",
+            "description": ""
+        },
+        {
+            "idExhibition": 26,
+            "name": "Catedral da Sé",
+            "author": "Marcos Kim",
+            "description": ""
+        },
+        {
+            "idExhibition": 27,
+            "name": "Mosteiro São Bento",
+            "author": "Marcos Kim",
+            "description": ""
+        },
+        {
+            "idExhibition": 28,
+            "name": "Movimento Helicoidal",
+            "author": "Moyses Mellin",
+            "description": ""
+        },
+        {
+            "idExhibition": 29,
+            "name": "Cavalo a galope",
+            "author": "Cássio Lázaro",
+            "description": ""
+        },
+        {
+            "idExhibition": 30,
+            "name": "Pintura Eletrostática",
+            "author": "Emanoel Araujo",
+            "description": ""
+        },
+        {
+            "idExhibition": 31,
+            "name": "Copan",
+            "author": "Marcos Kim",
+            "description": ""
+        },
+        {
+            "idExhibition": 32,
+            "name": "Acrílico sobre tela",
+            "author": "Ana Magalhães",
+            "description": ""
+        },
+        {
+            "idExhibition": 33,
+            "name": "Litogravura",
+            "author": "Francisco Rebolo González",
+            "description": ""
+        },
+        {
+            "idExhibition": 34,
+            "name": "Movimento e Harmonia",
+            "author": "Moyses Mellin",
+            "description": ""
+        },
+        {
+            "idExhibition": 35,
+            "name": "Composição 4 semi-círculos",
+            "author": "Moyses Mellin",
+            "description": ""
+        },
+        {
+            "idExhibition": 36,
+            "name": "Madeira Garapeira",
+            "author": "Elisa Bracher",
+            "description": ""
+        },
+        {
+            "idExhibition": 37,
+            "name": "M'ódulos Tridimensionais",
+            "author": "Alunos do Bacharelado em Arquitetura e Urbanismo",
+            "description": "A partir de uma oficina ministrada pelos professores Paulo Magri e Vaéria Fialhom alunos do Bacharelado em Arquitetura e Urbanimsmo projetaram e executaram um painel composto por peças tridimensionais de papel colorido. A fabricação das peças foi executada no Laboratório de Modelos e Protótipos (Sala C134). A ação faz parte dos experimentos desenvolvidos com as máquinas de corte Scan Cut, fruto da parceira institucional com a Brother."
+        }
+        
+    ]
