@@ -10776,6 +10776,54 @@
       "acao":"saia do Acadêmico 2 e siga reto até o Acadêmico 1"
    },
    {
+      "pesoAcao":5,
+      "noConexao":{
+         "nome":"sala dos professores",
+         "andar":"terreo"
+      },
+      "no":{
+         "nome":"g301",
+         "andar":"terreo"
+      },
+      "acao":"saia do Acadêmico 2 e siga reto"
+   },
+   {
+      "pesoAcao":5,
+      "noConexao":{
+         "nome":"g301",
+         "andar":"terreo"
+      },
+      "no":{
+         "nome":"sala dos professores",
+         "andar":"terreo"
+      },
+      "acao":"siga reto até o Acadêmico 2"
+   },
+   {
+      "pesoAcao":5,
+      "acao":"saia do Acadêmico 1 e siga reto",
+      "no":{
+         "nome":"c151",
+         "andar":"terreo"
+      },
+      "noConexao":{
+         "nome":"sala dos professores",
+         "andar":"terreo"
+      }
+   },
+   {
+      "pesoAcao":5,
+      "acao":"siga reto até o Acadêmico 1",
+      "no":{
+         "nome":"sala dos professores",
+         "andar":"terreo"
+      },
+      "noConexao":{
+         "nome":"c151",
+         "andar":"terreo"
+      }
+   },
+   {
       "noConexao":{
          "nome":"g305",
          "andar":"terreo"
@@ -12320,7 +12368,7 @@
          "nome":"kitchen club",
          "andar":"terreo"
       },
-      "acao":"saia da Praça de Alimentação 1 e siga reto até o prédio da Reitoria",
+      "acao":"saia da Praça de Alimentação 1 e siga reto",
       "pesoAcao":5
    },
    {
@@ -12332,7 +12380,7 @@
          "nome":"reitoria",
          "andar":"terreo"
       },
-      "acao":"saia do prédio da Reitoria e siga reto até a Praça de alimentação 1",
+      "acao":"siga reto até a Praça de alimentação 1",
       "pesoAcao":5
    },
    {
@@ -12344,7 +12392,7 @@
          "nome":"reitoria",
          "andar":"terreo"
       },
-      "acao":"saia do prédio da Reitoria e siga reto até a Biblioteca",
+      "acao":"siga reto",
       "pesoAcao":5
    },
    {
@@ -12356,7 +12404,7 @@
          "nome":"biblioteca",
          "andar":"terreo"
       },
-      "acao":"saia da Biblioteca e siga reto até o prédio da Reitoria",
+      "acao":"siga reto",
       "pesoAcao":5
    },
    {
@@ -12365,7 +12413,7 @@
          "nome":"praca de alimentacao 2"
       },
       "no":{
-         "nome":"b130",
+         "nome":"c131",
          "andar":"terreo"
       },
       "acao":"saia do Acadêmico 1 e siga reto",
@@ -12374,31 +12422,7 @@
    {
       "noConexao":{
          "andar":"terreo",
-         "nome":"b130"
-      },
-      "no":{
-         "nome":"praca de alimentacao 2",
-         "andar":"terreo"
-      },
-      "acao":"siga reto até o Acadêmico 1",
-      "pesoAcao":5
-   },
-   {
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"praca de alimentacao 2"
-      },
-      "no":{
-         "nome":"b131",
-         "andar":"terreo"
-      },
-      "acao":"saia do Acadêmico 1 e siga reto",
-      "pesoAcao":5
-   },
-   {
-      "noConexao":{
-         "andar":"terreo",
-         "nome":"b131"
+         "nome":"c131"
       },
       "no":{
          "nome":"praca de alimentacao 2",
@@ -12716,6 +12740,30 @@
       "pesoAcao":5,
       "no":{
          "nome":"biblioteca",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"siga reto até o Acadêmico 1",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"d163"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"biblioteca",
+         "andar":"terreo"
+      }
+   },
+   {
+      "acao":"saia do Acadêmico 1 e siga reto",
+      "noConexao":{
+         "andar":"terreo",
+         "nome":"biblioteca"
+      },
+      "pesoAcao":5,
+      "no":{
+         "nome":"d163",
          "andar":"terreo"
       }
    },

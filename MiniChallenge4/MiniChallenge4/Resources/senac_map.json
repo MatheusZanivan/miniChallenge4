@@ -1533,7 +1533,11 @@
         "salas": [
             {
                 "nome": "predio das coordenacoes",
-                "andar": "primeiro andar"
+                "andar": "Primeiro andar"
+            },
+            {
+                "nome": "sala dos professores",
+                "andar": "Térreo"
             },
         ]
     },
