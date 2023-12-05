@@ -10,7 +10,7 @@ import Foundation
 final class SenacMapViewModel: ObservableObject {
     @Published var senacMap = [SenacPlaceModel]()
     @Published var senacClassrooms = [ClassroomModel]()
-    private var senacClassroomsFixed = [ClassroomModel]()
+    var senacClassroomsFixed = [ClassroomModel]()
     
     init() {
         loadSenacMap()
@@ -111,6 +111,21 @@ final class SenacMapViewModel: ObservableObject {
         return false
     }
     
+    func findWard(classroom: String) -> WardModel? {
+        for senacPlace in senacMap {
+            if let wards = senacPlace.alas {
+                for ward in wards {
+                    for classRoom in ward.salas {
+                        if classRoom.nome == classroom {
+                            return ward
+                        }
+                    }
+                }
+            }
+        }
+        return nil
+    }
+    
     func findClassroomInfo(classroom: String) -> ClassroomModel? {
         for senacPlace in senacMap {
             if let wards = senacPlace.alas {
@@ -146,7 +161,7 @@ final class SenacMapViewModel: ObservableObject {
                 }
             } else if let classes = place.salas {
                 for classe in classes {
-                    senacClassrooms.append(classe)
+                    senacClassroomsFixed.append(classe)
                 }
             }
             
@@ -157,10 +172,10 @@ final class SenacMapViewModel: ObservableObject {
         setClassrooms()
         
         if text.isEmpty {
-            return senacClassrooms // Retorna todas as salas se o texto estiver vazio
+            return senacClassroomsFixed // Retorna todas as salas se o texto estiver vazio
         }
         
-        let filteredClassrooms = senacClassrooms.filter { classroom in
+        let filteredClassrooms = senacClassroomsFixed.filter { classroom in
             // Filtra as salas com base na correspondência parcial do nome da sala com o texto inserido
             return classroom.nome.lowercased().contains(text.lowercased())
         }

@@ -24,31 +24,37 @@ struct SheetAddRouteView: View {
     var body: some View {
         NavigationView(content: {
             VStack( content: {
-                RectangularButton(action: {
-                    showSheetSelectYourLocation.toggle()
-                }, title: yourLocation == String() ? .constant("Onde você está") : $yourLocation, color: .constant(String()))
+                HStack {
+                    Image("GSOrigin")
+                    RectangularButton(action: {
+                        showSheetSelectYourLocation.toggle()
+                    }, title: yourLocation == String() ? .constant("Onde você está") : $yourLocation, color: .constant(String()), maxWidth: 260)
                     .sheet(isPresented: $showSheetSelectYourLocation, content: {
                         withAnimation {
                             SheetSelectDestinyView(destiny: $yourLocation, title: "Onde você está")
-                                .presentationDetents([.medium, .large])
+                                .presentationDetents([.large])
                                 .presentationDragIndicator(.hidden)
                         }
                     })
-                RectangularButton(action: {
-                    showSheetSelectDestiny.toggle()
-                }, title: yourDestiny == String() ? .constant("Onde você quer ir") : $yourDestiny, color: .constant(String()))
+                }.padding([.top], 16)
+                
+                HStack {
+                    Image("GSDestiny")
+                    RectangularButton(action: {
+                        showSheetSelectDestiny.toggle()
+                    }, title: yourDestiny == String() ? .constant("Onde você quer ir") : $yourDestiny, color: .constant(String()), maxWidth: 260)
                     .sheet(isPresented: $showSheetSelectDestiny, content: {
                         SheetSelectDestinyView(destiny: $yourDestiny, title: "Onde você quer ir")
-                            .presentationDetents([.medium, .large])
+                            .presentationDetents([.large])
                             .presentationDragIndicator(.hidden)
                     })
-                
-                if yourDestiny != String() && yourLocation != String() {
-                    BestWayView(startingNode: $yourLocation, arrivalNode: $yourDestiny)
-                        .padding()
+                    
                 }
                 Spacer()
                     .frame(maxWidth: .infinity)
+                if yourDestiny != String() && yourLocation != String() {
+                    BestWayView(startingNode: $yourLocation, arrivalNode: $yourDestiny)
+                }
 
             })
             .background(Color.GSBackground)

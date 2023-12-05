@@ -18,46 +18,67 @@ struct BestWayView: View {
     @State var invalidData = false
     
     var body: some View {
-        ScrollView {
-            VStack {
-                if graphDidLoad {
-                    Button {
-                        indexSteps = 0
-                        steps = bestWayViewModel.findBestWay(startingNode: startingNode.lowercased(), arrivalNode: arrivalNode.lowercased())
-                        if steps.isEmpty {
-                            invalidData = true
+        
+            ScrollView {
+                VStack {
+                    if graphDidLoad {
+                        if !steps.isEmpty {
+                            ForEach(steps, id: \.self) { step in
+                                HStack{
+                                    Text(step)
+                                        .foregroundStyle(Color.GSFontBody)
+                                        .fontWeight(.bold)
+                                        .lineLimit(3)
+                                        .multilineTextAlignment(.leading)
+                                        .padding([.leading], 16)
+                                    Spacer()
+                                }
+                                .frame(height: 90)
+                                Divider()
+                            }                            
                         }
-                    } label: {
-                        Text("Calcular menor caminho")
-                            .padding()
-                            .foregroundStyle(Color.white)
-                            .background(.green)
-                            .cornerRadius(16)
+                    } else {
+                        ProgressView()
                     }
-                    .alert(isPresented: $invalidData) {
-                        Alert(title: Text("Alerta"), message: Text("Dados inseridos são inválidos."))
-                    }
-                    .padding(.bottom)
-                    
-                    if !steps.isEmpty {
-                        StepsComponent(steps: $steps, indexStep: $indexSteps)
-                    }
-                } else {
-                    ProgressView()
+                }
+                .background(Color(red: 0.93, green: 0.93, blue: 0.93))
+                .cornerRadius(8)
+            }
+            .padding()
+            .onReceive(graphDataLoader.$graph, perform: { _ in
+                graphDidLoad = true
+                bestWayViewModel.graph = Graph(graph: graphDataLoader.graph)
+            })
+            .onChange2(of: startingNode, action17: { _, _ in
+                steps = bestWayViewModel.findBestWay(startingNode: startingNode.lowercased(), arrivalNode: arrivalNode.lowercased())
+                if steps.isEmpty {
+                    invalidData = true
+                }
+            }, actionLower: { _ in
+                steps = bestWayViewModel.findBestWay(startingNode: startingNode.lowercased(), arrivalNode: arrivalNode.lowercased())
+                if steps.isEmpty {
+                    invalidData = true
+                }
+            })
+            .onChange2(of: arrivalNode, action17: { _, _ in
+                steps = bestWayViewModel.findBestWay(startingNode: startingNode.lowercased(), arrivalNode: arrivalNode.lowercased())
+                if steps.isEmpty {
+                    invalidData = true
+                }
+            }, actionLower: { _ in
+                steps = bestWayViewModel.findBestWay(startingNode: startingNode.lowercased(), arrivalNode: arrivalNode.lowercased())
+                if steps.isEmpty {
+                    invalidData = true
+                }
+            })
+            .frame(height: 600)
+            .onAppear {
+                steps = bestWayViewModel.findBestWay(startingNode: startingNode.lowercased(), arrivalNode: arrivalNode.lowercased())
+                if steps.isEmpty {
+                    invalidData = true
                 }
             }
-        }
-        .frame(width: UIScreen.main.bounds.width)
-        .background(.white)
-        .onReceive(graphDataLoader.$graph, perform: { _ in
-            graphDidLoad = true
-            bestWayViewModel.graph = Graph(graph: graphDataLoader.graph)
-        })
     }
-    
-    
-}
 
-#Preview {
-    ContentView()
+        
 }

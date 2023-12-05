@@ -100,7 +100,7 @@ struct SelectedPlaceView: View {
                     HStack {
                         ClassroomCard(action: {
                             showRouteWithSelectedDestiny.toggle()
-                        }, classroomNumber: $classroomSelected, color: Color("GSColor-\(classroomSelected)"))
+                        }, classroomNumber: $classroomSelected, color: Color("GSColor-\(vmSenac.findWard(classroom: classroomSelected)!.corredor)"))
                         .sheet(isPresented: $showRouteWithSelectedDestiny) {
                             SheetAddRouteView(destiny: classroomSelected)
                         }
