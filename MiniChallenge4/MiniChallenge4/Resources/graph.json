@@ -10824,6 +10824,30 @@
       }
    },
    {
+      "pesoAcao":5,
+      "acao":"siga reto sentido Acadêmico 1, vire a direita, siga reto até a Praça de Alimentação 1",
+      "no":{
+         "nome":"sala dos professores",
+         "andar":"terreo"
+      },
+      "noConexao":{
+         "nome":"ambulatorio",
+         "andar":"terreo"
+      }
+   },
+   {
+      "pesoAcao":5,
+      "acao":"siga reto sentido Acadêmico 2 e vire a esquerda",
+      "no":{
+         "nome":"ambulatorio",
+         "andar":"terreo"
+      },
+      "noConexao":{
+         "nome":"sala dos professores",
+         "andar":"terreo"
+      }
+   },
+   {
       "noConexao":{
          "nome":"g305",
          "andar":"terreo"
@@ -12537,7 +12561,7 @@
          "nome":"jua"
       },
       "pesoAcao":1,
-      "acao":"reto"
+      "acao":"siga reto e vire a esquerda"
    },
    {
       "no":{
@@ -12549,7 +12573,7 @@
          "andar":"terreo",
          "nome":"jua"
       },
-      "acao":"reto"
+      "acao":"siga reto e vire a direita"
    },
    {
       "pesoAcao":1,
