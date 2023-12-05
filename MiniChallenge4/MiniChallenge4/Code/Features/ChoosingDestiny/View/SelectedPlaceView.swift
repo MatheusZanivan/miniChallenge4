@@ -175,8 +175,10 @@ struct SelectedPlaceView: View {
     func current3DPlaceUpdate(newValue: Int) {
         if newValue == 0 {
             strScene = "scenes.scnassets/\(currentPlace.lowercased())/scene\(currentPlace.capitalized).scn"
+            print(strScene)
         } else {
             strScene = "scenes.scnassets/\(currentPlace.lowercased())PriAndar/scene\(currentPlace.capitalized)PriAndar.scn"
+            print(strScene)
         }
     }
 }
