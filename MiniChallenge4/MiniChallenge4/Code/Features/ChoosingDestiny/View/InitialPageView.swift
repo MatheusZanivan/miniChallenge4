@@ -18,6 +18,9 @@ struct InitialPageView: View {
     @State var cameraName = String()
     @State var nodeWay = [String]()
     
+    @State var exhibitionName: String = String()
+    @State var showExhibition = false
+    
     var body: some View {
         NavigationStack {
             ZStack{
@@ -55,8 +58,11 @@ struct InitialPageView: View {
                             showSheetCamera.toggle()
                         }, imageButton: Image(uiImage: UIImage(named: "GSCamera")!), activeBackground: true)
                         .sheet(isPresented: $showSheetCamera) {
-                            CameraViewControlerRepresentable()
+                            CameraViewControlerRepresentable(exhibitionName: $exhibitionName)
                                 .ignoresSafeArea()
+                        }
+                        .sheet(isPresented: $showExhibition) {
+                            SheetExhibitionView(exhibitionName: exhibitionName)
                         }
                     }.padding()
                 }.padding(.vertical, 32)
@@ -64,6 +70,11 @@ struct InitialPageView: View {
             }.background(Color.gray)
             
         }
+        .onChange2(of: exhibitionName, action17: { _, newValue in
+            showExhibition = true
+        }, actionLower: { _ in
+            showExhibition = true
+        })
         .onReceive(senacMapViewModel.$senacMap) { _ in
             senacMapViewModel.setClassrooms()
         }
