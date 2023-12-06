@@ -30,7 +30,6 @@ struct SheetSelectDestinyView: View {
                     if filteredClassrooms.isEmpty {
                         ScrollView {
                             ForEach(senacMapViewModel.senacClassroomsFixed) { place in
-                                
                                 Button {
                                     self.destiny = place.nome
                                     dismiss()

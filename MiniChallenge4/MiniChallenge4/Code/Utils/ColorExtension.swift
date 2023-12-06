@@ -11,4 +11,5 @@ extension Color {
     static let GSFontTitle = Color(UIColor(named: "GSFontTItle")!)
     static let GSFontBody = Color("GSFontBody")
     static let GSBackground = Color("GSBackground")
+    static let GSBlue = Color("GSBlue")
 }
