@@ -48,7 +48,7 @@ struct InitialPageView: View {
                         }, imageButton: Image(uiImage: UIImage(named: "GSMap")!), activeBackground: true)
                         .sheet(isPresented: $showSheetRoute) {
                             SheetAddRouteView(destiny: nil)
-                                .presentationDetents([.height(200),.medium, .large])
+                                .presentationDetents([.large])
                                 .presentationDragIndicator(.hidden)
                         }
                         

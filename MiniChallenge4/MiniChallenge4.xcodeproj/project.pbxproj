@@ -15,13 +15,14 @@
 		3FF9224D2B1F84370025C544 /* SheetExhibitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9224C2B1F84370025C544 /* SheetExhibitionView.swift */; };
 		3FF9224F2B1F9B300025C544 /* artwork_recognizer_completo.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9224E2B1F9B300025C544 /* artwork_recognizer_completo.mlmodel */; };
 		8826C20D2AF98F59005FC3B6 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826C20C2AF98F59005FC3B6 /* RoundButton.swift */; };
+		883D45DE2B1FC532004C4156 /* SheetDetailArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883D45DD2B1FC532004C4156 /* SheetDetailArt.swift */; };
+		883D45E02B209D8E004C4156 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883D45DF2B209D8E004C4156 /* SplashScreen.swift */; };
 		883F7C5E2AF2D40B00691669 /* InitialPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F7C5D2AF2D40B00691669 /* InitialPageView.swift */; };
 		883F7C612AF31A7700691669 /* DropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F7C602AF31A7700691669 /* DropdownMenu.swift */; };
 		884136782AF428EF00EE603E /* DropdownMenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884136772AF428EF00EE603E /* DropdownMenuList.swift */; };
 		8841367A2AF429A500EE603E /* DropdownMenuListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884136792AF429A500EE603E /* DropdownMenuListRow.swift */; };
 		886B7E942B0FCE9B000EAE06 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886B7E932B0FCE9B000EAE06 /* ColorExtension.swift */; };
 		88A08B6C2AFEAC470086608A /* SelectedPlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A08B6B2AFEAC470086608A /* SelectedPlaceView.swift */; };
-		88A758D22B18C305004947A8 /* ListRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A758D12B18C305004947A8 /* ListRoute.swift */; };
 		88A75D732AFAB5AE005D5877 /* SheetAddRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A75D722AFAB5AE005D5877 /* SheetAddRouteView.swift */; };
 		88A75D752AFAD824005D5877 /* RectangularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A75D742AFAD824005D5877 /* RectangularButton.swift */; };
 		88A75D772AFADC48005D5877 /* SheetSelectDestinyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A75D762AFADC48005D5877 /* SheetSelectDestinyView.swift */; };
@@ -71,13 +72,14 @@
 		3FF9224C2B1F84370025C544 /* SheetExhibitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetExhibitionView.swift; sourceTree = "<group>"; };
 		3FF9224E2B1F9B300025C544 /* artwork_recognizer_completo.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = artwork_recognizer_completo.mlmodel; sourceTree = "<group>"; };
 		8826C20C2AF98F59005FC3B6 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		883D45DD2B1FC532004C4156 /* SheetDetailArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetDetailArt.swift; sourceTree = "<group>"; };
+		883D45DF2B209D8E004C4156 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		883F7C5D2AF2D40B00691669 /* InitialPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialPageView.swift; sourceTree = "<group>"; };
 		883F7C602AF31A7700691669 /* DropdownMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenu.swift; sourceTree = "<group>"; };
 		884136772AF428EF00EE603E /* DropdownMenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenuList.swift; sourceTree = "<group>"; };
 		884136792AF429A500EE603E /* DropdownMenuListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenuListRow.swift; sourceTree = "<group>"; };
 		886B7E932B0FCE9B000EAE06 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		88A08B6B2AFEAC470086608A /* SelectedPlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedPlaceView.swift; sourceTree = "<group>"; };
-		88A758D12B18C305004947A8 /* ListRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRoute.swift; sourceTree = "<group>"; };
 		88A75D722AFAB5AE005D5877 /* SheetAddRouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetAddRouteView.swift; sourceTree = "<group>"; };
 		88A75D742AFAD824005D5877 /* RectangularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularButton.swift; sourceTree = "<group>"; };
 		88A75D762AFADC48005D5877 /* SheetSelectDestinyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetSelectDestinyView.swift; sourceTree = "<group>"; };
@@ -182,7 +184,6 @@
 				884136772AF428EF00EE603E /* DropdownMenuList.swift */,
 				884136792AF429A500EE603E /* DropdownMenuListRow.swift */,
 				BB08E6C12B0E230B00DCC4EB /* ClassroomCard.swift */,
-				88A758D12B18C305004947A8 /* ListRoute.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -220,6 +221,7 @@
 			children = (
 				BB3E49E12AF8591800D4421B /* BestWayView.swift */,
 				88A75D722AFAB5AE005D5877 /* SheetAddRouteView.swift */,
+				883D45DD2B1FC532004C4156 /* SheetDetailArt.swift */,
 				88A75D762AFADC48005D5877 /* SheetSelectDestinyView.swift */,
 			);
 			path = View;
@@ -315,6 +317,7 @@
 			isa = PBXGroup;
 			children = (
 				BB66B87D2AF03F4A00840E90 /* MiniChallenge4App.swift */,
+				883D45DF2B209D8E004C4156 /* SplashScreen.swift */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 				BBCF60E82AFC0BC400FF8952 /* ViewExtension.swift in Sources */,
 				BB66B8802AF03F4A00840E90 /* ContentView.swift in Sources */,
 				883F7C5E2AF2D40B00691669 /* InitialPageView.swift in Sources */,
+				883D45E02B209D8E004C4156 /* SplashScreen.swift in Sources */,
 				88A08B6C2AFEAC470086608A /* SelectedPlaceView.swift in Sources */,
 				BB66B8C82AF1BC5C00840E90 /* WardModel.swift in Sources */,
 				3BDB0D462B068D4D001EF9BA /* CameraViewControler.swift in Sources */,
@@ -521,6 +525,7 @@
 				8826C20D2AF98F59005FC3B6 /* RoundButton.swift in Sources */,
 				88A75D772AFADC48005D5877 /* SheetSelectDestinyView.swift in Sources */,
 				3FF922482B1F83240025C544 /* ExhibitionViewModel.swift in Sources */,
+				883D45DE2B1FC532004C4156 /* SheetDetailArt.swift in Sources */,
 				BB66B8C62AF1BC5500840E90 /* SenacPlaceModel.swift in Sources */,
 				BB66B8CC2AF1BD0C00840E90 /* SenacMapViewModel.swift in Sources */,
 				BB66B8CA2AF1BC6300840E90 /* ClassroomModel.swift in Sources */,
@@ -684,7 +689,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniChallenge4/Preview Content\"";
-				DEVELOPMENT_TEAM = 273QY7G77Q;
+				DEVELOPMENT_TEAM = Z2T622XX3F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Guiarse;
@@ -718,7 +723,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniChallenge4/Preview Content\"";
-				DEVELOPMENT_TEAM = 273QY7G77Q;
+				DEVELOPMENT_TEAM = Z2T622XX3F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Guiarse;

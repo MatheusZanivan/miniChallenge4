@@ -24,29 +24,40 @@ struct SheetSelectDestinyView: View {
     
     var body: some View {
         NavigationView(content: {
-            VStack(content: {
-                if filteredClassrooms.isEmpty {
-                    ScrollView {
-                        ForEach(senacMapViewModel.senacClassrooms) { place in
-                            Button(place.nome) {
-                                self.destiny = place.nome
-                                dismiss()
+            ZStack {
+                Color.GSBackground.ignoresSafeArea()
+                VStack(content: {
+                    if filteredClassrooms.isEmpty {
+                        ScrollView {
+                            ForEach(senacMapViewModel.senacClassroomsFixed) { place in
+                                Button {
+                                    self.destiny = place.nome
+                                    dismiss()
+                                } label: {
+                                    Text(place.nome)
+                                        .foregroundStyle(Color.GSFontBody)
+                                        .fontWeight(.semibold)
+                                        .padding(8)
+                                        .multilineTextAlignment(.leading)
+                                    Spacer()
+                                }
+                                Divider()
                             }
                         }
-                    }
-                } else {
-                    List(filteredClassrooms, id: \.id) { classroom in
-                        Text(classroom.nome)
+                    } else {
+                        List(filteredClassrooms, id: \.id) { classroom in
+                            Text(classroom.nome)
                             // Exibir outras informações da sala conforme necessário
-                            .onTapGesture {
-                                self.destiny = classroom.nome
-                                dismiss()
-                            }
+                                .onTapGesture {
+                                    self.destiny = classroom.nome
+                                    dismiss()
+                                }
+                        }
                     }
-                }
-                
-                Spacer()
-            })
+                    
+                    Spacer()
+                })
+            }
             .searchable(text: $search, prompt: "Search") // Adicionando um prompt para a caixa de pesquisa
             .onChange(of: search) { newValue in
                 // Atualizar a lista de salas filtradas quando o texto da pesquisa mudar
@@ -98,6 +109,7 @@ struct SheetSelectDestinyView: View {
             //     })
             // })
         })
+
     }
 }
 
