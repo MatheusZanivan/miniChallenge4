@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B35AA5B2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B35AA5A2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel */; };
 		3BDB0D462B068D4D001EF9BA /* CameraViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB0D452B068D4D001EF9BA /* CameraViewControler.swift */; };
+		3F8618112B1FA26F00C1B143 /* exhibitions.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F8618102B1FA26F00C1B143 /* exhibitions.json */; };
+		3F8618132B1FCA7600C1B143 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8618122B1FCA7600C1B143 /* CameraViewModel.swift */; };
+		3FF922482B1F83240025C544 /* ExhibitionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF922472B1F83240025C544 /* ExhibitionViewModel.swift */; };
+		3FF9224A2B1F833B0025C544 /* ExhibitionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF922492B1F833B0025C544 /* ExhibitionModel.swift */; };
+		3FF9224D2B1F84370025C544 /* SheetExhibitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9224C2B1F84370025C544 /* SheetExhibitionView.swift */; };
+		3FF9224F2B1F9B300025C544 /* artwork_recognizer_completo.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9224E2B1F9B300025C544 /* artwork_recognizer_completo.mlmodel */; };
 		8826C20D2AF98F59005FC3B6 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826C20C2AF98F59005FC3B6 /* RoundButton.swift */; };
 		883F7C5E2AF2D40B00691669 /* InitialPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F7C5D2AF2D40B00691669 /* InitialPageView.swift */; };
 		883F7C612AF31A7700691669 /* DropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F7C602AF31A7700691669 /* DropdownMenu.swift */; };
@@ -58,9 +63,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B35AA5A2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ModeloTesteComOutros.mlmodel; sourceTree = "<group>"; };
 		3BDB0D452B068D4D001EF9BA /* CameraViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewControler.swift; sourceTree = "<group>"; };
-		3FD2458E2B0FCEAB006DB51D /* exhibitions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exhibitions.json; sourceTree = "<group>"; };
+		3F8618102B1FA26F00C1B143 /* exhibitions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exhibitions.json; sourceTree = "<group>"; };
+		3F8618122B1FCA7600C1B143 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		3FF922472B1F83240025C544 /* ExhibitionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitionViewModel.swift; sourceTree = "<group>"; };
+		3FF922492B1F833B0025C544 /* ExhibitionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitionModel.swift; sourceTree = "<group>"; };
+		3FF9224C2B1F84370025C544 /* SheetExhibitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetExhibitionView.swift; sourceTree = "<group>"; };
+		3FF9224E2B1F9B300025C544 /* artwork_recognizer_completo.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = artwork_recognizer_completo.mlmodel; sourceTree = "<group>"; };
 		8826C20C2AF98F59005FC3B6 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		883F7C5D2AF2D40B00691669 /* InitialPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialPageView.swift; sourceTree = "<group>"; };
 		883F7C602AF31A7700691669 /* DropdownMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenu.swift; sourceTree = "<group>"; };
@@ -122,10 +131,38 @@
 		3BDB0D422B0689A5001EF9BA /* ArtworkRecognizer */ = {
 			isa = PBXGroup;
 			children = (
-				3BDB0D452B068D4D001EF9BA /* CameraViewControler.swift */,
-				3B35AA5A2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel */,
+				3FF922432B1F828D0025C544 /* Model */,
+				3FF9224B2B1F84250025C544 /* View */,
+				3FF922442B1F82B10025C544 /* ViewModel */,
+				3FF9224E2B1F9B300025C544 /* artwork_recognizer_completo.mlmodel */,
 			);
 			path = ArtworkRecognizer;
+			sourceTree = "<group>";
+		};
+		3FF922432B1F828D0025C544 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FF922492B1F833B0025C544 /* ExhibitionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3FF922442B1F82B10025C544 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3FF922472B1F83240025C544 /* ExhibitionViewModel.swift */,
+				3F8618122B1FCA7600C1B143 /* CameraViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3FF9224B2B1F84250025C544 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BDB0D452B068D4D001EF9BA /* CameraViewControler.swift */,
+				3FF9224C2B1F84370025C544 /* SheetExhibitionView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		8826C20B2AF98EC7005FC3B6 /* Components */ = {
@@ -266,8 +303,8 @@
 			isa = PBXGroup;
 			children = (
 				BBCF60EB2AFD530E00FF8952 /* scenes.scnassets */,
-				3FD2458E2B0FCEAB006DB51D /* exhibitions.json */,
 				BB3E49D52AF8550000D4421B /* graph.json */,
+				3F8618102B1FA26F00C1B143 /* exhibitions.json */,
 				BB66B8CF2AF1BF2C00840E90 /* senac_map.json */,
 				BB66B8812AF03F4B00840E90 /* Assets.xcassets */,
 			);
@@ -443,6 +480,7 @@
 				BB66B8D02AF1BF2C00840E90 /* senac_map.json in Resources */,
 				BBCF60EC2AFD530E00FF8952 /* scenes.scnassets in Resources */,
 				BB66B8852AF03F4B00840E90 /* Preview Assets.xcassets in Resources */,
+				3F8618112B1FA26F00C1B143 /* exhibitions.json in Resources */,
 				BB66B8822AF03F4B00840E90 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,22 +501,26 @@
 			files = (
 				BB3E49EA2AF8592A00D4421B /* NodeModel.swift in Sources */,
 				88A758D22B18C305004947A8 /* ListRoute.swift in Sources */,
+				3FF9224A2B1F833B0025C544 /* ExhibitionModel.swift in Sources */,
 				BB72C15B2B0D69920097DE24 /* StringExtension.swift in Sources */,
 				BB3E49E82AF8592A00D4421B /* ClassroomNodeModel.swift in Sources */,
+				3F8618132B1FCA7600C1B143 /* CameraViewModel.swift in Sources */,
 				BBCF60E82AFC0BC400FF8952 /* ViewExtension.swift in Sources */,
 				BB66B8802AF03F4A00840E90 /* ContentView.swift in Sources */,
 				883F7C5E2AF2D40B00691669 /* InitialPageView.swift in Sources */,
-				88A08B6C2AFEAC470086608A /* LocationDetailsView.swift in Sources */,
+				88A08B6C2AFEAC470086608A /* SelectedPlaceView.swift in Sources */,
 				BB66B8C82AF1BC5C00840E90 /* WardModel.swift in Sources */,
 				3BDB0D462B068D4D001EF9BA /* CameraViewControler.swift in Sources */,
 				BB66B87E2AF03F4A00840E90 /* MiniChallenge4App.swift in Sources */,
 				886B7E942B0FCE9B000EAE06 /* ColorExtension.swift in Sources */,
 				BBCF60EE2AFEB1DC00FF8952 /* SceneViewRepresentable.swift in Sources */,
+				3FF9224F2B1F9B300025C544 /* artwork_recognizer_completo.mlmodel in Sources */,
 				BB3E49EB2AF8592A00D4421B /* NodeRelationshipModel.swift in Sources */,
 				884136782AF428EF00EE603E /* DropdownMenuList.swift in Sources */,
 				88A75D752AFAD824005D5877 /* RectangularButton.swift in Sources */,
 				8826C20D2AF98F59005FC3B6 /* RoundButton.swift in Sources */,
 				88A75D772AFADC48005D5877 /* SheetSelectDestinyView.swift in Sources */,
+				3FF922482B1F83240025C544 /* ExhibitionViewModel.swift in Sources */,
 				BB66B8C62AF1BC5500840E90 /* SenacPlaceModel.swift in Sources */,
 				BB66B8CC2AF1BD0C00840E90 /* SenacMapViewModel.swift in Sources */,
 				BB66B8CA2AF1BC6300840E90 /* ClassroomModel.swift in Sources */,
@@ -488,7 +530,7 @@
 				BB3E49E22AF8591800D4421B /* BestWayView.swift in Sources */,
 				883F7C612AF31A7700691669 /* DropdownMenu.swift in Sources */,
 				88A75D732AFAB5AE005D5877 /* SheetAddRouteView.swift in Sources */,
-				3B35AA5B2B07EAD700B41A88 /* ModeloTesteComOutros.mlmodel in Sources */,
+				3FF9224D2B1F84370025C544 /* SheetExhibitionView.swift in Sources */,
 				BB3E49EF2AF8593A00D4421B /* Graph.swift in Sources */,
 				BB3E49E92AF8592A00D4421B /* NodeJSONModel.swift in Sources */,
 				BB08E6C22B0E230B00DCC4EB /* ClassroomCard.swift in Sources */,
@@ -645,6 +687,7 @@
 				DEVELOPMENT_TEAM = 273QY7G77Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Guiarse;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Para fornecer a melhor experiência possível, precisamos acessar a câmera do seu dispositivo. Este acesso será usado exclusivamente para ativar nosso reconhecedor de obras da universidade. ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -678,6 +721,7 @@
 				DEVELOPMENT_TEAM = 273QY7G77Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Guiarse;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Para fornecer a melhor experiência possível, precisamos acessar a câmera do seu dispositivo. Este acesso será usado exclusivamente para ativar nosso reconhecedor de obras da universidade. ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
