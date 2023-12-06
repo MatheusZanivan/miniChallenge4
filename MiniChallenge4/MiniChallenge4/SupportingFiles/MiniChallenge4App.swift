@@ -9,11 +9,9 @@ import SwiftUI
 
 @main
 struct MiniChallenge4App: App {
-    @StateObject var senacMapViewModel = SenacMapViewModel()
     var body: some Scene {
         WindowGroup {
-             InitialPageView()
-                 .environmentObject(senacMapViewModel)
+            SplashScreen()
         }
     }
 }

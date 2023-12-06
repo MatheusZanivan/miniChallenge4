@@ -19,6 +19,7 @@ struct ClassroomCard: View {
         self.action = action
         self._classroomNumber = classroomNumber
         self.color = color
+        print(color)
     }
     
     var body: some View {
@@ -57,7 +58,7 @@ struct ClassroomCard: View {
 
         }
         .frame(minWidth: 260, maxHeight: 192)
-        .background(.gray)
+        .background(color)
         .shadow(radius: 10)
         .cornerRadius(5)
         
