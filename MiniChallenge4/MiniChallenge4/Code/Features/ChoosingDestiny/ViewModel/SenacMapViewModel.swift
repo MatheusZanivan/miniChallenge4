@@ -66,16 +66,16 @@ final class SenacMapViewModel: ObservableObject {
     
     func verifyIfPlaceExists(place: String) -> Bool {
         for senacPlace in senacMap {
-            if senacPlace.nome.forSorting.split(separator: " ").joined() == place {
+            if senacPlace.nome.forSorting.split(separator: " ").joined().lowercased() == place.lowercased() {
                 return true
             }
             if let wards = senacPlace.alas {
                 for ward in wards {
-                    if ward.corredor.forSorting.split(separator: " ").joined() == place {
+                    if ward.corredor.forSorting.split(separator: " ").joined().lowercased() == place.lowercased() {
                         return true
                     }
                     for classroom in ward.salas {
-                        if classroom.nome.forSorting.split(separator: " ").joined() == place {
+                        if classroom.nome.forSorting.split(separator: " ").joined().lowercased() == place.lowercased() {
                             return true
                         }
                     }
@@ -143,7 +143,7 @@ final class SenacMapViewModel: ObservableObject {
     
     func getPlaceFrom3DPathPlace(place: String) -> String {
         for senacPlace in senacMap {
-            if senacPlace.nome.forSorting.split(separator: " ").joined() == place {
+            if senacPlace.nome.forSorting.split(separator: " ").joined().lowercased() == place.lowercased() {
                 return senacPlace.nome
             }
         }

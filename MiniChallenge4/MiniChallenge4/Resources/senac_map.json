@@ -1298,7 +1298,7 @@
         ]
     },
     {
-        "nome": "Laboratório de Design",
+        "nome": "Prédio de Design",
         "salas": [
             {
                 "nome": "sala tecnicos",
@@ -1390,40 +1390,8 @@
         ]
     },
     {
-        "nome": "Praça de Alimentação 1",
+        "nome": "Prédio Gastronomia",
         "salas": [
-            {
-                "nome": "ambulatorio",
-                "andar": "Térreo"
-            },
-            {
-                "nome": "grafica",
-                "andar": "Térreo"
-            },
-            {
-                "nome": "papelaria",
-                "andar": "Térreo"
-            },
-            {
-                "nome": "santander",
-                "andar": "Térreo"
-            },
-            {
-                "nome": "casa do pao de queijo",
-                "andar": "Térreo"
-            },
-            {
-                "nome": "campus pasta grill",
-                "andar": "Térreo"
-            },
-            {
-                "nome": "burger mais",
-                "andar": "Térreo"
-            },
-            {
-                "nome": "kitchen club",
-                "andar": "Térreo"
-            },
             {
                 "nome": "restaurante",
                 "andar": "Primeiro andar"
@@ -1499,7 +1467,44 @@
             {
                 "nome": "laboratorio restaurante e bar",
                 "andar": "Primeiro andar"
+            }
+        ]
+    },
+    {
+        "nome": "Praça de Alimentação 1",
+        "salas": [
+            {
+                "nome": "ambulatorio",
+                "andar": "Térreo"
             },
+            {
+                "nome": "grafica",
+                "andar": "Térreo"
+            },
+            {
+                "nome": "papelaria",
+                "andar": "Térreo"
+            },
+            {
+                "nome": "santander",
+                "andar": "Térreo"
+            },
+            {
+                "nome": "casa do pao de queijo",
+                "andar": "Térreo"
+            },
+            {
+                "nome": "campus pasta grill",
+                "andar": "Térreo"
+            },
+            {
+                "nome": "burger mais",
+                "andar": "Térreo"
+            },
+            {
+                "nome": "kitchen club",
+                "andar": "Térreo"
+            }
         ]
     },
     {
