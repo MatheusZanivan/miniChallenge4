@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SceneKit
 
 struct DropdownMenuList: View {
     let options: [SenacPlaceModel]
@@ -13,11 +14,13 @@ struct DropdownMenuList: View {
     var body: some View {
         ScrollView{
             VStack {
-                ForEach(options, id:\.nome) { name in
-                    DropdownMenuListRow(
-                        option: name,
-                        onSelectionAction: self.onSelectionAction
-                    )
+                ForEach(options, id:\.nome) { senacPlace in
+//                    if sceneFileExists(filePath: "scenes.scnassets/\(senacPlace.nome.forSorting.split(separator: " ").joined().lowercased())/scene\(senacPlace.nome.forSorting.split(separator: " ").joined().capitalized).scn") {
+                        DropdownMenuListRow(
+                            option: senacPlace,
+                            onSelectionAction: self.onSelectionAction
+                        )
+//                    }
                 }
             }
         }.frame(width: 320, height: 240)

@@ -40,38 +40,6 @@ struct SelectedPlaceView: View {
                 }
             }
             .ignoresSafeArea()
-            // HStack {
-            //     if vmSenac.verifyIfThereIsUpstairs(wards: wards) {
-            //         VStack {
-            //             Button {
-            //                 currentStair = 1
-            //                 self.wards = vmSenac.filterWard(from: place, stair: "primeiro andar") ?? []
-            //             } label: {
-            //                 Image(systemName: "chevron.up")
-            //                     .foregroundStyle(.gray)
-            //                     .padding()
-            //                     .background(.white)
-            //                     .cornerRadius(5)
-            //                     .opacity(currentStair == 1 ? 0.5 : 1)
-            //             }
-
-            //             Button {
-            //                 currentStair = 0
-            //                 self.wards = vmSenac.filterWard(from: place, stair: "terreo") ?? []
-            //             } label: {
-            //                 Image(systemName: "chevron.down")
-            //                     .foregroundStyle(.gray)
-            //                     .padding()
-            //                     .background(.white)
-            //                     .cornerRadius(5)
-            //                     .opacity(currentStair == 0 ? 0.5 : 1)
-            //             }
-            //         }
-            //     }
-            //     Spacer()
-            // }
-            // .padding()
-
             VStack{
                 HStack {
                     
@@ -119,7 +87,8 @@ struct SelectedPlaceView: View {
                             VStack {
                                 RoundButton(action: {
                                     currentStair = 1
-                                }, 
+                                    self.wards = vmSenac.filterWard(from: place, stair: "primeiro andar") ?? []
+                                },
                                             imageButton: Image("GSArrowUp"),
                                             frameHeight: 40,
                                             frameWidth: 40,
@@ -127,7 +96,8 @@ struct SelectedPlaceView: View {
                                 .opacity(currentStair == 1 ? 0.5 : 1)
                                 RoundButton(action: {
                                     currentStair = 0
-                                }, 
+                                    self.wards = vmSenac.filterWard(from: place, stair: "terreo") ?? []
+                                },
                                             imageButton: Image("GSArrowDown"),
                                             frameHeight: 40,
                                             frameWidth: 40,
